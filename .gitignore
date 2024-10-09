@@ -1,1 +1,3 @@
 .stegoenv
+statistics_extractor/*
+!statistics_extractor/*.py

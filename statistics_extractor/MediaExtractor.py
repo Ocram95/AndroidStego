@@ -55,13 +55,14 @@ class MediaExtractor:
             audio = WAVE(self.file_path)
         elif file_extension == '.flac':
             audio = FLAC(self.file_path)
-        return {
-            'type': 'mp3',
-            'duration': audio.info.length,
-            'audio_channels': audio.info.channels,
-            'sample_rate': audio.info.sample_rate,
-            'size_bytes': self.get_filesize()
-        }
+        return {'type': file_extension[1:],
+                'info':{
+                        'duration': audio.info.length,
+                        'audio_channels': audio.info.channels,
+                        'sample_rate': audio.info.sample_rate,
+                        'size_bytes': self.get_filesize()
+                        }
+                }
 
     def __get_mp4_info(self, file_extension: str) -> Dict:
         """
@@ -94,16 +95,17 @@ class MediaExtractor:
         duration = frame_count / fps if fps > 0 else 0  # Duration in seconds
 
         cap.release()
-        return {
-            'type': 'mp4',
-            'width': width,
-            'height': height,
-            'duration': duration,
-            'fps': fps,
-            'size_in_bytes': self.get_filesize()
-        }
+        return {'type': file_extension[1:],
+                'info': {
+                    'width': width,
+                    'height': height,
+                    'duration': duration,
+                    'fps': fps,
+                    'size_bytes': self.get_filesize()
+                    }
+                }
     
-    def __get_image_info(self) -> Dict:
+    def __get_image_info(self, file_extension: str) -> Dict:
         """
         Return image info
         
@@ -130,18 +132,20 @@ class MediaExtractor:
                     max_pixel_per_channel = img_np.max(axis=(0, 1)) # Max per channel
                     min_pixel_per_channel = img_np.min(axis=(0, 1))
                     
-            return {
-                    'type': 'image',
-                    'width': img.width,
-                    'height': img.height,
-                    'format': img.format,
-                    'size_bytes': self.get_filesize(),
-                    'mode': img.mode,
-                    'max_pixel_per_channel': max_pixel_per_channel,
-                    'min_pixel_per_channel': min_pixel_per_channel
-                    }
+            return {'type': img.format.lower(),
+                    'info':{
+                        'width': img.width,
+                        'height': img.height,
+                        'size_bytes': self.get_filesize(),
+                        'mode': img.mode,
+                        #'max_pixel_per_channel': max_pixel_per_channel,
+                        #'min_pixel_per_channel': min_pixel_per_channel
+                        }
+                    }   
         except UnidentifiedImageError as e:
-            print(f"Error: {e} - the file should be an image")
+            print(f"[-] Error: {e} - the file should be an image")
+        except OSError as e:
+            print(f"[-] Error: {e} - error opening the file")
         
     
     def extract_info(self):

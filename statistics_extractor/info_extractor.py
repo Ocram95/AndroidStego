@@ -81,7 +81,6 @@ def main():
     if decode:
         apkdecode(input_apks)
 
-
     if statistics:
         files = find_files(os.path.join(input_apks, 'decoded'))
         info = {
@@ -141,14 +140,15 @@ def main():
                         audio.append(extracted_info)
                     elif k1 == 'video':
                         video.append(extracted_info)
+            p = k.replace('_', '')
             if len(images) != 0:
-                with open(os.path.join('./data', f'{k}_images.json'), 'w') as fp:
+                with open(os.path.join('./data', f'{p}_images.json'), 'w') as fp:
                     dump(images, fp, cls=NpEncoder, indent=4)
             if len(audio) != 0:
-                with open(os.path.join('./data', f'{k}_audio.json'), 'w') as fp:
+                with open(os.path.join('./data', f'{p}_audio.json'), 'w') as fp:
                     dump(audio, fp, cls=NpEncoder, indent=4)
             if len(video) != 0:
-                with open(os.path.join('./data', f'{k}_video.json'), 'w') as fp:
+                with open(os.path.join('./data', f'{p}_video.json'), 'w') as fp:
                     dump(video, fp, cls=NpEncoder, indent=4)
             
             

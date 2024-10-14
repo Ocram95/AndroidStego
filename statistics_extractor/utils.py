@@ -54,19 +54,20 @@ def apkdecode(input_apks: str):
 
 
 def check_resolution(width: int, height: int) -> bool:
-    """_summary_
+    """
+    Check resolution of the images
 
     Parameters
     ----------
     width : int
-        _description_
+        widht of the images
     height : int
-        _description_
+        height of the images
 
     Returns
     -------
     bool
-        _description_
+        boolan for the resolution check
     """
     
     return (width, height) == (72, 72) or (width, height) == (48, 48) or (width, height) == (32, 32)

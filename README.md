@@ -7,7 +7,7 @@ Specifically:
 - audio: it contains all the audio files (both in .mp3 and .wav formats) hiding malicious URLs. The URLs have been hidden via the [AudioStego](https://github.com/danielcardeenas/AudioStego/tree/master) tool;
 - LSB: it contains all the images hiding the malicious payload. The payload has been hidden via ad-hoc scripts in two different patterns (sequential and squares) in the first least significant bit of the red, green, and blue color channels.
 - OceanLotus: it contains all the images hiding the malicious payload. The payload has been hidden via ad-hoc scripts in two different patterns (sequential and squares) mimicking the OceanLotus LSB steganographic method (i.e., 3 bits of the red and the green channels, 2 bits in blue color channel);
-- (TBD) Invoke-PSImage: it contains all the images hiding the malicious payload. The payload has been hidden via the [Invoke-PSImage](https://github.com/peewpw/Invoke-PSImage);
+- Invoke-PSImage: it contains all the images hiding the malicious payload. The payload has been hidden via the [Invoke-PSImage](https://github.com/peewpw/Invoke-PSImage);
 - (TBD) scripts: it contains all the scripts used to generate and test this dataset;
 - data.xlsx: it contains a summary of the dataset.
 

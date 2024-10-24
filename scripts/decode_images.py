@@ -149,8 +149,6 @@ def split_secret(secret):
 
 	return list_split
 
-
-
 def secret_correctly_encoded(secret_in_chunks, output):
 	for x in range(len(secret_in_chunks)):
 		#check if the x-th element of the secret injected is equal to the one extracted
@@ -207,33 +205,42 @@ secret_in_chunks = [secret_in_bits[i:i+1] for i in range(0, len(secret_in_bits),
 # 		secret_correctly_encoded(secret_in_chunks, output)
 
 
-images = get_images('../LSB/squares/')
-secret_split = split_secret(secret)
+# images = get_images('../LSB/Squares/')
+# secret_split = split_secret(secret)
 
-for image in images[:]:
-	print(image)
-	img = Image.open(image)
-	mode = img.mode
-	if mode == "RGB" or mode == "RGBA":
-		list_image_parts = split_in_9(img)
-		for x in range(len(list_image_parts)):
-			image_tmp = list_image_parts[x]
-			secret_tmp = secret_split[x]
-			secret_tmp_in_bits = read_secret(secret_tmp)
-			secret_tmp_in_chunks = [secret_tmp_in_bits[i:i+1] for i in range(0, len(secret_tmp_in_bits), 1)]
-			r,g,b,_a,_w,_h = parse_RGB_image(image_tmp)
-			output = decode_classic_RGB(r,g,b, 1, "RGB", 1)
-			secret_correctly_encoded(secret_tmp_in_chunks, output)
-	# elif mode == "LA":
-	# 	l, _a, _w, _h = parse_grey_image(image)
-	# 	output = decode_classic_LA(l)
-	# 	secret_correctly_encoded(secret_in_chunks, output)
-	# elif mode == "P":
-	# 	output = decode_LSB_palette_classic(img)
-	# 	secret_correctly_encoded_palette(secret_in_chunks, output)
-	# elif mode == '1':
-	# 	output = decode_LSB_mode1(img)
-	# 	secret_correctly_encoded(secret_in_chunks, output)
+# for image in images[:]:
+# 	print(image)
+# 	img = Image.open(image)
+# 	mode = img.mode
+# 	if mode == "RGB" or mode == "RGBA":
+# 		list_image_parts = split_in_9(img)
+# 		for x in range(len(list_image_parts)):
+# 			image_tmp = list_image_parts[x]
+# 			secret_tmp = secret_split[x]
+# 			secret_tmp_in_bits = read_secret(secret_tmp)
+# 			secret_tmp_in_chunks = [secret_tmp_in_bits[i:i+1] for i in range(0, len(secret_tmp_in_bits), 1)]
+# 			r,g,b,_a,_w,_h = parse_RGB_image(image_tmp)
+# 			output = decode_classic_RGB(r,g,b, 1, "RGB", 1)
+# 			secret_correctly_encoded(secret_tmp_in_chunks, output)
+# 	# elif mode == "LA":
+# 	# 	list_image_parts = split_in_9(img)
+# 	# 	for x in range(len(list_image_parts)):
+# 	# 		image_tmp = list_image_parts[x]
+# 	# 		secret_tmp = secret_split[x]
+# 	# 		l, _a, _w, _h = parse_grey_image(image_tmp)
+# 	# 		secret_tmp_in_bits = read_secret(secret_tmp)
+# 	# 		secret_tmp_in_chunks = [secret_tmp_in_bits[i:i+1] for i in range(0, len(secret_tmp_in_bits), 1)]
+# 	# 		#output = decode_classic_LA(l)
+# 	# 		#secret_correctly_encoded(secret_tmp_in_chunks, output)
+# 	elif mode == '1':
+# 		list_image_parts = split_in_9(img)
+# 		for x in range(len(list_image_parts)):
+# 			image_tmp = list_image_parts[x]
+# 			secret_tmp = secret_split[x]
+# 			secret_tmp_in_bits = read_secret(secret_tmp)
+# 			secret_tmp_in_chunks = [secret_tmp_in_bits[i:i+1] for i in range(0, len(secret_tmp_in_bits), 1)]
+# 			output = decode_LSB_mode1(Image.open(image_tmp))
+# 			secret_correctly_encoded(secret_tmp_in_chunks, output)
 
 
 command = "rm part_*"
@@ -241,8 +248,8 @@ process = subprocess.Popen(command, shell=True)
 process.wait()
 
 
-
-
+images = get_images('../OceanLotus/Sequential/')
+# for image in images[:]:
 
 
 

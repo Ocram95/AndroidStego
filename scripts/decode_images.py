@@ -1,7 +1,7 @@
 from PIL import Image
 import os
 import numpy as np
-
+import subprocess
 
 def get_images(path):
 	images = []
@@ -70,15 +70,101 @@ def decode_classic_RGB(r, g, b, bits, channels, pixel_index):
 				extracted_secret_in_bits.append(b[x][-bits:])
 	return extracted_secret_in_bits
 
-
 def decode_classic_LA(l):
 	extracted_secret_in_bits = []
 	for x in range(len(l)):
 		extracted_secret_in_bits.append(l[x][-1:])
 	return extracted_secret_in_bits
 
+def decode_LSB_palette_classic(image):
+	extracted_secret_in_bits = []
+	palette = image.getpalette()
+	r = g = b = []
+	for i in range(0, len(palette), 3):
+		extracted_secret_in_bits.append('{0:08b}'.format(palette[i])[-1])
+		extracted_secret_in_bits.append('{0:08b}'.format(palette[i+1])[-1])
+		extracted_secret_in_bits.append('{0:08b}'.format(palette[i+2])[-1])
+	return extracted_secret_in_bits
+
+def decode_LSB_mode1(image):
+	extracted_secret_in_bits = []
+	width, height = image.size
+	pixels = image.load
+	new_pixels = []
+	for y in range(height):
+		for x in range(width):
+			pixel_value = image.getpixel((x,y))
+			if pixel_value == 0:
+				extracted_secret_in_bits.append('0')
+			elif pixel_value == 255:
+				extracted_secret_in_bits.append('1')
+	return extracted_secret_in_bits
+
+def split_in_9(image):
+	width, height = image.size
+	parts = []
+
+	# Calculate the approximate width and height of each block
+	block_width = width // 3
+	block_height = height // 3
+
+	for row in range(3):
+		for col in range(3):
+			# Calculate the coordinates for each block
+			x1 = col * block_width
+			y1 = row * block_height
+
+			# For the last column/row, adjust the size to include any remainder
+			x2 = (x1 + block_width) if col < 2 else width
+			y2 = (y1 + block_height) if row < 2 else height
+
+			# Crop the image and append the part to the list
+			part = image.crop((x1, y1, x2, y2))
+			parts.append(part)
+
+	# Save the 9 parts
+	for i, part in enumerate(parts):
+		output_path = f'part_{i + 1}.png'
+		part.save(output_path)
+
+	tmp = []
+	for filename in os.listdir("."):
+		if filename.lower().endswith(".png"):
+			if "1" in filename or "5" in filename or "9" in filename:
+				tmp.append(filename)
+	list_image_parts = sorted(tmp, key=lambda x: int(x.split('_')[-1].split('.')[0]))
+
+	return list_image_parts
+
+def split_secret(secret):
+	list_split = []
+	total_length = len(secret)
+
+	length_part = total_length // 3
+	remains = total_length % 3
+
+	list_split.append(secret[:length_part + remains])
+	list_split.append(secret[length_part + remains:2 * length_part + remains])
+	list_split.append(secret[2 * length_part + remains:])
+
+	return list_split
+
+
+
 def secret_correctly_encoded(secret_in_chunks, output):
 	for x in range(len(secret_in_chunks)):
+		#check if the x-th element of the secret injected is equal to the one extracted
+		if(secret_in_chunks[x] != output[x]):
+			#sometimes it is possible that the secret injected can be something like 
+			#['000', '010', '10'], i.e., the last element is different in terms of size w.r.t.
+			#the other elements. Thus, the following check deals with this situations.
+			if secret_in_chunks[x] != output[x][-len(secret_in_chunks[x]):]:
+				print("ERROR")
+				return
+	print("Secret correctly decoded!")
+
+def secret_correctly_encoded_palette(secret_in_chunks, output):
+	for x in range(len(output)):
 		#check if the x-th element of the secret injected is equal to the one extracted
 		if(secret_in_chunks[x] != output[x]):
 			#sometimes it is possible that the secret injected can be something like 
@@ -94,29 +180,65 @@ def read_secret(secret_path):
 	return secret_in_bits
 
 
-secret = '''Class.forName("dalvik.system.DexClassLoader");Object objecte = this.b.getClassLoader();Method methode=new DexClassLoader(filee.getPath(),filee.getParent(),null,((ClassLoader)objecte)).loadClass("sdk.fkgh.mvp.SdkEntry");methode.setAccessible(true);methode.invoke(null,this.b,this.c,this.a);}ag.g[8]="rrqnDG4dja7Ga5ZdAuD77CY";ag.g[9]="xodOhs";'''
+# secret = '''Class.forName("dalvik.system.DexClassLoader");Object objecte = this.b.getClassLoader();Method methode=new DexClassLoader(filee.getPath(),filee.getParent(),null,((ClassLoader)objecte)).loadClass("sdk.fkgh.mvp.SdkEntry");methode.setAccessible(true);methode.invoke(null,this.b,this.c,this.a);}ag.g[8]="rrqnDG4dja7Ga5ZdAuD77CY";ag.g[9]="xodOhs";'''
 secret = '''methode.setAccessible(true);methode.invoke(null,this.b,this.c,this.a);ag.g[8]="rrqnDG4dja7Ga5ZdAuD77CY";ag.g[9]="xodOhs"'''
 
 secret_in_bits = read_secret(secret)
 secret_in_chunks = [secret_in_bits[i:i+1] for i in range(0, len(secret_in_bits), 1)]
 
-images = get_images('../assets_stego/')
-print(secret_in_chunks[:20])
+# images = get_images('../LSB/sequential/')
+# for image in images[:]:
+# 	print(image)
+# 	img = Image.open(image)
+# 	mode = img.mode
+# 	if mode == "RGB" or mode == "RGBA":
+# 		r,g,b,_a,_w,_h = parse_RGB_image(image)
+# 		output = decode_classic_RGB(r,g,b, 1, "RGB", 1)
+# 		secret_correctly_encoded(secret_in_chunks, output)
+# 	elif mode == "LA":
+# 		l, _a, _w, _h = parse_grey_image(image)
+# 		output = decode_classic_LA(l)
+# 		secret_correctly_encoded(secret_in_chunks, output)
+# 	elif mode == "P":
+# 		output = decode_LSB_palette_classic(img)
+# 		secret_correctly_encoded_palette(secret_in_chunks, output)
+# 	elif mode == '1':
+# 		output = decode_LSB_mode1(img)
+# 		secret_correctly_encoded(secret_in_chunks, output)
+
+
+images = get_images('../LSB/squares/')
+secret_split = split_secret(secret)
+
 for image in images[:]:
-	if "classic" in image and "seq" in image:
-		img = Image.open(image)
-		mode = img.mode
-		if mode == "RGB" or mode == "RGBA":
-			r,g,b,_a,_w,_h = parse_RGB_image(image)
+	print(image)
+	img = Image.open(image)
+	mode = img.mode
+	if mode == "RGB" or mode == "RGBA":
+		list_image_parts = split_in_9(img)
+		for x in range(len(list_image_parts)):
+			image_tmp = list_image_parts[x]
+			secret_tmp = secret_split[x]
+			secret_tmp_in_bits = read_secret(secret_tmp)
+			secret_tmp_in_chunks = [secret_tmp_in_bits[i:i+1] for i in range(0, len(secret_tmp_in_bits), 1)]
+			r,g,b,_a,_w,_h = parse_RGB_image(image_tmp)
 			output = decode_classic_RGB(r,g,b, 1, "RGB", 1)
-			secret_correctly_encoded(secret_in_chunks, output)
-		elif mode == "LA":
-			l, _a, _w, _h = parse_grey_image(image)
-			output = decode_classic_LA(l)
-			secret_correctly_encoded(secret_in_chunks, output)
+			secret_correctly_encoded(secret_tmp_in_chunks, output)
+	# elif mode == "LA":
+	# 	l, _a, _w, _h = parse_grey_image(image)
+	# 	output = decode_classic_LA(l)
+	# 	secret_correctly_encoded(secret_in_chunks, output)
+	# elif mode == "P":
+	# 	output = decode_LSB_palette_classic(img)
+	# 	secret_correctly_encoded_palette(secret_in_chunks, output)
+	# elif mode == '1':
+	# 	output = decode_LSB_mode1(img)
+	# 	secret_correctly_encoded(secret_in_chunks, output)
 
 
-
+command = "rm part_*"
+process = subprocess.Popen(command, shell=True)
+process.wait()
 
 
 

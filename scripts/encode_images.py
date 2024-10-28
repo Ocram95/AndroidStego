@@ -34,40 +34,36 @@ def parse_RGB_image(image_path):
 		if len(alpha) != 0:
 			alpha_in_bits.append('{0:08b}'.format(alpha[x]))
 
-	return red_in_bits, green_in_bits, blue_in_bits, alpha_in_bits, width, height
+	return red_in_bits, green_in_bits, blue_in_bits, alpha_in_bits
 
-def parse_grey_image(image_path):
+def parse_LA_image(image_path):
 	with Image.open(image_path) as im:
 		l, a = im.split()
 		lll   = np.array(l).reshape(-1)
 		alpha = np.array(a).reshape(-1)
-		width, height = im.size
 		l_in_bits = []
 		alpha_in_bits = []
 		for x in range(len(lll)):
 			l_in_bits.append('{0:08b}'.format(lll[x]))
 			alpha_in_bits.append('{0:08b}'.format(alpha[x]))
 		
-		return l_in_bits, alpha_in_bits, width, height
+		return l_in_bits, alpha_in_bits
 
-def encode_LSB_RGBA(r, g, b, alpha, secret_in_chunks, channels, pixel_index, width, height):
+def encode_LSB_RGBA(r, g, b, alpha, secret_in_chunks, width, height):
 	index = 0
 	for x in range(len(r)):
-		if x >= pixel_index - 1:
-			if index >= len(secret_in_chunks):
-				break
+		if index >= len(secret_in_chunks):
+			break
+		if index < len(secret_in_chunks):
 			if index < len(secret_in_chunks):
-				if "R" in channels:
-					r[x] = r[x][:-len(secret_in_chunks[index])] + secret_in_chunks[index]
-					index += 1
+				r[x] = r[x][:-len(secret_in_chunks[index])] + secret_in_chunks[index]
+				index += 1
 			if index < len(secret_in_chunks):
-				if "G" in channels:
-					g[x] = g[x][:-len(secret_in_chunks[index])] + secret_in_chunks[index]
-					index += 1
+				g[x] = g[x][:-len(secret_in_chunks[index])] + secret_in_chunks[index]
+				index += 1
 			if index < len(secret_in_chunks):
-				if "B" in channels:
-					b[x] = b[x][:-len(secret_in_chunks[index])] + secret_in_chunks[index]
-					index += 1
+				b[x] = b[x][:-len(secret_in_chunks[index])] + secret_in_chunks[index]
+				index += 1
 
 	new_pixels_list = []
 	tmp_list = []
@@ -85,15 +81,17 @@ def encode_LSB_RGBA(r, g, b, alpha, secret_in_chunks, channels, pixel_index, wid
 			tmp_list = []
 	return new_pixels_list
 
-def encode_LSB_LA(l, alpha, secret_in_chunks, pixel_index, width, height):
+def encode_LSB_LA(l, alpha, secret_in_chunks, width, height):
 	index = 0
 	for x in range(len(l)):
-		if x >= pixel_index - 1:
-			if index >= len(secret_in_chunks):
-				break
-			if index < len(secret_in_chunks):
-				l[x] = l[x][:-len(secret_in_chunks[index])] + secret_in_chunks[index]
-				index += 1
+		if index >= len(secret_in_chunks):
+			break
+		if index < len(secret_in_chunks):
+			if secret_in_chunks[x] == '0':
+				l[x] = l[x][:7] + '0'
+			else:
+				l[x] = l[x][:7] + '1'
+			index += 1
 	new_pixels_list = []
 	tmp_list = []
 	for x in range(len(l)):
@@ -105,11 +103,34 @@ def encode_LSB_LA(l, alpha, secret_in_chunks, pixel_index, width, height):
 			tmp_list = []
 	return new_pixels_list
 
-def encode_LSB_palette_classic(image, secret_in_bits):
+def encode_LSB_mode1(image, secret_in_bits):
+	width, height = image.size
+	pixels = image.load
+	secret_index = 0
+	new_pixels = []
+	for y in range(height):
+		for x in range(width):
+			pixel_value = image.getpixel((x,y))
+			if secret_index < len(secret_in_bits):
+				bit = int(secret_in_bits[secret_index])
+				if pixel_value != bit:
+					new_value = bit
+				else:
+					new_value = pixel_value
+
+				new_pixels.append(new_value)
+				secret_index += 1
+			else:
+				new_pixels.append(pixel_value)
+
+	return new_pixels
+
+def encode_LSB_palette(image, secret_in_bits):
 	while len(secret_in_bits) % 3 != 0:
 		secret_in_bits += '0'
 	palette = image.getpalette()
 	secret_index = 0
+	secret_in_bits = secret_in_bits[:len(palette)]
 	for i in range(0, len(palette), 3):
 		if secret_index >= len(secret_in_bits):
 			break
@@ -132,7 +153,7 @@ def encode_LSB_palette_classic(image, secret_in_bits):
 
 	return palette
 
-def encode_LSB_palette_ocean(image, secret_in_bits):
+def encode_OCEAN_palette(image, secret_in_bits):
 	while len(secret_in_bits) % 8 != 0:
 		secret_in_bits += '0'
 	palette = image.getpalette()
@@ -163,28 +184,6 @@ def encode_LSB_palette_ocean(image, secret_in_bits):
 		secret_index += 8
 
 	return palette
-
-def encode_LSB_mode1(image, secret_in_bits):
-	width, height = image.size
-	pixels = image.load
-	secret_index = 0
-	new_pixels = []
-	for y in range(height):
-		for x in range(width):
-			pixel_value = image.getpixel((x,y))
-			if secret_index < len(secret_in_bits):
-				bit = int(secret_in_bits[secret_index])
-				if pixel_value != bit:
-					new_value = bit
-				else:
-					new_value = pixel_value
-
-				new_pixels.append(new_value)
-				secret_index += 1
-			else:
-				new_pixels.append(pixel_value)
-
-	return new_pixels, width, height
 
 def read_secret(secret_path):
 	secret_in_bits = ''.join(format(ord(bit), '08b') for bit in secret_path)
@@ -306,6 +305,11 @@ def rebuild_image(original_width, original_height, output_path, mode):
 	process = subprocess.Popen(command, shell=True)
 	process.wait()
 
+
+
+
+
+
 images = []
 
 main_folder = '../assets'
@@ -314,122 +318,124 @@ for dirpath, dirnames, filenames in os.walk(main_folder):
 		if filename.endswith(".png"):
 			file_path = os.path.join(dirpath, filename)
 			images.append(file_path)
-secret = '''Class.forName("dalvik.system.DexClassLoader");Object objecte = this.b.getClassLoader();Method methode=new DexClassLoader(filee.getPath(),filee.getParent(),null,((ClassLoader)objecte)).loadClass("sdk.fkgh.mvp.SdkEntry");methode.setAccessible(true);methode.invoke(null,this.b,this.c,this.a);}ag.g[8]="rrqnDG4dja7Ga5ZdAuD77CY";ag.g[9]="xodOhs";'''
-secret = '''methode.setAccessible(true);methode.invoke(null,this.b,this.c,this.a);ag.g[8]="rrqnDG4dja7Ga5ZdAuD77CY";ag.g[9]="xodOhs"'''
-channels = "RGB"
-bits = 1
-starting_pixel = 1
 
+
+secret = '''methode.setAccessible(true);methode.invoke(null,this.b,this.c,this.a);ag.g[8]="rrqnDG4dja7Ga5ZdAuD77CY";ag.g[9]="xodOhs"'''
+secret_in_bits = read_secret(secret)
+secret_in_chunks = [secret_in_bits[i:i+1] for i in range(0, len(secret_in_bits), 1)]
+#for OCEANLOTUS
+split_list = divide_string(secret_in_bits, [3,3,2])
+
+#### SEQUENTIAL
 for image in images[:]:
 	img = Image.open(image)
 	mode = img.mode
 	original_width, original_height = img.size
 	if mode == "RGB" or mode == "RGBA":
-		print(mode)
-		r,g,b,a,width,height = parse_RGB_image(image)
-		secret_in_bits = read_secret(secret)
-		print("SEQUENTIAL, CLASSIC: " + image) 
-		secret_in_chunks = [secret_in_bits[i:i+bits] for i in range(0, len(secret_in_bits), bits)]
-		new_pixels_list = encode_LSB_RGBA(r,g,b,a, secret_in_chunks, "RGB", 1, width, height)
+		r,g,b,a = parse_RGB_image(image)
+		print("SEQUENTIAL, LSB: " + image)
+		new_pixels_list = encode_LSB_RGBA(r,g,b,a, secret_in_chunks, original_width, original_height)
 		pixels_list_array = np.array(new_pixels_list, dtype=np.uint8)
 		output_image = Image.fromarray(pixels_list_array)
-		output_image.save(image.replace(".png", "_classic_seq.png").replace("assets", "assets_stego"))
+		output_image.save(image.replace("assets", "LSB/Sequential", 1))
+		
 		print("SEQUENTIAL, OCEANLOTUS: " + image)
-		split_list = divide_string(secret_in_bits, [3,3,2])
-		new_pixels_list = encode_LSB_RGBA(r,g,b,a, split_list, "RGB", 1, width, height)
+		new_pixels_list = encode_LSB_RGBA(r,g,b,a, split_list, original_width, original_height)
 		pixels_list_array = np.array(new_pixels_list, dtype=np.uint8)
 		output_image = Image.fromarray(pixels_list_array)
-		output_image.save(image.replace(".png", "_ocean_seq.png").replace("assets", "assets_stego"))
-		print("SQUARES, CLASSIC: " + image)
-		secret_split = split_secret(secret)
-		list_image_parts = split_in_9(image)
-		for x in range(len(list_image_parts)):
-			image_tmp = list_image_parts[x]
-			secret_tmp = secret_split[x]
-			tmp_r,tmp_g,tmp_b,tmp_a,width,height = parse_RGB_image(image_tmp)
-			secret_tmp_in_bits = read_secret(secret_tmp)
-			secret_tmp_in_chunks = [secret_tmp_in_bits[i:i+bits] for i in range(0, len(secret_tmp_in_bits), bits)]
-			new_pixels_list = encode_LSB_RGBA(tmp_r,tmp_g,tmp_b,tmp_a, secret_tmp_in_chunks, "RGB", 1, width, height)
-			pixels_list_array = np.array(new_pixels_list, dtype=np.uint8)
-			output_image = Image.fromarray(pixels_list_array)
-			output_image.save("tmp_part_vertical_" + image_tmp)
-		rebuild_image(original_width, original_height, image.replace(".png", "_classic_squares.png").replace("assets", "assets_stego"), mode)
-		print("SQUARES, OCEANLOTUS: " + image)
-		for x in range(len(list_image_parts)):
-			image_tmp = list_image_parts[x]
-			secret_tmp = secret_split[x]
-			tmp_r,tmp_g,tmp_b,tmp_a,width,height = parse_RGB_image(image_tmp)
-			secret_tmp_in_bits = read_secret(secret_tmp)
-			split_list = divide_string(secret_tmp_in_bits, [3,3,2])
-			new_pixels_list = encode_LSB_RGBA(tmp_r,tmp_g,tmp_b,tmp_a, split_list, "RGB", 1, width, height)
-			pixels_list_array = np.array(new_pixels_list, dtype=np.uint8)
-			output_image = Image.fromarray(pixels_list_array)
-			output_image.save("tmp_part_vertical_" + image_tmp)
-		rebuild_image(original_width, original_height, image.replace(".png", "_ocean_squares.png").replace("assets", "assets_stego"), mode)
-		command = "rm part*"
-		process = subprocess.Popen(command, shell=True)
-		process.wait()
+		output_image.save(image.replace("assets", "OceanLotus/Sequential",1))
+
 	elif mode == "LA":
-		print(mode)
-		l, a, width, height = parse_grey_image(image)
-		secret_in_bits = read_secret(secret)
-		print("SEQUENTIAL, CLASSIC: " + image)
-		secret_in_chunks = [secret_in_bits[i:i+bits] for i in range(0, len(secret_in_bits), bits)]
-		new_pixels_list = encode_LSB_LA(l,a, secret_in_chunks, 1, width, height)
+		l, a = parse_LA_image(image)
+		print("SEQUENTIAL, LSB: " + image)
+		new_pixels_list = encode_LSB_LA(l,a, secret_in_chunks, original_width, original_height)
 		pixels_list_array = np.array(new_pixels_list, dtype=np.uint8)
 		output_image = Image.fromarray(pixels_list_array)
-		output_image.save(image.replace(".png", "_classic_seq.png").replace("assets", "assets_stego"))
-		print("SQUARES, CLASSIC: " + image)
-		secret_split = split_secret(secret)
-		list_image_parts = split_in_9(image)
-		for x in range(len(list_image_parts)):
-			image_tmp = list_image_parts[x]
-			secret_tmp = secret_split[x]
-			l, a, width, height = parse_grey_image(image_tmp)
-			secret_tmp_in_bits = read_secret(secret_tmp)
-			secret_tmp_in_chunks = [secret_tmp_in_bits[i:i+bits] for i in range(0, len(secret_tmp_in_bits), bits)]
-			new_pixels_list = encode_LSB_LA(l,a, secret_in_chunks, 1, width, height)
-			pixels_list_array = np.array(new_pixels_list, dtype=np.uint8)
-			output_image = Image.fromarray(pixels_list_array)
-			output_image.save("tmp_part_vertical_" + image_tmp)
-		rebuild_image(original_width, original_height, image.replace(".png", "_classic_squares.png").replace("assets", "assets_stego"), mode)
-		command = "rm part*"
-		process = subprocess.Popen(command, shell=True)
-		process.wait()
+		output_image.save(image.replace("assets", "LSB/Sequential",1))
+
+	elif mode == '1':
+		print("SEQUENTIAL, LSB: " + image)
+		new_pixels = encode_LSB_mode1(img, secret_in_chunks)
+		new_image = Image.new(mode, (original_width, original_height))
+		new_image.putdata(new_pixels)
+		new_image.save(image.replace("assets", "LSB/Sequential",1))
+
 	elif mode == "P":
-		print(mode)
-		secret_in_bits = read_secret(secret)
-		print("SEQUENTIAL, CLASSIC: " + image)
-		new_palette = encode_LSB_palette_classic(img, secret_in_bits)
+		print("SEQUENTIAL, LSB: " + image)
+		new_palette = encode_LSB_palette(img, secret_in_chunks)
 		new_image = img
 		new_image.putpalette(new_palette)
-		new_image.save(image.replace(".png", "_classic_seq.png").replace("assets", "assets_stego"))
+		new_image.save(image.replace("assets", "LSB/Sequential",1))
+
 		print("SEQUENTIAL, OCEANLOTUS: " + image)
-		new_palette = encode_LSB_palette_ocean(img, secret_in_bits)
-		new_image2 = img
-		new_image2.putpalette(new_palette)
-		new_image2.save(image.replace(".png", "_ocean_seq.png").replace("assets", "assets_stego"))
-	elif mode == '1':
-		print(mode)
-		print("SEQUENTIAL, CLASSIC: " + image)
-		secret_in_bits = read_secret(secret)
-		new_pixels, _, _ = encode_LSB_mode1(img, secret_in_bits)
-		new_image = Image.new("1", (original_width, original_height))
-		new_image.putdata(new_pixels)
-		new_image.save(image.replace(".png", "_classic_seq.png").replace("assets", "assets_stego"))
-		print("SQUARES, CLASSIC: " + image)
-		secret_split = split_secret(secret)
+		new_palette = encode_OCEAN_palette(img, secret_in_bits)
+		new_image = img
+		new_image.putpalette(new_palette)
+		new_image.save(image.replace("assets", "OceanLotus/Sequential",1))
+
+
+secret_split = split_secret(secret)
+
+##### SQUARES
+for image in images[:]:
+	img = Image.open(image)
+	mode = img.mode
+	original_width, original_height = img.size
+	if mode == "RGB" or mode == "RGBA":
+		print("SQUARES, LSB: " + image)
 		list_image_parts = split_in_9(image)
 		for x in range(len(list_image_parts)):
-			img_tmp = Image.open(list_image_parts[x])
+			image_tmp = list_image_parts[x]
+			tmp_image = Image.open(image_tmp)
+			tmp_width, tmp_height = tmp_image.size
+			secret_tmp = secret_split[x]
+			tmp_r,tmp_g,tmp_b,tmp_a = parse_RGB_image(image_tmp)
+			secret_tmp_in_bits = read_secret(secret_tmp)
+			secret_tmp_in_chunks = [secret_tmp_in_bits[i:i+1] for i in range(0, len(secret_tmp_in_bits), 1)]
+			new_pixels_list = encode_LSB_RGBA(tmp_r,tmp_g,tmp_b,tmp_a, secret_tmp_in_chunks, tmp_width, tmp_height)
+			pixels_list_array = np.array(new_pixels_list, dtype=np.uint8)
+			output_image = Image.fromarray(pixels_list_array)
+			output_image.save("tmp_part_vertical_" + image_tmp)
+		rebuild_image(original_width, original_height, image.replace("assets", "LSB/Squares",1), mode)
+		command = "rm part_* tmp_*"
+		process = subprocess.Popen(command, shell=True)
+		process.wait()
+
+		print("SQUARES, OCEANLOTUS: " + image)
+		list_image_parts = split_in_9(image)
+		for x in range(len(list_image_parts)):
+			image_tmp = list_image_parts[x]
+			tmp_image = Image.open(image_tmp)
+			tmp_width, tmp_height = tmp_image.size
+			secret_tmp = secret_split[x]
+			tmp_r,tmp_g,tmp_b,tmp_a = parse_RGB_image(image_tmp)
+			secret_tmp_in_bits = read_secret(secret_tmp)
+			split_list = divide_string(secret_tmp_in_bits, [3,3,2])
+			new_pixels_list = encode_LSB_RGBA(tmp_r,tmp_g,tmp_b,tmp_a, split_list, tmp_width, tmp_height)
+			pixels_list_array = np.array(new_pixels_list, dtype=np.uint8)
+			output_image = Image.fromarray(pixels_list_array)
+			output_image.save("tmp_part_vertical_" + image_tmp)
+		rebuild_image(original_width, original_height, image.replace("assets", "OceanLotus/Squares",1), mode)
+		command = "rm part_* tmp_*"
+		process = subprocess.Popen(command, shell=True)
+		process.wait()
+
+	elif mode == '1':
+		print("SQUARES, LSB: " + image)
+		list_image_parts = split_in_9(image)
+		for x in range(len(list_image_parts)):
+			image_tmp = list_image_parts[x]
+			tmp_image = Image.open(image_tmp)
+			tmp_width, tmp_height = tmp_image.size
 			secret_tmp = secret_split[x]
 			secret_tmp_in_bits = read_secret(secret_tmp)
-			new_pixels, tmp_width, tmp_height = encode_LSB_mode1(img_tmp, secret_tmp_in_bits)
-			new_image = Image.new("1", (tmp_width, tmp_height))
+			secret_tmp_in_chunks = [secret_tmp_in_bits[i:i+1] for i in range(0, len(secret_tmp_in_bits), 1)]
+			new_pixels = encode_LSB_mode1(tmp_image, secret_tmp_in_chunks)
+			new_image = Image.new(mode, (tmp_width, tmp_height))
 			new_image.putdata(new_pixels)
 			new_image.save("tmp_part_vertical_" + list_image_parts[x])
-		rebuild_image(original_width, original_height, image.replace(".png", "_classic_squares.png").replace("assets", "assets_stego"), "1")
-		command = "rm part*"
+		rebuild_image(original_width, original_height, image.replace("assets", "LSB/Squares",1), mode)
+		command = "rm part_* tmp_*"
 		process = subprocess.Popen(command, shell=True)
 		process.wait()
 
@@ -441,12 +447,26 @@ for image in images[:]:
 
 
 
-
-
-
-
-
-
+	# elif mode == "LA":
+	# 	print("SQUARES, LSB: " + image)
+	# 	secret_split = split_secret(secret)
+	# 	list_image_parts = split_in_9(image)
+	# 	for x in range(len(list_image_parts)):
+	# 		image_tmp = list_image_parts[x]
+	# 		tmp_image = Image.open(image_tmp)
+	# 		tmp_width, tmp_height = tmp_image.size
+	# 		secret_tmp = secret_split[x]
+	# 		l, a = parse_LA_image(image_tmp)
+	# 		print(l)
+	# 		secret_tmp_in_bits = read_secret(secret_tmp)
+	# 		secret_tmp_in_chunks = [secret_tmp_in_bits[i:i+1] for i in range(0, len(secret_tmp_in_bits), 1)]
+	# 		new_pixels_list = encode_LSB_LA(l,a, secret_in_chunks, tmp_width, tmp_height)
+	# 		pixels_list_array = np.array(new_pixels_list, dtype=np.uint8)
+	# 		output_image = Image.fromarray(pixels_list_array)
+	# 		output_image.save("tmp_part_vertical_" + image_tmp)
+	# 	#rebuild_image(original_width, original_height, image.replace("assets", "assets_stego_empty"), mode)
+	# 	rebuild_image(original_width, original_height, "test_LSB_squares_LA.png", mode)
+	# 	break
 
 
 

@@ -42,61 +42,45 @@ def parse_RGB_image(image_path):
 		if len(alpha) != 0:
 			alpha_in_bits.append('{0:08b}'.format(alpha[x]))
 
-	return red_in_bits, green_in_bits, blue_in_bits, alpha_in_bits, width, height
+	return red_in_bits, green_in_bits, blue_in_bits, alpha_in_bits
 
-def parse_grey_image(image_path):
+def parse_LA_image(image_path):
 	with Image.open(image_path) as im:
 		l, a = im.split()
 		lll   = np.array(l).reshape(-1)
 		alpha = np.array(a).reshape(-1)
-		width, height = im.size
 		l_in_bits = []
 		alpha_in_bits = []
 		for x in range(len(lll)):
 			l_in_bits.append('{0:08b}'.format(lll[x]))
 			alpha_in_bits.append('{0:08b}'.format(alpha[x]))
 		
-		return l_in_bits, alpha_in_bits, width, height
+		return l_in_bits, alpha_in_bits
 
-def decode_classic_RGB(r, g, b, bits, channels, pixel_index):
+def decode_LSB_RGB(r, g, b):
 	extracted_secret_in_bits = []
 	for x in range(len(r)):
-		if x >= pixel_index - 1:
-			if "R" in channels:
-				extracted_secret_in_bits.append(r[x][-bits:])
-			if "G" in channels:
-				extracted_secret_in_bits.append(g[x][-bits:])
-			if "B" in channels:
-				extracted_secret_in_bits.append(b[x][-bits:])
+		extracted_secret_in_bits.append(r[x][-1])
+		extracted_secret_in_bits.append(g[x][-1])
+		extracted_secret_in_bits.append(b[x][-1])
 	return extracted_secret_in_bits
 
-def decode_ocean_RGB(r, g, b, channels, pixel_index):
+def decode_OCEAN_RGB(r, g, b):
 	extracted_secret_in_bits = []
 	for x in range(len(r)):
-		if x >= pixel_index - 1:
-			if "R" in channels:
-				extracted_secret_in_bits.append(r[x][-3:])
-			if "G" in channels:
-				extracted_secret_in_bits.append(g[x][-3:])
-			if "B" in channels:
-				extracted_secret_in_bits.append(b[x][-2:])
+		extracted_secret_in_bits.append(r[x][-3:])
+		extracted_secret_in_bits.append(g[x][-3:])
+		extracted_secret_in_bits.append(b[x][-2:])
 	flattened_list = [char for item in extracted_secret_in_bits for char in item]
 	return flattened_list
 
-def decode_classic_LA(l):
+def decode_LSB_LA(l):
 	extracted_secret_in_bits = []
 	for x in range(len(l)):
-		extracted_secret_in_bits.append(l[x][-1:])
-	return extracted_secret_in_bits
-
-def decode_LSB_palette_classic(image):
-	extracted_secret_in_bits = []
-	palette = image.getpalette()
-	r = g = b = []
-	for i in range(0, len(palette), 3):
-		extracted_secret_in_bits.append('{0:08b}'.format(palette[i])[-1])
-		extracted_secret_in_bits.append('{0:08b}'.format(palette[i+1])[-1])
-		extracted_secret_in_bits.append('{0:08b}'.format(palette[i+2])[-1])
+		if l[x][-1] == '1':
+			extracted_secret_in_bits.append('1')
+		else:
+			extracted_secret_in_bits.append('0')
 	return extracted_secret_in_bits
 
 def decode_LSB_mode1(image):
@@ -113,19 +97,30 @@ def decode_LSB_mode1(image):
 				extracted_secret_in_bits.append('1')
 	return extracted_secret_in_bits
 
-def decode_ocean_palette_classic(image):
+def decode_LSB_palette(image):
 	extracted_secret_in_bits = []
 	palette = image.getpalette()
 	r = g = b = []
 	for i in range(0, len(palette), 3):
-		extracted_secret_in_bits.append('{0:08b}'.format(palette[i])[5:])
-		extracted_secret_in_bits.append('{0:08b}'.format(palette[i+1])[5:])
-		extracted_secret_in_bits.append('{0:08b}'.format(palette[i+2])[6:])
+		extracted_secret_in_bits.append('{0:08b}'.format(palette[i])[-1])
+		extracted_secret_in_bits.append('{0:08b}'.format(palette[i+1])[-1])
+		extracted_secret_in_bits.append('{0:08b}'.format(palette[i+2])[-1])
+	return extracted_secret_in_bits, len(palette)
+
+def decode_OCEAN_palette(image):
+	extracted_secret_in_bits = []
+	palette = image.getpalette()
+	r = g = b = []
+	for i in range(0, len(palette), 3):
+		extracted_secret_in_bits.append('{0:08b}'.format(palette[i])[-3:])
+		extracted_secret_in_bits.append('{0:08b}'.format(palette[i+1])[-3:])
+		extracted_secret_in_bits.append('{0:08b}'.format(palette[i+2])[-2:])
 	flattened_list = [char for item in extracted_secret_in_bits for char in item]
-	return flattened_list
+	return flattened_list, len(palette)
 
 def split_in_9(image):
-	width, height = image.size
+	im = Image.open(image)
+	width, height = im.size
 	parts = []
 
 	# Calculate the approximate width and height of each block
@@ -142,8 +137,8 @@ def split_in_9(image):
 			x2 = (x1 + block_width) if col < 2 else width
 			y2 = (y1 + block_height) if row < 2 else height
 
-			# Crop the image and append the part to the list
-			part = image.crop((x1, y1, x2, y2))
+			# Crop the im and append the part to the list
+			part = im.crop((x1, y1, x2, y2))
 			parts.append(part)
 
 	# Save the 9 parts
@@ -174,17 +169,16 @@ def split_secret(secret):
 	return list_split
 
 def secret_correctly_encoded(secret_in_chunks, output):
-	length = min(len(secret_in_chunks), len(output))
-	for x in range(length):
-		#check if the x-th element of the secret injected is equal to the one extracted
-		if(secret_in_chunks[x] != output[x]):
-			#sometimes it is possible that the secret injected can be something like 
-			#['000', '010', '10'], i.e., the last element is different in terms of size w.r.t.
-			#the other elements. Thus, the following check deals with this situations.
-			if secret_in_chunks[x] != output[x][-len(secret_in_chunks[x]):]:
-				print("ERROR")
-				return
-	print("Secret correctly decoded!")
+	if secret_in_chunks == output[:len(secret_in_chunks)]:
+		print("Secret correctly decoded!")
+	else:
+		print("Error")
+
+def secret_correctly_encoded_palette(secret_in_chunks, output, len_palette):
+	if secret_in_chunks[:len_palette] == output[:len_palette]:
+		print("Secret correctly decoded!")
+	else:
+		print("Error")
 
 def read_secret(secret_path):
 	secret_in_bits = ''.join(format(ord(bit), '08b') for bit in secret_path)
@@ -202,111 +196,129 @@ def divide_string(string, lengths):
 
 	return split_list
 
-# secret = '''Class.forName("dalvik.system.DexClassLoader");Object objecte = this.b.getClassLoader();Method methode=new DexClassLoader(filee.getPath(),filee.getParent(),null,((ClassLoader)objecte)).loadClass("sdk.fkgh.mvp.SdkEntry");methode.setAccessible(true);methode.invoke(null,this.b,this.c,this.a);}ag.g[8]="rrqnDG4dja7Ga5ZdAuD77CY";ag.g[9]="xodOhs";'''
 secret = '''methode.setAccessible(true);methode.invoke(null,this.b,this.c,this.a);ag.g[8]="rrqnDG4dja7Ga5ZdAuD77CY";ag.g[9]="xodOhs"'''
+
 
 secret_in_bits = read_secret(secret)
 secret_in_chunks = [secret_in_bits[i:i+1] for i in range(0, len(secret_in_bits), 1)]
 
-images = get_images('../LSB/sequential/')
-for image in images[:]:
-	print(image)
+
+images = get_images('../LSB/Sequential/')
+for image in images:
 	img = Image.open(image)
 	mode = img.mode
 	if mode == "RGB" or mode == "RGBA":
-		r,g,b,_a,_w,_h = parse_RGB_image(image)
-		output = decode_classic_RGB(r,g,b, 1, "RGB", 1)
+		r,g,b,_a = parse_RGB_image(image)
+		output = decode_LSB_RGB(r,g,b)
 		secret_correctly_encoded(secret_in_chunks, output)
 	elif mode == "LA":
-		l, _a, _w, _h = parse_grey_image(image)
-		output = decode_classic_LA(l)
+		l, _a = parse_LA_image(image)
+		output = decode_LSB_LA(l)
 		secret_correctly_encoded(secret_in_chunks, output)
-	elif mode == "P":
-		output = decode_LSB_palette_classic(img)
-		secret_correctly_encoded(secret_in_chunks, output)
-	elif mode == '1':
+	elif mode == "1":
+		img = Image.open(image)
 		output = decode_LSB_mode1(img)
 		secret_correctly_encoded(secret_in_chunks, output)
-
-
-images = get_images('../LSB/Squares/')
-secret_split = split_secret(secret)
-
-for image in images[1:]:
-	print(image)
-	img = Image.open(image)
-	mode = img.mode
-	if mode == "RGB" or mode == "RGBA":
-		list_image_parts = split_in_9(img)
-		for x in range(len(list_image_parts)):
-			image_tmp = list_image_parts[x]
-			secret_tmp = secret_split[x]
-			secret_tmp_in_bits = read_secret(secret_tmp)
-			secret_tmp_in_chunks = [secret_tmp_in_bits[i:i+1] for i in range(0, len(secret_tmp_in_bits), 1)]
-			r,g,b,_a,_w,_h = parse_RGB_image(image_tmp)
-			output = decode_classic_RGB(r,g,b, 1, "RGB", 1)
-			secret_correctly_encoded(secret_tmp_in_chunks, output)
-	# elif mode == "LA":
-	# 	print(image)
-	# 	list_image_parts = split_in_9(img)
-	# 	for x in range(len(list_image_parts)):
-	# 		image_tmp = list_image_parts[x]
-	# 		secret_tmp = secret_split[x]
-	# 		l, _a, _w, _h = parse_grey_image(image_tmp)
-	# 		secret_tmp_in_bits = read_secret(secret_tmp)
-	# 		secret_tmp_in_chunks = [secret_tmp_in_bits[i:i+1] for i in range(0, len(secret_tmp_in_bits), 1)]
-	# 		print(secret_tmp_in_chunks)
-	# 		output = decode_classic_LA(l)
-	# 		print(output)
-	# 		secret_correctly_encoded(secret_tmp_in_chunks, output)
-	# 	break
-	elif mode == '1':
-		list_image_parts = split_in_9(img)
-		for x in range(len(list_image_parts)):
-			image_tmp = list_image_parts[x]
-			secret_tmp = secret_split[x]
-			secret_tmp_in_bits = read_secret(secret_tmp)
-			secret_tmp_in_chunks = [secret_tmp_in_bits[i:i+1] for i in range(0, len(secret_tmp_in_bits), 1)]
-			output = decode_LSB_mode1(Image.open(image_tmp))
-			secret_correctly_encoded(secret_tmp_in_chunks, output)
-
+	elif mode == "P":
+		img = Image.open(image)
+		output, len_palette = decode_LSB_palette(img)
+		secret_correctly_encoded_palette(secret_in_chunks, output, len_palette)
 
 images = get_images('../OceanLotus/Sequential/')
-
-for image in images[:]:
-	print(image)
+for image in images:
 	img = Image.open(image)
 	mode = img.mode
 	if mode == "RGB" or mode == "RGBA":
-		r,g,b,_a,_w,_h = parse_RGB_image(image)
-		output = decode_ocean_RGB(r,g,b, "RGB", 1)
+		r,g,b,_a = parse_RGB_image(image)
+		output = decode_OCEAN_RGB(r,g,b)
 		secret_correctly_encoded(secret_in_chunks, output)
 	elif mode == "P":
-		output = decode_ocean_palette_classic(img)
-		secret_correctly_encoded(secret_in_chunks, output)
+		img = Image.open(image)
+		output, len_palette = decode_OCEAN_palette(img)
+		secret_correctly_encoded_palette(secret_in_chunks, output, len_palette)
 
-images = get_images('../OceanLotus/Squares/')
+
 secret_split = split_secret(secret)
 
-for image in images[:]:
-	print(image)
+images = get_images('../LSB/Squares/')
+for image in images:
 	img = Image.open(image)
 	mode = img.mode
 	if mode == "RGB" or mode == "RGBA":
-		list_image_parts = split_in_9(img)
+		list_image_parts = split_in_9(image)
 		for x in range(len(list_image_parts)):
 			image_tmp = list_image_parts[x]
+			tmp_image = Image.open(image_tmp)
+			tmp_width, tmp_height = tmp_image.size
 			secret_tmp = secret_split[x]
+			tmp_r,tmp_g,tmp_b,tmp_a = parse_RGB_image(image_tmp)
 			secret_tmp_in_bits = read_secret(secret_tmp)
 			secret_tmp_in_chunks = [secret_tmp_in_bits[i:i+1] for i in range(0, len(secret_tmp_in_bits), 1)]
-			r,g,b,_a,_w,_h = parse_RGB_image(image_tmp)
-			output = decode_ocean_RGB(r,g,b, "RGB", 1)
+			output = decode_LSB_RGB(tmp_r,tmp_g,tmp_b)
 			secret_correctly_encoded(secret_tmp_in_chunks, output)
 
 
-command = "rm part_*"
-process = subprocess.Popen(command, shell=True)
-process.wait()
+
+images = get_images('../OceanLotus/Squares/')
+for image in images:
+	img = Image.open(image)
+	mode = img.mode
+	if mode == "RGB" or mode == "RGBA":
+		list_image_parts = split_in_9(image)
+		for x in range(len(list_image_parts)):
+			image_tmp = list_image_parts[x]
+			tmp_image = Image.open(image_tmp)
+			tmp_width, tmp_height = tmp_image.size
+			secret_tmp = secret_split[x]
+			tmp_r,tmp_g,tmp_b,tmp_a = parse_RGB_image(image_tmp)
+			secret_tmp_in_bits = read_secret(secret_tmp)
+			secret_tmp_in_chunks = [secret_tmp_in_bits[i:i+1] for i in range(0, len(secret_tmp_in_bits), 1)]
+			output = decode_OCEAN_RGB(tmp_r,tmp_g,tmp_b)
+			secret_correctly_encoded(secret_tmp_in_chunks, output)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# list_image_parts = split_in_9("test_LSB_squares_LA.png")
+# for x in range(len(list_image_parts)):
+# 	image_tmp = list_image_parts[x]
+# 	tmp_image = Image.open(image_tmp)
+# 	tmp_width, tmp_height = tmp_image.size
+# 	secret_tmp = secret_split[x]
+# 	tmp_l, _tmp_a = parse_LA_image(image_tmp)
+# 	secret_tmp_in_bits = read_secret(secret_tmp)
+# 	secret_tmp_in_chunks = [secret_tmp_in_bits[i:i+1] for i in range(0, len(secret_tmp_in_bits), 1)]
+# 	output = decode_LSB_LA(tmp_l)
+# 	secret_correctly_encoded(secret_tmp_in_chunks, output)
+# 	print(output[:len(secret_tmp_in_chunks)])
+# 	print(secret_tmp_in_chunks[:10])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

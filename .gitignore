@@ -4,3 +4,6 @@ statistics_extractor/*
 **/.DS_Store
 LSB_tmp/
 OceanLotus_tmp/
+scripts/*/*.log
+download_apks/*
+

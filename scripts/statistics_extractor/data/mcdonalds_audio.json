@@ -1,0 +1,12 @@
+[
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/mcdonalds/res/raw/bada_024.wav",
+        "type": "wav",
+        "info": {
+            "duration": 4.152,
+            "audio_channels": 2,
+            "sample_rate": 48000,
+            "size_bytes": 797228
+        }
+    }
+]

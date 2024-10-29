@@ -1,0 +1,12 @@
+[
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/raw/idealista_notification.wav",
+        "type": "wav",
+        "info": {
+            "duration": 1.8949791666666667,
+            "audio_channels": 2,
+            "sample_rate": 48000,
+            "size_bytes": 549850
+        }
+    }
+]

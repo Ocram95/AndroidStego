@@ -1,0 +1,132 @@
+[
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Facebook/res/drawable.2-mdpi/messenger_icons_info_circle_32.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 243,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Facebook/res/drawable.2-mdpi/fb_ic_checkmark_circle_outline_32.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 434,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Facebook/res/drawable.2-mdpi/messenger_icons_dice_32.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 292,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Facebook/res/drawable.2-hdpi/messenger_icons_gen_ai_waveform_32.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 204,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Facebook/res/drawable.2-xhdpi/fb_ic_location_filled_16.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 230,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Facebook/res/drawable.2-xhdpi/fb_ic_pen_nib_outline_24.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 541,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Facebook/res/drawable.2-xhdpi/fb_ic_marketplace_outline_16.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 313,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Facebook/res/drawable.2-xhdpi/messenger_button_icons_stories_archive_36.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 444,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Facebook/res/drawable.4-xhdpi/messenger_button_icons_message_cross_36.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 322,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Facebook/res/drawable.2-xxhdpi/community_awards_icons_community_unification_free_thoughtful_16.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 1325,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Facebook/res/drawable.2-xxhdpi/fb_ic_play_list_filled_24.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 384,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Facebook/res/drawable.2-xxhdpi/fb_ic_on_this_day_outline_24.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 734,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Facebook/res/drawable.6-mdpi/orca_stickers_store_pack_download_disabled.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 526,
+            "mode": "P"
+        }
+    }
+]

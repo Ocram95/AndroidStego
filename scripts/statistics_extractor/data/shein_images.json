@@ -1,0 +1,102 @@
+[
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/shein/res/drawable-xxhdpi/checkout_icon_select_img_selected_brown.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 843,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/shein/res/drawable-xxhdpi/sui_icon_coupon_discount.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 721,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/shein/res/drawable-xxhdpi/sui_icon_delivery_price.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 721,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/shein/res/drawable-xxhdpi/sui_store_dialog_close.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 255,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/shein/res/drawable-xxhdpi/sui_icon_goods_category_insert_icon_bg.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 687,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/shein/res/drawable-xxhdpi/sui_icon_reported_m.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 760,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/shein/res/drawable-xxhdpi/si_selected_icon.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 390,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/shein/res/drawable-xxhdpi/checkout_icon_select_brown.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 747,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/shein/res/drawable-xxhdpi/sui_icon_store_nav_more_stroke.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 389,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/shein/res/drawable/ot_filter_icon_search.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 271,
+            "mode": "LA"
+        }
+    }
+]

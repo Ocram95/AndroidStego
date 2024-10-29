@@ -1,0 +1,22 @@
+[
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/drawable/ic_info_outline_black_48dp.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 940,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/drawable/ic_launcher.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 3349,
+            "mode": "RGB"
+        }
+    }
+]

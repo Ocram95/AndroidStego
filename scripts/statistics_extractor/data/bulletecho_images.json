@@ -1,0 +1,1942 @@
+[
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/exo_icon_shuffle_off.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 228,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 173,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/exo_icon_fastforward.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 217,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/exo_icon_next.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 209,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/icon.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 2511,
+            "mode": "RGB"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/applovin_exo_icon_fastforward.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 226,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/applovin_exo_icon_play.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 212,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/exo_icon_repeat_one.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 232,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 214,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/exo_icon_previous.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 180,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/applovin_exo_icon_fullscreen_exit.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 144,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/applovin_exo_icon_shuffle_on.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 287,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 356,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 324,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/exo_icon_rewind.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 217,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/exo_icon_fullscreen_enter.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 101,
+            "mode": "1"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/applovin_exo_icon_previous.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 224,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/applovin_ic_warning_outline.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 584,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/exo_icon_fullscreen_exit.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 101,
+            "mode": "1"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/applovin_ic_pause_icon.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 231,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/applovin_exo_icon_repeat_all.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 260,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/exo_icon_shuffle_on.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 230,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/applovin_exo_icon_next.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 210,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/exo_icon_circular_play.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 672,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/applovin_exo_icon_fullscreen_enter.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 140,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/applovin_exo_icon_repeat_off.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 256,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/exo_icon_repeat_off.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 227,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/applovin_ic_replay_icon.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 639,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/applovin_exo_icon_pause.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 130,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/exo_icon_pause.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 140,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/applovin_exo_icon_rewind.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 235,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/exo_icon_play.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 200,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/applovin_ic_play_icon.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 503,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/exo_icon_vr.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 207,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/exo_icon_stop.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 97,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/applovin_exo_icon_shuffle_off.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 304,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/applovin_exo_icon_repeat_one.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 293,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/abc_btn_check_to_on_mtrl_015.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 321,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-mdpi/exo_icon_repeat_all.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 210,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/applovin_exo_icon_stop.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 107,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/applovin_ic_warning.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 385,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/exo_ic_audiotrack.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 346,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/tt_titlebar_close_drawable.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 267,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/applovin_ic_x_mark.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 441,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/tt_lefterbackicon_titlebar_press.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 168,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/cb_info_icon.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 569,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/exo_ic_settings.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 386,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/applovin_exo_ic_settings.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 438,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/applovin_exo_edit_mode_logo.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 769,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/icon_notif.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 754,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/tt_refreshing_video_textpage_normal.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 443,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/applovin_exo_ic_chevron_left.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 156,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/tt_ad_link.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 793,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/applovin_exo_ic_subtitle_on.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 250,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/applovin_ic_disclosure_arrow.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 148,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/applovin_exo_ic_check.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 199,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/tt_reward_dislike_icon.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 502,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/ia_close.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 212,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/applovin_ic_baseline_add_circle_outline.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 514,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/exo_ic_chevron_left.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 153,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/exo_ic_subtitle_off.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 214,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/applovin_exo_ic_rewind.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 437,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/tt_shrink_fullscreen.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 300,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/exo_ic_subtitle_on.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 202,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/exo_ic_check.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 192,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/applovin_exo_ic_forward.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 440,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/applovin_exo_ic_chevron_right.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 153,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/exo_ic_rewind.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 360,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/applovin_exo_ic_speed.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 618,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/tt_white_lefterbackicon_titlebar_press.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 363,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/applovin_exo_ic_fullscreen_enter.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 140,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/tt_refreshing_video_textpage_pressed.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 404,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/exo_ic_chevron_right.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 153,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/tt_ad_feedback.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 581,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/applovin_ic_check_mark_borderless.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 199,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/tt_titlebar_close_press_for_dark.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 260,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/tt_lefterbackicon_titlebar.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 169,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/fyber_info_button.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 604,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/tt_titlebar_close_press.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 261,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/ia_mute.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 692,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/applovin_exo_ic_audiotrack.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 454,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/exo_ic_fullscreen_exit.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 101,
+            "mode": "1"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/applovin_ic_check_mark_bordered.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 463,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/hs__cross_icon.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 308,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/exo_ic_fullscreen_enter.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 101,
+            "mode": "1"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/tt_lefterbackicon_titlebar_for_dark.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 169,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/tt_white_lefterbackicon_titlebar.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 377,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/hyprmx_chevron.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 166,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/exo_ic_forward.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 361,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/tt_titlebar_close_for_dark.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 266,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/tt_titlebar_close.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 267,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/applovin_exo_ic_fullscreen_exit.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 144,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/applovin_exo_ic_subtitle_off.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 258,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/hs__reload_icon.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1014,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/ia_unmute.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 682,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/exo_edit_mode_logo.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 658,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/exo_ic_speed.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 501,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xhdpi/tt_lefterbackicon_titlebar_press_for_dark.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 167,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xxxhdpi/abc_scrubber_control_to_pressed_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 415,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xxxhdpi/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 631,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/abc_btn_radio_to_on_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 464,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/mbridge_reward_close_ec.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 1321,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/applovin_exo_icon_play.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 213,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/applovin_exo_icon_next.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 214,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/applovin_exo_icon_fastforward.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 239,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/exo_icon_play.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 233,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 227,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/exo_icon_repeat_off.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 223,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/exo_icon_repeat_one.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 223,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/exo_icon_fullscreen_enter.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 107,
+            "mode": "1"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/applovin_exo_icon_shuffle_off.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 415,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 171,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/applovin_exo_icon_previous.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 232,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/abc_btn_check_to_on_mtrl_015.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 404,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/applovin_exo_icon_shuffle_on.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 336,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/applovin_ic_replay_icon.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 737,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/exo_icon_next.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 264,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/mbridge_reward_notice.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 1029,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/abc_btn_radio_to_on_mtrl_015.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 563,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/exo_icon_stop.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 90,
+            "mode": "1"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/exo_icon_circular_play.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 995,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/exo_icon_previous.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 255,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/exo_icon_shuffle_off.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 265,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/applovin_ic_play_icon.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 725,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/exo_icon_fastforward.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 283,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/exo_icon_rewind.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 332,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/exo_icon_shuffle_on.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 268,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/exo_icon_vr.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 291,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/applovin_exo_icon_rewind.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 250,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/applovin_exo_icon_fullscreen_enter.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 160,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/applovin_exo_icon_fullscreen_exit.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 163,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/mbridge_cm_btn_shake.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1755,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/mbridge_splash_notice.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 1029,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/exo_icon_fullscreen_exit.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 105,
+            "mode": "1"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/applovin_exo_icon_repeat_one.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 235,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/icon.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 4624,
+            "mode": "RGB"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/mbridge_reward_video_icon.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 217,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/applovin_exo_icon_repeat_all.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 209,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/exo_icon_pause.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 90,
+            "mode": "1"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/applovin_ic_warning_outline.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 886,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/applovin_ic_pause_icon.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 237,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/exo_icon_repeat_all.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 203,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/applovin_exo_icon_pause.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 115,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-hdpi/applovin_exo_icon_repeat_off.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 253,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xxhdpi/hs__cross_icon.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 427,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xxhdpi/exo_ic_speed.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 727,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xxhdpi/exo_ic_forward.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 526,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xxhdpi/exo_ic_settings.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 574,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xxhdpi/hyprmx_chevron.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 216,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xxhdpi/exo_ic_check.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 236,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xxhdpi/icon_notif.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1122,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xxhdpi/exo_ic_fullscreen_exit.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 105,
+            "mode": "1"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xxhdpi/exo_ic_chevron_left.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 191,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xxhdpi/ia_close.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 287,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xxhdpi/exo_ic_subtitle_off.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 281,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xxhdpi/exo_ic_audiotrack.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 513,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xxhdpi/exo_ic_rewind.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 527,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xxhdpi/exo_ic_chevron_right.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 191,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xxhdpi/exo_edit_mode_logo.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 998,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xxhdpi/exo_ic_subtitle_on.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 265,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xxhdpi/cb_info_icon.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 878,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-xxhdpi/exo_ic_fullscreen_enter.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 107,
+            "mode": "1"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_facebook.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 599,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_chartboost.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1324,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_inmobi.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 723,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_yandex.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 741,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_mytarget.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1613,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_bigoads.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1335,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_applovin.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1632,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_tiktok.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 2112,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_hyprmx.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1097,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_admob.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1556,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_moloco.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1637,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_line.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1408,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_bidmachine.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 890,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/exo_icon_circular_play.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 457,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_amazon_marketplace.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1666,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_nend.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1971,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_ironsource.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1574,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_google_ad_manager.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1312,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_vungle.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 2073,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_smaato.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1670,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_ogury_presage.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1193,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_maio.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1446,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_verve.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1174,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_mintegral.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 3662,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_pangle.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 2174,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_unity.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1483,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_mobilefuse.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 4183,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-ldpi/applovin_ic_mediation_fyber.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 3417,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable/hyprmx_chevron.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 166,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-night-mdpi/applovin_ic_warning_outline.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 576,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-night-xhdpi/applovin_ic_baseline_add_circle_outline.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 519,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/bulletecho/res/drawable-night-hdpi/applovin_ic_warning_outline.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 907,
+            "mode": "LA"
+        }
+    }
+]

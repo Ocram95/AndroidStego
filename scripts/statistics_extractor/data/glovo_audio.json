@@ -1,0 +1,12 @@
+[
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/raw/ib_core_sound_new_message.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.184,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 17497
+        }
+    }
+]

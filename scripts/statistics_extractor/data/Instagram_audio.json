@@ -1,0 +1,12 @@
+[
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Instagram/res/raw/empty.wav",
+        "type": "wav",
+        "info": {
+            "duration": 0.00036281179138321996,
+            "audio_channels": 1,
+            "sample_rate": 22050,
+            "size_bytes": 58
+        }
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/raw/uikit_sound_toast_error.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.6792,
+            "audio_channels": 2,
+            "sample_rate": 44100,
+            "size_bytes": 15717
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/raw/uikit_sound_toast_confirmation.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.5747,
+            "audio_channels": 2,
+            "sample_rate": 44100,
+            "size_bytes": 13622
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/raw/uikit_sound_pending.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 1.56,
+            "audio_channels": 2,
+            "sample_rate": 48000,
+            "size_bytes": 39570
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/raw/uikit_sound_toast_loading.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 1.25385,
+            "audio_channels": 2,
+            "sample_rate": 44100,
+            "size_bytes": 27207
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/raw/uikit_sound_error.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.4179583333333333,
+            "audio_channels": 2,
+            "sample_rate": 44100,
+            "size_bytes": 12159
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/raw/uikit_sound_send.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.235075,
+            "audio_channels": 2,
+            "sample_rate": 44100,
+            "size_bytes": 9403
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/raw/uikit_sound_warning.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.6792083333333333,
+            "audio_channels": 2,
+            "sample_rate": 44100,
+            "size_bytes": 18436
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/raw/uikit_sound_success_general.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.44408333333333333,
+            "audio_channels": 2,
+            "sample_rate": 44100,
+            "size_bytes": 12793
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/raw/uikit_sound_toast_success.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.9404,
+            "audio_channels": 2,
+            "sample_rate": 44100,
+            "size_bytes": 20939
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/raw/shutter_sound.wav",
+        "type": "wav",
+        "info": {
+            "duration": 0.3842857142857143,
+            "audio_channels": 2,
+            "sample_rate": 44100,
+            "size_bytes": 71884
+        }
+    }
+]

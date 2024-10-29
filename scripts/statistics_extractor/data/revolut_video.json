@@ -1,0 +1,134 @@
+[
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/raw/uikit_video_near_me_search.mp4",
+        "type": "mp4",
+        "info": {
+            "width": 1080,
+            "height": 1080,
+            "duration": 3.0,
+            "fps": 25.0,
+            "size_bytes": 90173
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/raw/uikit_video_onboarding_group_bills.mp4",
+        "type": "mp4",
+        "info": {
+            "width": 1028,
+            "height": 852,
+            "duration": 2.066666666666667,
+            "fps": 15.0,
+            "size_bytes": 138968
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/raw/uikit_video_cards_credit.mp4",
+        "type": "mp4",
+        "info": {
+            "width": 600,
+            "height": 600,
+            "duration": 6.0,
+            "fps": 30.0,
+            "size_bytes": 233017
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/raw/uikit_video_onboarding_subscriptions.mp4",
+        "type": "mp4",
+        "info": {
+            "width": 1028,
+            "height": 852,
+            "duration": 2.066666666666667,
+            "fps": 15.0,
+            "size_bytes": 120038
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/raw/uikit_video_pride.mp4",
+        "type": "mp4",
+        "info": {
+            "width": 352,
+            "height": 352,
+            "duration": 3.033333333333333,
+            "fps": 30.0,
+            "size_bytes": 33466
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/raw/uikit_video_onboarding_rewards.mp4",
+        "type": "mp4",
+        "info": {
+            "width": 1028,
+            "height": 852,
+            "duration": 2.066666666666667,
+            "fps": 15.0,
+            "size_bytes": 223745
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/raw/uikit_video_card_personalisation.mp4",
+        "type": "mp4",
+        "info": {
+            "width": 600,
+            "height": 600,
+            "duration": 2.533333333333333,
+            "fps": 30.0,
+            "size_bytes": 120226
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/raw/uikit_video_onboarding_freelancer.mp4",
+        "type": "mp4",
+        "info": {
+            "width": 686,
+            "height": 568,
+            "duration": 2.3666666666666667,
+            "fps": 30.0,
+            "size_bytes": 110759
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/raw/uikit_video_onboarding_pockets.mp4",
+        "type": "mp4",
+        "info": {
+            "width": 1028,
+            "height": 852,
+            "duration": 2.066666666666667,
+            "fps": 15.0,
+            "size_bytes": 104048
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/raw-night/uikit_video_pride.mp4",
+        "type": "mp4",
+        "info": {
+            "width": 352,
+            "height": 352,
+            "duration": 5.0,
+            "fps": 25.0,
+            "size_bytes": 35284
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/raw-night/uikit_video_near_me_search.mp4",
+        "type": "mp4",
+        "info": {
+            "width": 1080,
+            "height": 1080,
+            "duration": 3.0,
+            "fps": 25.0,
+            "size_bytes": 158555
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/revolut/res/raw-night/uikit_video_card_personalisation.mp4",
+        "type": "mp4",
+        "info": {
+            "width": 600,
+            "height": 600,
+            "duration": 2.533333333333333,
+            "fps": 30.0,
+            "size_bytes": 122962
+        }
+    }
+]

@@ -1,0 +1,662 @@
+[
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable/empty.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 640,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable/filled.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 1009,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xxhdpi/ibg_core_ic_back.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 288,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xxhdpi/push_logo.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1014,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xxhdpi/ic_call_decline.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 628,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xxhdpi/ic_stat_name.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 334,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xxhdpi/ic_stat_glovo_blanc.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1014,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xxhdpi/a3ds2_ic_arrow_down_24.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 310,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xxhdpi/ibg_core_ic_close.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 429,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xxhdpi/chat_sdk_ico_cross.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1217,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xxhdpi/ic_arrow_up.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 352,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xxhdpi/ibg_chat_ic_video_received.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 269,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xxhdpi/ibg_core_ic_record_video.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 796,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xxhdpi/icon_channels.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 350,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xxhdpi/ibg_core_ic_check.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 381,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xxhdpi/ic_call_answer_video.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 384,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xxhdpi/ic_call_answer.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 884,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xxhdpi/ibg_chat_ic_capture_screenshot.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1216,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xhdpi/chat_sdk_ico_cross.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 793,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xhdpi/ibg_core_ic_close.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 244,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xhdpi/com_braze_push_ic_left_arrow.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1808,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xhdpi/ibg_chat_ic_video_received.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 178,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xhdpi/ibg_survey_ic_mcq_unselected.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 915,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xhdpi/ic_call_answer.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 623,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xhdpi/ibg_chat_ic_capture_screenshot.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 674,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xhdpi/ic_stat_glovo_blanc.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 575,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xhdpi/ic_arrow_up.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 266,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xhdpi/ic_call_decline.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 452,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xhdpi/ibg_core_ic_record_video.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 456,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xhdpi/ic_call_answer_video.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 290,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xhdpi/ic_stat_name.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 277,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xhdpi/icon_channels.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 309,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xhdpi/a3ds2_ic_arrow_down_24.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 238,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xhdpi/ibg_core_ic_check.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 203,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xhdpi/com_braze_push_ic_right_arrow.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1859,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xhdpi/ibg_survey_ic_mcq_selected.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1114,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xhdpi/ibg_core_ic_back.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 152,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xhdpi/push_logo.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 575,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-mdpi/abc_btn_check_to_on_mtrl_015.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 321,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-mdpi/avatar.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 1078,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-mdpi/ibg_core_ic_floating_btn.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 374,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-mdpi/ibg_core_ic_avatar.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 863,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 324,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 356,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-mdpi/a3ds2_ic_error_outline_24.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 498,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 214,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-mdpi/chat_sdk_ic_phone_call.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 622,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 173,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-hdpi/abc_btn_check_to_on_mtrl_015.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 404,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-hdpi/ibg_survey_ic_mcq_unselected.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 621,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-hdpi/ibg_survey_ic_mcq_selected.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 745,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-hdpi/abc_btn_radio_to_on_mtrl_015.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 563,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-hdpi/a3ds2_ic_error_outline_24.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 717,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-hdpi/abc_btn_radio_to_on_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 464,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-hdpi/ibg_core_ic_avatar.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 1479,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 227,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-hdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 171,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-hdpi/avatar.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 2019,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-hdpi/chat_sdk_ic_phone_call.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 1009,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-hdpi/ibg_core_ic_floating_btn.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 541,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xxxhdpi/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 631,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/drawable-xxxhdpi/abc_scrubber_control_to_pressed_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 415,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/mipmap-hdpi/ic_glovo_launcher_round.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 4471,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/mipmap-hdpi/ic_glovo_launcher.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 2449,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/mipmap-mdpi/ic_glovo_launcher_round.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 2796,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/glovo/res/mipmap-mdpi/ic_glovo_launcher.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 1665,
+            "mode": "RGBA"
+        }
+    }
+]

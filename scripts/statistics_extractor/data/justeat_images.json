@@ -1,0 +1,722 @@
+[
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 356,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-mdpi/abc_btn_check_to_on_mtrl_015.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 321,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 173,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 324,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 214,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/ic_status_bar_je.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1485,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/belvedere_fam_icon_add_file.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 305,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/ic_call_answer_low.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 884,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/messenger_bubble_large_blue.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1192,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/au10_ic_too_bright.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 875,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/belvedere_ic_check_bg.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 511,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/messenger_bubble_large_white.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 993,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/belvedere_ic_check_circle.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 656,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/ic_call_answer_video_low.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 384,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/ic_call_decline.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 628,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/ic_call_answer_video.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 384,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/messenger_bubble_small_white.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 890,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/belvedere_fam_icon_send.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 424,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/belvedere_ic_camera.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1225,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/ic_call_answer.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 884,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/belvedere_ic_collections.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 468,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/belvedere_ic_file.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 305,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/belvedere_ic_close.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 312,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/belvedere_ic_image.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 488,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/belvedere_fam_icon_close.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 260,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/ic_stat_name.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 334,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/ic_call_decline_low.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 628,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/belvedere_fam_icon_add.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 139,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/messenger_bubble_small_blue.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1043,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxhdpi/belvedere_ic_camera_black.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 628,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-hdpi/abc_btn_radio_to_on_mtrl_015.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 563,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-hdpi/abc_btn_radio_to_on_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 464,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 227,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-hdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 171,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-hdpi/abc_btn_check_to_on_mtrl_015.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 404,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxxhdpi/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 631,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xxxhdpi/abc_scrubber_control_to_pressed_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 415,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/belvedere_ic_camera_black.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 406,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/belvedere_ic_file.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 228,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/belvedere_ic_close.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 233,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/ic_call_answer_video_low.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 290,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/belvedere_ic_collections.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 331,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/ic_call_answer.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 623,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/belvedere_fam_icon_send.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 302,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/com_braze_push_ic_right_arrow.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1859,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/au10_ic_too_bright.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 688,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/belvedere_ic_check_bg.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 421,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/ic_call_decline.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 452,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/com_braze_push_ic_left_arrow.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1808,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/messenger_bubble_large_white.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 713,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/messenger_bubble_small_white.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 613,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/belvedere_ic_check_circle.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 464,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/ic_status_bar_je.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 988,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/belvedere_ic_camera.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 818,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/ic_call_decline_low.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 452,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/ic_call_answer_low.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 623,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/messenger_bubble_small_blue.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 720,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/ic_call_answer_video.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 290,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/belvedere_fam_icon_close.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 206,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/belvedere_fam_icon_add.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 120,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/ic_stat_name.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 277,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/messenger_bubble_large_blue.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 834,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/belvedere_fam_icon_add_file.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 228,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/drawable-xhdpi/belvedere_ic_image.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 331,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/mipmap-mdpi/ic_launcher_lieferando.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 1411,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/mipmap-mdpi/ic_launcher_je.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 1333,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/mipmap-mdpi/ic_launcher_menulog.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 1368,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/mipmap-mdpi/ic_launcher_round.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 2425,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/mipmap-hdpi/ic_launcher_je.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1982,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/mipmap-hdpi/ic_launcher_menulog.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 2007,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/mipmap-hdpi/ic_launcher_lieferando.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 2176,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/justeat/res/mipmap-hdpi/ic_launcher_round.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 3944,
+            "mode": "RGBA"
+        }
+    }
+]

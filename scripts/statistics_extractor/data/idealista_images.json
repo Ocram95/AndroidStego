@@ -1,0 +1,1512 @@
+[
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-hdpi/exo_icon_play.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 233,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-hdpi/exo_icon_pause.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 90,
+            "mode": "1"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-hdpi/exo_icon_shuffle_on.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 268,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-hdpi/exo_icon_shuffle_off.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 265,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-hdpi/abc_btn_radio_to_on_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 464,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-hdpi/exo_icon_fullscreen_enter.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 107,
+            "mode": "1"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-hdpi/abc_btn_check_to_on_mtrl_015.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 404,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-hdpi/exo_icon_previous.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 255,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-hdpi/exo_icon_rewind.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 332,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-hdpi/exo_icon_repeat_all.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 203,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-hdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 171,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-hdpi/exo_icon_fullscreen_exit.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 105,
+            "mode": "1"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-hdpi/exo_icon_vr.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 291,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 227,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-hdpi/exo_icon_next.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 264,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-hdpi/exo_icon_repeat_one.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 223,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-hdpi/abc_btn_radio_to_on_mtrl_015.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 563,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-hdpi/exo_icon_fastforward.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 283,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-hdpi/exo_icon_stop.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 90,
+            "mode": "1"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-hdpi/exo_icon_repeat_off.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 223,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-hdpi/exo_icon_circular_play.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 995,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxxhdpi/ic_check_on.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 540,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxxhdpi/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 631,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxxhdpi/ic_radio_button_checked.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1121,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxxhdpi/ic_check_box_indeterminate.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 254,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxxhdpi/ic_check_box_unchecked.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 251,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxxhdpi/abc_scrubber_control_to_pressed_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 415,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxxhdpi/img_paso1_info.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1090,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxxhdpi/ic_check_off.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 251,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxxhdpi/ic_dot_magenta.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 531,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxxhdpi/ic_radio_button_unchecked.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 930,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxxhdpi/ic_check_box_checked.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 526,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxxhdpi/ic_check_indeterminate.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 251,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/exo_ic_settings.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 574,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_video_magenta.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 650,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_advert_outline.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 147,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_call_decline.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 628,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_checkbox.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 146,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_other_sign_in.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 576,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_warning_bg.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 889,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/exo_ic_fullscreen_enter.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 107,
+            "mode": "1"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_radio_button.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 732,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/exo_ic_chevron_left.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 191,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_close.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 472,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_email.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1181,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/exo_ic_chevron_right.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 191,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/amp_cancel.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 552,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_trash_filled.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 330,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_call_answer_low.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 884,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/exo_ic_fullscreen_exit.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 105,
+            "mode": "1"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_call_decline_low.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 628,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/exo_ic_forward.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 526,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_help_bg.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1335,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_advert_fill.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 138,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_invisible_24dp.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1116,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_eye.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1357,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_password.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 559,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_chevron_down.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 772,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_checkbox_indeterminate.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 154,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_call_answer_video_low.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 384,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_call_answer_video.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 384,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/exo_edit_mode_logo.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 998,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/exo_ic_rewind.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 527,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_edit.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 955,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_checkmark.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 798,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/exo_ic_audiotrack.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 513,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/exo_ic_speed.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 727,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_checkmark_bg.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1254,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_call_answer.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 884,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_building_highlight_fill.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 300,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_phone_filled.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 968,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_ok_16dp.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 991,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_checkbox_checked.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 349,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_no_eye.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1403,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/exo_ic_subtitle_on.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 265,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_heart_black.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 628,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_passkey.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1290,
+            "mode": "P"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_chevron_up.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 766,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/ic_trash_fill.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 207,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/exo_ic_subtitle_off.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 281,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xxhdpi/exo_ic_check.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 236,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/amp_cancel.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 473,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_invisible_24dp.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 721,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_call_decline_low.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 452,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/exo_ic_fullscreen_exit.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 101,
+            "mode": "1"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_checkbox.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 125,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_help_bg.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 903,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_chevron_up.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 533,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/exo_ic_speed.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 501,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/exo_ic_forward.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 361,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_checkbox_checked.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 258,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_call_answer_video_low.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 290,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_other_sign_in.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 455,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/exo_ic_settings.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 386,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/exo_ic_chevron_left.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 153,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_warning_bg.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 636,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_advert_outline.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 133,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_passkey.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 953,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_trash_filled.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 249,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_checkmark_bg.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 826,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_no_eye.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 867,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_call_answer_video.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 290,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/exo_ic_fullscreen_enter.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 101,
+            "mode": "1"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/exo_edit_mode_logo.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 658,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_checkmark.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 527,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_ok_16dp.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 654,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_call_decline.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 452,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_advert_fill.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 117,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_trash_fill.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 174,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_password.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 370,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/exo_ic_subtitle_off.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 214,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_call_answer_low.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 623,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/exo_ic_check.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 192,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/exo_ic_rewind.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 360,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_phone_filled.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 652,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_close.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 347,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_email.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 787,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_checkbox_indeterminate.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 136,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_heart_black.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 467,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/exo_ic_subtitle_on.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 202,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_call_answer.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 623,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_edit.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 638,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_chevron_down.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 533,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/exo_ic_audiotrack.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 346,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/exo_ic_chevron_right.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 153,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_building_highlight_fill.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 244,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_video_magenta.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 473,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_radio_button.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 533,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-xhdpi/ic_eye.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 834,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-mdpi/exo_icon_repeat_one.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 232,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-mdpi/exo_icon_shuffle_on.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 230,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-mdpi/exo_icon_previous.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 180,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-mdpi/abc_btn_check_to_on_mtrl_015.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 321,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-mdpi/exo_icon_repeat_all.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 210,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-mdpi/exo_icon_next.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 209,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 356,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 214,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-mdpi/exo_icon_shuffle_off.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 228,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-mdpi/exo_icon_fullscreen_enter.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 101,
+            "mode": "1"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-mdpi/exo_icon_fastforward.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 217,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-mdpi/exo_icon_vr.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 207,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-mdpi/exo_icon_stop.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 97,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 173,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 324,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-mdpi/exo_icon_fullscreen_exit.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 101,
+            "mode": "1"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-mdpi/exo_icon_play.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 200,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-mdpi/exo_icon_repeat_off.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 227,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-mdpi/exo_icon_pause.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 140,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-mdpi/exo_icon_circular_play.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 672,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-mdpi/exo_icon_rewind.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 217,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/idealista/res/drawable-ldpi/exo_icon_circular_play.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 457,
+            "mode": "LA"
+        }
+    }
+]

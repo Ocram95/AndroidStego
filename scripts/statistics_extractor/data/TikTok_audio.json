@@ -1,0 +1,32 @@
+[
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/TikTok/res/raw/tiktok_customized_tone_v2.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.115918367346939,
+            "audio_channels": 2,
+            "sample_rate": 44100,
+            "size_bytes": 9926
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/TikTok/res/raw/now_photo.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.72,
+            "audio_channels": 2,
+            "sample_rate": 24000,
+            "size_bytes": 3866
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/TikTok/res/raw/tiktok_customized_tone.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 1.296,
+            "audio_channels": 2,
+            "sample_rate": 32000,
+            "size_bytes": 8541
+        }
+    }
+]

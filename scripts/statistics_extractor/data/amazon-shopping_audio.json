@@ -1,0 +1,92 @@
+[
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/amazon-shopping/res/raw/mshop_alexa_earcon_listening.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.75,
+            "audio_channels": 2,
+            "sample_rate": 48000,
+            "size_bytes": 23593
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/amazon-shopping/res/raw/mshop_alexa_earcon_endpointing.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.772,
+            "audio_channels": 2,
+            "sample_rate": 48000,
+            "size_bytes": 24745
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/amazon-shopping/res/raw/mshop_alexa_earcon_cancel.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 1.108,
+            "audio_channels": 1,
+            "sample_rate": 48000,
+            "size_bytes": 41518
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/amazon-shopping/res/raw/va_system_state_mshop_results_delivered.wav",
+        "type": "wav",
+        "info": {
+            "duration": 0.9268333333333333,
+            "audio_channels": 2,
+            "sample_rate": 48000,
+            "size_bytes": 177996
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/amazon-shopping/res/raw/failure_tone.wav",
+        "type": "wav",
+        "info": {
+            "duration": 0.6,
+            "audio_channels": 1,
+            "sample_rate": 22050,
+            "size_bytes": 26504
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/amazon-shopping/res/raw/success_tone.wav",
+        "type": "wav",
+        "info": {
+            "duration": 0.5,
+            "audio_channels": 1,
+            "sample_rate": 22050,
+            "size_bytes": 22094
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/amazon-shopping/res/raw/va_system_state_mshop_listening.wav",
+        "type": "wav",
+        "info": {
+            "duration": 0.4,
+            "audio_channels": 1,
+            "sample_rate": 48000,
+            "size_bytes": 38480
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/amazon-shopping/res/raw/va_system_state_mshop_endpointing.wav",
+        "type": "wav",
+        "info": {
+            "duration": 0.5,
+            "audio_channels": 1,
+            "sample_rate": 48000,
+            "size_bytes": 48080
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/amazon-shopping/res/raw/va_system_state_mshop_cancel.wav",
+        "type": "wav",
+        "info": {
+            "duration": 1.0,
+            "audio_channels": 1,
+            "sample_rate": 48000,
+            "size_bytes": 96080
+        }
+    }
+]

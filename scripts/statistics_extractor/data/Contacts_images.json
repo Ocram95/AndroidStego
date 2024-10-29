@@ -1,0 +1,122 @@
+[
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Contacts/res/drawable-hdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 171,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Contacts/res/drawable-hdpi/abc_btn_check_to_on_mtrl_015.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 404,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Contacts/res/drawable-hdpi/abc_btn_radio_to_on_mtrl_015.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 563,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Contacts/res/drawable-hdpi/abc_btn_radio_to_on_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 464,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Contacts/res/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 227,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Contacts/res/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 214,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Contacts/res/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 173,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Contacts/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 324,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Contacts/res/drawable-mdpi/abc_btn_check_to_on_mtrl_015.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 321,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Contacts/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png",
+        "type": "png",
+        "info": {
+            "width": 32,
+            "height": 32,
+            "size_bytes": 356,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Contacts/res/drawable-xxxhdpi/abc_scrubber_control_to_pressed_mtrl_000.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 415,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Contacts/res/drawable-xxxhdpi/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 631,
+            "mode": "LA"
+        }
+    }
+]

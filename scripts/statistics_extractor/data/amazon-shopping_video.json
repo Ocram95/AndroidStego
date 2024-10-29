@@ -1,0 +1,57 @@
+[
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/amazon-shopping/res/raw/table_top_onboarding.mp4",
+        "type": "mp4",
+        "info": {
+            "width": 480,
+            "height": 290,
+            "duration": 5.22,
+            "fps": 50.0,
+            "size_bytes": 76503
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/amazon-shopping/res/raw/furniture_drag_and_rotate.mp4",
+        "type": "mp4",
+        "info": {
+            "width": 280,
+            "height": 168,
+            "duration": 9.96,
+            "fps": 50.0,
+            "size_bytes": 108469
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/amazon-shopping/res/raw/table_top_drag_and_rotate.mp4",
+        "type": "mp4",
+        "info": {
+            "width": 600,
+            "height": 362,
+            "duration": 9.29,
+            "fps": 100.0,
+            "size_bytes": 143510
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/amazon-shopping/res/raw/rotate_phone.mp4",
+        "type": "mp4",
+        "info": {
+            "width": 560,
+            "height": 338,
+            "duration": 2.7,
+            "fps": 20.0,
+            "size_bytes": 140837
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/amazon-shopping/res/raw/onboarding.mp4",
+        "type": "mp4",
+        "info": {
+            "width": 280,
+            "height": 170,
+            "duration": 6.0,
+            "fps": 50.0,
+            "size_bytes": 88222
+        }
+    }
+]

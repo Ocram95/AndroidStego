@@ -1,0 +1,52 @@
+[
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/mcdonalds/res/drawable-hdpi/back_white.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 184,
+            "mode": "LA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/mcdonalds/res/mipmap-hdpi/mcd_launcher.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 1856,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/mcdonalds/res/mipmap-hdpi/mcd_launcher_round.png",
+        "type": "png",
+        "info": {
+            "width": 72,
+            "height": 72,
+            "size_bytes": 3625,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/mcdonalds/res/mipmap-mdpi/mcd_launcher.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 1272,
+            "mode": "RGBA"
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/mcdonalds/res/mipmap-mdpi/mcd_launcher_round.png",
+        "type": "png",
+        "info": {
+            "width": 48,
+            "height": 48,
+            "size_bytes": 2314,
+            "mode": "RGBA"
+        }
+    }
+]

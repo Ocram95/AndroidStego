@@ -1,0 +1,122 @@
+[
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Telegram/res/raw/voicechat_join.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.40658333333333335,
+            "audio_channels": 2,
+            "sample_rate": 48000,
+            "size_bytes": 18240
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Telegram/res/raw/voip_onallowtalk.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 1.0,
+            "audio_channels": 2,
+            "sample_rate": 48000,
+            "size_bytes": 15744
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Telegram/res/raw/voip_busy.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 1.152,
+            "audio_channels": 1,
+            "sample_rate": 8000,
+            "size_bytes": 1184
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Telegram/res/raw/voicechat_leave.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.17579166666666668,
+            "audio_channels": 2,
+            "sample_rate": 48000,
+            "size_bytes": 9600
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Telegram/res/raw/voip_recordstart.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 1.0,
+            "audio_channels": 2,
+            "sample_rate": 48000,
+            "size_bytes": 17616
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Telegram/res/raw/voip_connecting.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 3.536,
+            "audio_channels": 1,
+            "sample_rate": 11025,
+            "size_bytes": 7104
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Telegram/res/raw/voip_end.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 1.152,
+            "audio_channels": 1,
+            "sample_rate": 8000,
+            "size_bytes": 1184
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Telegram/res/raw/voicechat_connecting.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 3.456,
+            "audio_channels": 2,
+            "sample_rate": 48000,
+            "size_bytes": 65496
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Telegram/res/raw/voip_ringback.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 6.192,
+            "audio_channels": 1,
+            "sample_rate": 8000,
+            "size_bytes": 6224
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Telegram/res/raw/voip_failed.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 1.092,
+            "audio_channels": 1,
+            "sample_rate": 11025,
+            "size_bytes": 2216
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Telegram/res/raw/sound_in.wav",
+        "type": "wav",
+        "info": {
+            "duration": 0.14222222222222222,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12590
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/Telegram/res/raw/sound_out.wav",
+        "type": "wav",
+        "info": {
+            "duration": 0.09873015873015872,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 8780
+        }
+    }
+]

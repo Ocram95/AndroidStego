@@ -1,0 +1,42 @@
+[
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/youtube_music/res/raw/success.wav",
+        "type": "wav",
+        "info": {
+            "duration": 0.42425,
+            "audio_channels": 1,
+            "sample_rate": 16000,
+            "size_bytes": 17672
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/youtube_music/res/raw/no_input.wav",
+        "type": "wav",
+        "info": {
+            "duration": 0.5,
+            "audio_channels": 1,
+            "sample_rate": 16000,
+            "size_bytes": 20096
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/youtube_music/res/raw/open.wav",
+        "type": "wav",
+        "info": {
+            "duration": 0.2706575963718821,
+            "audio_channels": 2,
+            "sample_rate": 44100,
+            "size_bytes": 47788
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/youtube_music/res/raw/failure.wav",
+        "type": "wav",
+        "info": {
+            "duration": 0.4375,
+            "audio_channels": 1,
+            "sample_rate": 16000,
+            "size_bytes": 18096
+        }
+    }
+]

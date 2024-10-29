@@ -1,0 +1,572 @@
+[
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_e3.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.6644897959183673,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12474
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/adventures_background_music.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 70.90225,
+            "audio_channels": 1,
+            "sample_rate": 22050,
+            "size_bytes": 290326
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_e_flat3.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.6383673469387756,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12608
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_c5.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.507755102040816,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12526
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_e_flat4.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.5338775510204083,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12037
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_f_sharp3.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.6122448979591835,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12297
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/se_stats_audio_2.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.8224,
+            "audio_channels": 2,
+            "sample_rate": 48000,
+            "size_bytes": 23768
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_f_sharp4.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.507755102040816,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 13052
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/single_tick.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.28104308390022675,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 4157
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_a_sharp5.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 1.4628571428571429,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 7591
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/neutral_answer.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.9090625,
+            "audio_channels": 2,
+            "sample_rate": 44100,
+            "size_bytes": 18641
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_b5.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 1.5673469387755101,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 8313
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/se_stats_audio_3.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.8224,
+            "audio_channels": 2,
+            "sample_rate": 48000,
+            "size_bytes": 23768
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/adventures_item_get.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.8620408163265306,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 3881
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_e4.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.507755102040816,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12136
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_e_flat5.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.1681632653061222,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 10815
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_a4.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.56,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12577
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/right_answer.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 1.1661678004535148,
+            "audio_channels": 2,
+            "sample_rate": 44100,
+            "size_bytes": 30092
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/adventures_goal_appear.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.4963265306122449,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 2418
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_c4.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.5861224489795918,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 13306
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_g_sharp4.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.56,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 13052
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/adventures_state_unhide.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.5746938775510204,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 2732
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_a3.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.5861224489795918,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12577
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_d5.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.3248979591836734,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 11226
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/adventures_tap_ground.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.4440816326530612,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 2209
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/lesson_complete.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.382947845804989,
+            "audio_channels": 2,
+            "sample_rate": 44100,
+            "size_bytes": 58931
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_b3.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.5861224489795918,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12810
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_f_sharp5.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.507755102040816,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12220
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_e5.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.089795918367347,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 10732
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_c_sharp3.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.6122448979591835,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12349
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_g5.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.5338775510204083,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12240
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/adventures_choice_distractor.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.4963265306122449,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 2418
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_c6.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 1.5151020408163265,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 8002
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_d3.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.6644897959183673,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12603
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_g3.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.8212244897959184,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 14034
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/se_stats_audio_1.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.8224,
+            "audio_channels": 2,
+            "sample_rate": 48000,
+            "size_bytes": 23768
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/adventures_state_hide.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.3657142857142857,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 1896
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/adventures_tap_object.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.9142857142857143,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 4090
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_f4.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.507755102040816,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12994
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_f3.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.6644897959183673,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12473
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_f5.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.507755102040816,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12292
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_g_sharp5.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 1.619591836734694,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 8554
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/adventures_walking_stop.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.23510204081632652,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 1373
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/adventures_walking_loop.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.7053061224489796,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 3254
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_c3.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.6122448979591835,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12135
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_d4.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.5338775510204083,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12474
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_a_sharp4.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.5338775510204083,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12271
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_a_sharp3.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.56,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12791
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_a5.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 1.4889795918367348,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 7871
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_c_sharp4.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.56,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 13441
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_b4.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.507755102040816,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12525
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/wrong_answer.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 1.0397052154195012,
+            "audio_channels": 2,
+            "sample_rate": 44100,
+            "size_bytes": 26957
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/adventures_speech_bubble_appear.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 0.626938775510204,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 2941
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_c_sharp5.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.5338775510204083,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12532
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_g4.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.507755102040816,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12838
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/lesson_failed.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.789092970521542,
+            "audio_channels": 2,
+            "sample_rate": 44100,
+            "size_bytes": 68962
+        }
+    },
+    {
+        "file": "/mnt/Stegomalware/APK_Stego/decoded/duolingo/res/raw/piano_g_sharp3.mp3",
+        "type": "mp3",
+        "info": {
+            "duration": 2.5861224489795918,
+            "audio_channels": 1,
+            "sample_rate": 44100,
+            "size_bytes": 12713
+        }
+    }
+]

@@ -1,3 +1,6 @@
 .stegoenv
 statistics_extractor/*
 !statistics_extractor/*.py
+**/.DS_Store
+LSB_tmp/
+OceanLotus_tmp/

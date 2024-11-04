@@ -82,7 +82,7 @@ def main():
         apkdecode(input_apks)
 
     if statistics:
-        files = find_files(os.path.join(input_apks, 'decoded'))
+        files = find_files(os.path.join(input_apks, 'decoded', 'decoded_original'))
         info = {
             'images': {'jpg': [], 'gif': [], 'jpeg': [], 'png': [], 'bmp': []},
             'audio': {'mp3': [], 'wav': []},

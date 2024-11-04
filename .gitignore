@@ -6,4 +6,4 @@ LSB_tmp/
 OceanLotus_tmp/
 scripts/*/*.log
 download_apks/*
-
+__pycache__/

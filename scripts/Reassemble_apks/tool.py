@@ -337,7 +337,8 @@ class ApkSigner(object):
             # output = subprocess.check_output(sign_cmd, stderr=subprocess.STDOUT).strip()
             # print(output.decode(errors="replace"))
             # return output.decode(errors="replace")
-            subprocess.check_call(sign_cmd, stderr=subprocess.STDOUT).strip()
+            subprocess.check_call(sign_cmd, stderr=subprocess.STDOUT)
+            return "Signed"
             # print(output.decode(errors="replace"))
             # result = subprocess.run(sign_cmd, check=True, capture_output=True, text=True)
             # print(result.stdout)

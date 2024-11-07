@@ -157,8 +157,10 @@ class Apktool(object):
         ]"""
         build_cmd: List[str] = [
             self.apktool_path,
+            "--frame-path",
+            tempfile.gettempdir(),
             "b",
-            # "--force-all",
+            "--force-all",
             # "-r",
             source_dir_path,
             "-o",
@@ -329,11 +331,17 @@ class ApkSigner(object):
         if key_password:
             sign_cmd.insert(-1, "--key-pass")
             sign_cmd.insert(-1, f"pass:{key_password}")
-
+        print(sign_cmd)
         try:
             self.logger.info('Running sign command "{0}"'.format(" ".join(sign_cmd)))
-            output = subprocess.check_output(sign_cmd, stderr=subprocess.STDOUT).strip()
-            return output.decode(errors="replace")
+            # output = subprocess.check_output(sign_cmd, stderr=subprocess.STDOUT).strip()
+            # print(output.decode(errors="replace"))
+            # return output.decode(errors="replace")
+            subprocess.check_call(sign_cmd, stderr=subprocess.STDOUT).strip()
+            # print(output.decode(errors="replace"))
+            # result = subprocess.run(sign_cmd, check=True, capture_output=True, text=True)
+            # print(result.stdout)
+            # return result.stdout
         except subprocess.CalledProcessError as e:
             self.logger.error(
                 "Error during sign command: {0}".format(
@@ -392,7 +400,9 @@ class ApkSigner(object):
                 "Error during the removal of the old signature: {0}".format(e)
             )
             raise
-
+        
+        
         return self.sign(
             apk_path, keystore_file_path, keystore_password, key_alias, key_password
         )
+    

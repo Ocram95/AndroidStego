@@ -211,9 +211,7 @@ def main():
                 data[result[0]] = result[1] 
         with open(data_rebuilt, 'w') as f_json:
             f_json.write(json.dumps(data, indent=2))
-        break
 
-    
 
 if __name__ == '__main__':
     logger.remove()

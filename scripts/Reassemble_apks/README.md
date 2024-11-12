@@ -24,3 +24,5 @@ where the decoded_path arg points to a directory organized as follows:
 and the output_path points to a directory organized as follows:
     - apk_orginal/, where the original apks are stored.
     - apk_stego/, where the modified apks will be stored.
+
+The directory `data_rebuilt` contains the json with the hashes of new rebuilt applications, and the combinations of modified assets and the path where to copy the asset.

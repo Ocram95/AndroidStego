@@ -353,6 +353,13 @@ for image in images[:]:
 		output_image = Image.fromarray(pixels_list_array)
 		output_image.save(image.replace("assets", "LSB/Sequential",1))
 
+		l, a = parse_LA_image(image)
+		print("OCEANLOTUS, LSB: " + image)
+		new_pixels_list = encode_LSB_LA(l,a, secret_in_chunks, original_width, original_height)
+		pixels_list_array = np.array(new_pixels_list, dtype=np.uint8)
+		output_image = Image.fromarray(pixels_list_array)
+		output_image.save(image.replace("assets", "LSB/Sequential",1))
+
 	elif mode == '1':
 		print("SEQUENTIAL, LSB: " + image)
 		new_pixels = encode_LSB_mode1(img, secret_in_chunks)

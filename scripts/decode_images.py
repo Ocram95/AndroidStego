@@ -196,6 +196,18 @@ def divide_string(string, lengths):
 
 	return split_list
 
+
+def bits_to_string(bits):
+	result = ""
+	for i in range(0, len(bits), 8):
+		byte = bits[i:i+8]
+		byte_str = ''.join(map(str, byte))
+		byte_int = int(byte_str, 2)
+		result += chr(byte_int)
+
+	return result
+
+
 secret = '''methode.setAccessible(true);methode.invoke(null,this.b,this.c,this.a);ag.g[8]="rrqnDG4dja7Ga5ZdAuD77CY";ag.g[9]="xodOhs"'''
 
 
@@ -203,7 +215,7 @@ secret_in_bits = read_secret(secret)
 secret_in_chunks = [secret_in_bits[i:i+1] for i in range(0, len(secret_in_bits), 1)]
 
 
-images = get_images('../LSB/Sequential/')
+images = get_images('../assets/stego_assets/LSB/Sequential/')
 for image in images:
 	img = Image.open(image)
 	mode = img.mode
@@ -211,10 +223,12 @@ for image in images:
 		r,g,b,_a = parse_RGB_image(image)
 		output = decode_LSB_RGB(r,g,b)
 		secret_correctly_encoded(secret_in_chunks, output)
+		print(bits_to_string(output)[:len(secret)])
 	elif mode == "LA":
 		l, _a = parse_LA_image(image)
 		output = decode_LSB_LA(l)
 		secret_correctly_encoded(secret_in_chunks, output)
+		print(bits_to_string(output)[:len(secret)])
 	elif mode == "1":
 		img = Image.open(image)
 		output = decode_LSB_mode1(img)
@@ -224,7 +238,7 @@ for image in images:
 		output, len_palette = decode_LSB_palette(img)
 		secret_correctly_encoded_palette(secret_in_chunks, output, len_palette)
 
-images = get_images('../OceanLotus/Sequential/')
+images = get_images('../assets/stego_assets/OceanLotus/Sequential/')
 for image in images:
 	img = Image.open(image)
 	mode = img.mode
@@ -240,7 +254,7 @@ for image in images:
 
 secret_split = split_secret(secret)
 
-images = get_images('../LSB/Squares/')
+images = get_images('../assets/stego_assets/LSB/Squares/')
 for image in images:
 	img = Image.open(image)
 	mode = img.mode
@@ -259,7 +273,7 @@ for image in images:
 
 
 
-images = get_images('../OceanLotus/Squares/')
+images = get_images('../assets/stego_assets/OceanLotus/Squares/')
 for image in images:
 	img = Image.open(image)
 	mode = img.mode

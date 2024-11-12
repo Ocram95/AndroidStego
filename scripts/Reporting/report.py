@@ -4,7 +4,7 @@ import os
 
 def get_arguments()-> ArgumentParser:
     
-    parser = ArgumentParser(description="Reassemble the apk with the stegoassets. Requirements: apktool, apksigner, zipalign and budledecompile")
+    parser = ArgumentParser(description="Report with VT")
     parser.add_argument('--input_path', type=str, help="Path to the input apks. Default: /mnt/Stegomalware/APK_Stego/apk/apk_stego")
     parser.add_argument('--output_path', type=str, help="Path where to save the report. Default: /mnt/Stegomalware/APK_Stego/apk/reports/vt")
     parser.add_argument('--vt_key', type=str, required=True, help="API key VirusTotal")

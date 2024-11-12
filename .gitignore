@@ -10,3 +10,4 @@ __pycache__/
 scripts/Reassemble_apks/resources/*
 scripts/Reassemble_apks/data_rebuilt/*
 scripts/Reassemble_apks/sign_apk.sh
+nohup.out

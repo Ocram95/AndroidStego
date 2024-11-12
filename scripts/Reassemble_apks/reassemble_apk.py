@@ -55,38 +55,38 @@ def rebuild(source_dir_path: str, output_apk_path: str, keystore_path: str, keys
     apktool.build(source_dir_path, output_apk_path)
     # if the build goes well the output_apk_path contains the new apk
     try:
+        logger.info(f"App Rebuilt ...")
+    
+        # sign the application and realign it
+        apksigner.resign(output_apk_path,
+                        keystore_path,
+                        keystore_password,
+                        alias,
+                        key_password)
+        """command = [
+                    "./sign_apk.sh",  # Path to your shell script
+                    new_path,
+                    keystore_path,
+                    alias,
+                    keystore_password,
+                    key_password
+                ]
+        """
+        # command = " ".join(command)
+        # result = subprocess.run(command, shell=True, check=True, capture_output=True, text=True)
+        # print(result.stdout, result.stderr)
+        # subprocess.check_call(command, shell=False)
+        # os.system(command)
+        zipalign.align(output_apk_path)
         # compute the hash of the rebuilt application
         hash = sha256sum(output_apk_path)
+        # rename the app with the hash
+        new_path = os.path.join(output_apk_path.rsplit(os.path.sep, 1)[0], f'{hash}.apk')
+        os.rename(output_apk_path, new_path)
+        logger.info(f"Signed and aligned ...")
     except FileNotFoundError as e:
         print(e)
         return None
-
-    # rename the app with the hash
-    new_path = os.path.join(output_apk_path.rsplit(os.path.sep, 1)[0], f'{hash}.apk')
-    os.rename(output_apk_path, new_path)
-    logger.info(f"App Rebuilt ...")
-    # sign the application and realign it
-    apksigner.resign(new_path,
-                    keystore_path,
-                    keystore_password,
-                    alias,
-                    key_password)
-    """command = [
-                "./sign_apk.sh",  # Path to your shell script
-                new_path,
-                keystore_path,
-                alias,
-                keystore_password,
-                key_password
-            ]
-    """
-    # command = " ".join(command)
-    # result = subprocess.run(command, shell=True, check=True, capture_output=True, text=True)
-    # print(result.stdout, result.stderr)
-    # subprocess.check_call(command, shell=False)
-    # os.system(command)
-    zipalign.align(new_path)
-    logger.info(f"Signed and aligned ...")
     
     return hash
 
@@ -133,10 +133,11 @@ def copy_and_reassemble(combination: tuple, statistics_path: str, app: str, outp
         typology, asset_name = c.rsplit(os.path.sep, 2)[-2:]
         # find the file path to change
         asset_path = find_file_path(statistics_path, app, asset_name, typology)
-        assets.append(asset_path)
-        copy2(c, os.path.join(dst_path, asset_path))
-    
-        logger.info(f"Copied assets {c} in {asset_path} ...")
+        if asset_path is not None:
+            assets.append(asset_path)
+            copy2(c, os.path.join(dst_path, asset_path))
+        
+            logger.info(f"Copied assets {c} in {asset_path} ...")
 
     hash = rebuild(os.path.join(dst_path, app), output_path, keystore_path, keystore_password, 
                    alias, key_password)
@@ -157,10 +158,15 @@ def main():
         output_path = os.path.join('/mnt', 'Stegomalware', 'APK_Stego', 'apk', 'apk_stego')
     
     statistics_path = os.path.join('..', 'statistics_extractor', 'data')
+    done_apks = ['Contacts', 'shein', 'Telegram',
+                 'Eurospin', 'bulletecho', 'Facebook', 'glovo',
+                 'Instagram', 'WhatsAppMessenger', 'youtube_music',
+                 'amazon-shopping', 'candyCrush', 'duolingo', 'flixbus',
+                 'idealista', 'justeat', 'mcdonalds', 'revolut',
+                 'TikTok']
     # loop over all the apps to rebuild
     for app in os.listdir(os.path.join(decoded_path, 'decoded_original')):
-        app = 'Telegram'
-        if 'Contact' in app or 'shein' in app or 'Eurospin' in app:
+        if app in done_apks:
             continue
         logger.info(f"Starting with {app} ...")
         # find the assets modified in the assets directory
@@ -214,6 +220,7 @@ def main():
 
 
 if __name__ == '__main__':
-    logger.remove()
-    logger.add('logger_repackaging.log', format="{time:DD/MM HH:mm} - {message}")
-    main()
+    #logger.remove()
+    #logger.add('logger_repackaging.log', format="{time:DD/MM HH:mm} - {message}")
+    #main()
+    pass

@@ -59,8 +59,10 @@ def find_file_path(statistics_path: str, app: str, asset_name:str, type:str)->st
     cmd = f"grep '{asset_name}' {statistics_path}/{app}_{type}.json"
     process = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
     output, error = process.communicate()
-    
-    return output.split()[1][1:-2].split(os.path.sep, 5)[-1]
+    try:
+        return output.split()[1][1:-2].split(os.path.sep, 5)[-1]
+    except IndexError:
+        return None
 
 def get_file_hash(file_path: str, hash_function, block_size=65536) -> str:
         with open(file_path, "rb", buffering=0) as f:

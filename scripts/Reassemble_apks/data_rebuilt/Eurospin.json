@@ -1,0 +1,28 @@
+{
+  "9d5dcf001edc6197e62f381bd07768244c9ee15760f77a8e5e38f08ee5e94dae": [
+    [
+      "../../assets/stego_assets/LSB/Sequential/Eurospin/images/abc_btn_check_to_on_mtrl_000.png",
+      "../../assets/stego_assets/LSB/Sequential/Eurospin/images/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    ],
+    [
+      "Eurospin/res/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png",
+      "Eurospin/res/drawable-xxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    ]
+  ],
+  "8eff1199591653a704afddf44b95331ba85beb51bf574e7c1ea91a27e1fd0281": [
+    [
+      "../../assets/stego_assets/LSB/Sequential/Eurospin/images/abc_btn_check_to_on_mtrl_000.png"
+    ],
+    [
+      "Eurospin/res/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png"
+    ]
+  ],
+  "2b5e4ae5ce4a7abbfc7a8429a263a538b955649e69491410ae55e6d18d79f130": [
+    [
+      "../../assets/stego_assets/LSB/Sequential/Eurospin/images/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    ],
+    [
+      "Eurospin/res/drawable-xxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    ]
+  ]
+}

@@ -158,12 +158,8 @@ def main():
         output_path = os.path.join('/mnt', 'Stegomalware', 'APK_Stego', 'apk', 'apk_stego')
     
     statistics_path = os.path.join('..', 'statistics_extractor', 'data')
-    done_apks = ['Contacts', 'shein', 'Telegram',
-                 'Eurospin', 'bulletecho', 'Facebook', 'glovo',
-                 'Instagram', 'WhatsAppMessenger', 'youtube_music',
-                 'amazon-shopping', 'candyCrush', 'duolingo', 'flixbus',
-                 'idealista', 'justeat', 'mcdonalds', 'revolut',
-                 'TikTok']
+
+    done_apks = [done.replace('.json', '') for done in os.listdir('data_rebuilt')]
     # loop over all the apps to rebuild
     for app in os.listdir(os.path.join(decoded_path, 'decoded_original')):
         if app in done_apks:

@@ -28,7 +28,7 @@ def get_arguments() -> ArgumentParser:
     
     return args
 
-def apkdecode(input_apks: str):
+def apkdecode(input_apks: str, done: list):
     """
     Decode apk in input_apks folder
 
@@ -36,8 +36,12 @@ def apkdecode(input_apks: str):
     -------
     input_apks: str
         path of the apks to decode
+    done: list
+        done apk not to decode
     """
     for app in os.listdir(os.path.join(input_apks, 'apk')):
+        if app in done:
+            continue
         name = app.split('.')[0]
         if not os.path.exists(os.path.join(input_apks, 'decoded', name)):
             print(f"[+] Decoding {name}")

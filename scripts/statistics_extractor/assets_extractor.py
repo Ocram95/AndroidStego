@@ -10,8 +10,11 @@ def main():
     
     data = os.path.join('./data')
     data_files = list(set(glob.glob(os.path.join(data, '*_*.json'))) - set(glob.glob(os.path.join(data, 'stats_*.json'))))
-    
+    input_apks = os.path.join('/mnt', 'Stegomalware', 'APK_Stego')
+    done = [d for d in os.listdir(os.path.join(input_apks, 'decoded', 'decoded_original'))]
     for data in data_files:
+        if data.split('_')[0] in done:
+            continue
         with open(data, 'r') as fp:
             data_loaded = load(fp)
         path = os.path.join('/mnt', 'Stegomalware', 'APK_Stego', 'assets', data.split('/')[2].split('_')[0])

@@ -20,18 +20,18 @@ def main():
         input_path = os.path.join("/mnt", 'Stegomalware', 'APK_Stego', 'apk', 'apk_stego')
     output_path = args.output_path
     if output_path is None:
-        output_path = os.path.join("/mnt", 'Stegomalware', 'APK_Stego', 'apk', 'reports', 'vt')
+        output_path = os.path.join("./vt_reports")
     vt_key = args.vt_key
-    
-    vt = VirusTotal(vt_key, output_path)
+
     
     done_reports = [app.replace('.json', '.apk') for app in os.listdir(output_path)]
-    
+    print(done_reports)
     for app in os.listdir(input_path):
         if app in done_reports:
             continue
         print(app)
-        vt.analyse_apk(os.path.join(input_path, app))   
+        vt = VirusTotal(vt_key, output_path)
+        vt.analyse_apk(os.path.join(input_path, app))
 
 if __name__ == "__main__":
     main()

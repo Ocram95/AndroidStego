@@ -162,7 +162,9 @@ def main():
     done_apks = [done.replace('.json', '') for done in os.listdir('./data_rebuilt')]
     # loop over all the apps to rebuild
     for app in os.listdir(os.path.join(decoded_path, 'decoded_original')):
-        if app in done_apks:
+        # if app in done_apks:
+        #    continue
+        if app not in ['amazon-shopping', 'Telegram', 'bulletecho', 'candyCrush', 'Eurospin', 'flixbus', 'duolingo']:
             continue
         logger.info(f"Starting with {app} ...")
         # find the assets modified in the assets directory
@@ -216,7 +218,7 @@ def main():
 
 
 if __name__ == '__main__':
-    #logger.remove()
-    #logger.add('logger_repackaging.log', format="{time:DD/MM HH:mm} - {message}")
-    #main()
-    pass
+    logger.remove()
+    logger.add('logger_repackaging1.log', format="{time:DD/MM HH:mm} - {message}")
+    main()
+    # pass

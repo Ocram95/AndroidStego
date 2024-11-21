@@ -1,99 +1,43 @@
 {
-  "5378737053a50176ddbf99fa4c4b2e73e4e95ac95ab89520de661e63d2482a85": [
+  "482f1466779a7d16aac9fc6f517d1b29cb99483ae87bda3d3823f026c3dee31c": [
     [
       "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_mini_addstory.png",
+      "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3",
+      "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
+    ],
+    [
+      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
+      "Telegram/res/raw/voicechat_join.mp3",
+      "Telegram/res/raw/voip_onallowtalk.mp3"
+    ]
+  ],
+  "229ee0882359bd44cb378ae4c649ec3ca4acbe07088b86bd0dd802e67bc42bc1": [
+    [
+      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_mini_addstory.png",
+      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png",
       "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3"
     ],
     [
       "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
+      "Telegram/res/drawable-xxhdpi/msg_colors.png",
       "Telegram/res/raw/voicechat_join.mp3"
     ]
   ],
-  "704467249e27bd2ece8efce88a55c099543ee71b30da4eacdda7c491b845f9c3": [
-    [
-      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_mini_addstory.png",
-      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_colors.png",
-      "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
-    ],
-    [
-      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
-      "Telegram/res/drawable-xxhdpi/msg_colors.png",
-      "Telegram/res/raw/voip_onallowtalk.mp3"
-    ]
-  ],
-  "9e959e7f2f164b375b69e69780e2548b81ec97a0a15d825c6d36745edef936af": [
-    [
-      "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
-    ],
-    [
-      "Telegram/res/raw/voip_onallowtalk.mp3"
-    ]
-  ],
-  "da8b36ea61a1bb73ab5f2cb608686b7c9299e071ce52e5b16e55c2568c393955": [
+  "47df1d5b0ef8dda5ea464cee69b66326b1a3e8fe221426460325522f2eb4f562": [
     [
       "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_mini_addstory.png",
       "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_colors.png",
-      "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3"
-    ],
-    [
-      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
-      "Telegram/res/drawable-xxhdpi/msg_colors.png",
-      "Telegram/res/raw/voicechat_join.mp3"
-    ]
-  ],
-  "91bfbe0899b5bf3d375cf689763f9778ad61f6d4e91e16245cc490569de192d3": [
-    [
-      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_mini_addstory.png"
-    ],
-    [
-      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png"
-    ]
-  ],
-  "999c0eb799def818d68474c1ae8d2510f85758ea9ed3998e0fcd3f075c806023": [
-    [
-      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png",
-      "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3",
-      "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
-    ],
-    [
-      "Telegram/res/drawable-xxhdpi/msg_colors.png",
-      "Telegram/res/raw/voicechat_join.mp3",
-      "Telegram/res/raw/voip_onallowtalk.mp3"
-    ]
-  ],
-  "c49c93eabf1e4990c2679bf8efdd0cae1ab5d2db764c93da6b92489b5b057e92": [
-    [
-      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png"
-    ],
-    [
-      "Telegram/res/drawable-xxhdpi/msg_colors.png"
-    ]
-  ],
-  "410473020f2b55dd4e1fdc2b407f1194b2696f25037c7046a6d46646a21905f8": [
-    [
-      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png",
-      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_mini_addstory.png",
-      "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
-    ],
-    [
-      "Telegram/res/drawable-xxhdpi/msg_colors.png",
-      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
-      "Telegram/res/raw/voip_onallowtalk.mp3"
-    ]
-  ],
-  "efb36c7e2b22e92bca7cba4547abe788bbc91467b48f0e542e96224bddd3997f": [
-    [
-      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_mini_addstory.png",
       "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3",
       "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
     ],
     [
       "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
+      "Telegram/res/drawable-xxhdpi/msg_colors.png",
       "Telegram/res/raw/voicechat_join.mp3",
       "Telegram/res/raw/voip_onallowtalk.mp3"
     ]
   ],
-  "595d4f88c34ae44b7386569363ba1876bd7697a7db63f59c7388bed133f9a4c3": [
+  "ccb12fbc5b5a8cd951469e317c5c234c86ccb78c41acab451863171f6a93de51": [
     [
       "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_mini_addstory.png",
       "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_colors.png"
@@ -103,10 +47,10 @@
       "Telegram/res/drawable-xxhdpi/msg_colors.png"
     ]
   ],
-  "dfbece20ccd5a75c062257f3947a7ee5389cb58532f671e71f9e353e04d007b1": [
+  "ab9434a6fc068d17c1b18e273e369d9411f159961aa7e09bf92127d123fa7a8f": [
     [
       "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_mini_addstory.png",
-      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png",
+      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_colors.png",
       "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3"
     ],
     [
@@ -115,7 +59,175 @@
       "Telegram/res/raw/voicechat_join.mp3"
     ]
   ],
-  "4b47d9e0651937d1e2c826c3ad4879406f1c5479bc593a28fffa2128345338ba": [
+  "e418c08a5ccde49cf4f22b0d5c892d6191ee25d02751f7f9e67b0be72fd75885": [
+    [
+      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png",
+      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_mini_addstory.png",
+      "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3",
+      "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
+    ],
+    [
+      "Telegram/res/drawable-xxhdpi/msg_colors.png",
+      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
+      "Telegram/res/raw/voicechat_join.mp3",
+      "Telegram/res/raw/voip_onallowtalk.mp3"
+    ]
+  ],
+  "7626c0e96f1e35542ff7630b01cbc0b9c4aa5c548f2bc54d1d18dc5dc06183e0": [
+    [
+      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png"
+    ],
+    [
+      "Telegram/res/drawable-xxhdpi/msg_colors.png"
+    ]
+  ],
+  "ae54c9a91981000e86b7e6bc4652ddda6928278baff99c9406ce2d473479f236": [
+    [
+      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_mini_addstory.png",
+      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png"
+    ],
+    [
+      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
+      "Telegram/res/drawable-xxhdpi/msg_colors.png"
+    ]
+  ],
+  "0f472c4389aa36b5a7474f46066df789ecb891a1810e43f64472e5074c957ade": [
+    [
+      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_mini_addstory.png",
+      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png",
+      "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
+    ],
+    [
+      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
+      "Telegram/res/drawable-xxhdpi/msg_colors.png",
+      "Telegram/res/raw/voip_onallowtalk.mp3"
+    ]
+  ],
+  "e102e7d90eddae798f85eca34ee1520bfc7e106302a17f2e402f5661a1f476b7": [
+    [
+      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_mini_addstory.png",
+      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_colors.png",
+      "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
+    ],
+    [
+      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
+      "Telegram/res/drawable-xxhdpi/msg_colors.png",
+      "Telegram/res/raw/voip_onallowtalk.mp3"
+    ]
+  ],
+  "6470c87e574d513e5eaf04a8e907fe308499e6af0f775b55eee361b351fb5af4": [
+    [
+      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png",
+      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_mini_addstory.png"
+    ],
+    [
+      "Telegram/res/drawable-xxhdpi/msg_colors.png",
+      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png"
+    ]
+  ],
+  "bcda59eaa00e109a872e1bc8d26e6e54098326c015461691b5dccb09cc527ca7": [
+    [
+      "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3",
+      "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
+    ],
+    [
+      "Telegram/res/raw/voicechat_join.mp3",
+      "Telegram/res/raw/voip_onallowtalk.mp3"
+    ]
+  ],
+  "b76bacb03c002ad31f3def438a1301aa7e7b74906002920b2f4ac852bd34c49c": [
+    [
+      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_colors.png"
+    ],
+    [
+      "Telegram/res/drawable-xxhdpi/msg_colors.png"
+    ]
+  ],
+  "34ee1bde3f8816d74bd96770ee4881dbca7c2b04b79528fb00d12e74dfe6f64d": [
+    [
+      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_mini_addstory.png",
+      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_colors.png",
+      "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3"
+    ],
+    [
+      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
+      "Telegram/res/drawable-xxhdpi/msg_colors.png",
+      "Telegram/res/raw/voicechat_join.mp3"
+    ]
+  ],
+  "84b861d5bc830088bb46e3e54bcab91fc7c95a2e668ef490c38cb87665e2487c": [
+    [
+      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_mini_addstory.png",
+      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_colors.png"
+    ],
+    [
+      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
+      "Telegram/res/drawable-xxhdpi/msg_colors.png"
+    ]
+  ],
+  "a4dc7a81b1b2846f30a928ebc4c5094a64b372abe676e0be2785884e1c97aa39": [
+    [
+      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_mini_addstory.png",
+      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_colors.png",
+      "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
+    ],
+    [
+      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
+      "Telegram/res/drawable-xxhdpi/msg_colors.png",
+      "Telegram/res/raw/voip_onallowtalk.mp3"
+    ]
+  ],
+  "d58312457d6a09114805eb8a21cb760c88e1592d9fa4be7ed2d44a0c8e665cb1": [
+    [
+      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_mini_addstory.png",
+      "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3"
+    ],
+    [
+      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
+      "Telegram/res/raw/voicechat_join.mp3"
+    ]
+  ],
+  "0b4d3284d9f3ff8d689c15cabd0150ec219f045cff9fd6e9160a3953b47bd67c": [
+    [
+      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_mini_addstory.png"
+    ],
+    [
+      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png"
+    ]
+  ],
+  "dd68baf4b80724ac2b2198da4e6587dcb23a6557676207aae2664b3a001e1ede": [
+    [
+      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png",
+      "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3",
+      "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
+    ],
+    [
+      "Telegram/res/drawable-xxhdpi/msg_colors.png",
+      "Telegram/res/raw/voicechat_join.mp3",
+      "Telegram/res/raw/voip_onallowtalk.mp3"
+    ]
+  ],
+  "f6ad2d2cbcaaa134fb341ee9c6f693261d86caaa1fa55778dc69ba79bdb031a2": [
+    [
+      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_mini_addstory.png",
+      "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
+    ],
+    [
+      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
+      "Telegram/res/raw/voip_onallowtalk.mp3"
+    ]
+  ],
+  "7d34e4d5e943b72d98ab0a8f3fcb2c82db0cba40f87f04f550b264a660d1f512": [
+    [
+      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png",
+      "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3"
+    ],
+    [
+      "Telegram/res/drawable-xxhdpi/msg_colors.png",
+      "Telegram/res/raw/voicechat_join.mp3"
+    ]
+  ],
+  "df1baca6f052c3bb45040e183b7562bb6a00b554c98829f59956ad1ccc16492b": [
     [
       "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_mini_addstory.png",
       "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_colors.png",
@@ -129,27 +241,31 @@
       "Telegram/res/raw/voip_onallowtalk.mp3"
     ]
   ],
-  "cf1e0b6f3d20aaeef8158d146793fe1aee6c47e79b8d7f17ea8db4fa22def127": [
+  "a175f2e4c487f69c7698516829f7dcde696b629dcaa092d9afe8ebb71fd3f58f": [
+    [
+      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_colors.png",
+      "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3"
+    ],
+    [
+      "Telegram/res/drawable-xxhdpi/msg_colors.png",
+      "Telegram/res/raw/voicechat_join.mp3"
+    ]
+  ],
+  "b24db25455da20eda9094489f3f9a1b8f21b8c5690be589cf579db3269d1b292": [
     [
       "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_mini_addstory.png",
+      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png",
+      "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3",
       "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
     ],
     [
       "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
+      "Telegram/res/drawable-xxhdpi/msg_colors.png",
+      "Telegram/res/raw/voicechat_join.mp3",
       "Telegram/res/raw/voip_onallowtalk.mp3"
     ]
   ],
-  "6293fa4229fe78cafa4cc25482ebc9cacd3f698101d94030c9ca3a3944aac290": [
-    [
-      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_mini_addstory.png",
-      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png"
-    ],
-    [
-      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
-      "Telegram/res/drawable-xxhdpi/msg_colors.png"
-    ]
-  ],
-  "22c38478904d65525d2bf084e348dc2dd46d287276fe1b577b8bccefa00c5723": [
+  "7ff0d27334d1fe8b68d9041e186934226fe8441a6592e6589ad80d0ca5a3edc4": [
     [
       "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_colors.png",
       "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
@@ -159,19 +275,41 @@
       "Telegram/res/raw/voip_onallowtalk.mp3"
     ]
   ],
-  "3b507472a6a82dfd7f5a956d5693a86ed4a80080bcac371bfa020402a3fb3608": [
+  "b4846a313b8b4725d0ed80240558cf1fbb48c9c0e5af21ec0398fa52ef6607dc": [
     [
+      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png",
+      "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
+    ],
+    [
+      "Telegram/res/drawable-xxhdpi/msg_colors.png",
+      "Telegram/res/raw/voip_onallowtalk.mp3"
+    ]
+  ],
+  "6379507b0e4b2dbbd22f093db0724209816b28e8068403ce424b47ea40188713": [
+    [
+      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_mini_addstory.png",
+      "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3",
+      "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
+    ],
+    [
+      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
+      "Telegram/res/raw/voicechat_join.mp3",
+      "Telegram/res/raw/voip_onallowtalk.mp3"
+    ]
+  ],
+  "70ba2e4f80815d9d47747c45cb80f977230662b729d29a234832850dfb5f8710": [
+    [
+      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png",
       "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_mini_addstory.png",
-      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_colors.png",
       "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3"
     ],
     [
-      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
       "Telegram/res/drawable-xxhdpi/msg_colors.png",
+      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
       "Telegram/res/raw/voicechat_join.mp3"
     ]
   ],
-  "ec43449f96abb2ffdd06eb40d2661d02935850dadd287b006b8b6f80257ecfc6": [
+  "a7c9bd04726a5ee84a815ef676463ffec99866b9be1b31c4f5f80dbc2296ead1": [
     [
       "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3"
     ],
@@ -179,7 +317,7 @@
       "Telegram/res/raw/voicechat_join.mp3"
     ]
   ],
-  "c0d4a312be037f326a9da702cd2de123a4101959d0b4d4c517c909bf3cc54e4f": [
+  "2b254622a3fcda17b5169c1a6bafa88cf43f5b738943e941c394db2d4191c899": [
     [
       "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_mini_addstory.png"
     ],
@@ -187,49 +325,7 @@
       "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png"
     ]
   ],
-  "1dfb05a3312ca4bf6747381bb3378243f5a19cc33f3c2fa8ff76afc4bdcb91f3": [
-    [
-      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png",
-      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_mini_addstory.png",
-      "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3"
-    ],
-    [
-      "Telegram/res/drawable-xxhdpi/msg_colors.png",
-      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
-      "Telegram/res/raw/voicechat_join.mp3"
-    ]
-  ],
-  "a0cc6f565743affebffed5ee28eff00c26ae6da5b44988c09a0b0d3ad35216de": [
-    [
-      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png",
-      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_mini_addstory.png"
-    ],
-    [
-      "Telegram/res/drawable-xxhdpi/msg_colors.png",
-      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png"
-    ]
-  ],
-  "5920b115801942d36ca1193bf4687f408603dc64bb207a8ddabafc7e9767393c": [
-    [
-      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png",
-      "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
-    ],
-    [
-      "Telegram/res/drawable-xxhdpi/msg_colors.png",
-      "Telegram/res/raw/voip_onallowtalk.mp3"
-    ]
-  ],
-  "e7beb5abe5b9ac529f1758a432794a76a5ad228bf4acfc207a0a70ddabed2f23": [
-    [
-      "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3",
-      "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
-    ],
-    [
-      "Telegram/res/raw/voicechat_join.mp3",
-      "Telegram/res/raw/voip_onallowtalk.mp3"
-    ]
-  ],
-  "a816e42a42066b4415ab66dd3f9216c37c8152dc01743265a7493958f4d3bd2e": [
+  "c42241998cab79f81f12a4f13a63591a7cf0b965a3bfac58769df5e291cc05a6": [
     [
       "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_mini_addstory.png",
       "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3"
@@ -239,75 +335,19 @@
       "Telegram/res/raw/voicechat_join.mp3"
     ]
   ],
-  "8575c352c6d064d7d89e891b6378e7244c38aaa5c5c47e2170301faf050b5a50": [
+  "ad19697b5aa5aacc448890945aac6cc227888a2a42c58219712775768ccde91f": [
     [
-      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_colors.png"
-    ],
-    [
-      "Telegram/res/drawable-xxhdpi/msg_colors.png"
-    ]
-  ],
-  "8487e84d7f495c1b8f10a3937037a19b8933749cf78b21a5f375344e865225c5": [
-    [
-      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_colors.png",
-      "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3"
-    ],
-    [
-      "Telegram/res/drawable-xxhdpi/msg_colors.png",
-      "Telegram/res/raw/voicechat_join.mp3"
-    ]
-  ],
-  "3961de17b9aefa39dcd65ba346cee61c2bd89f0b67aaf196f10f5de399c56622": [
-    [
+      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png",
       "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_mini_addstory.png",
       "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
     ],
     [
-      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
-      "Telegram/res/raw/voip_onallowtalk.mp3"
-    ]
-  ],
-  "bf20f31cea5214041abaa9cac3a625a4d3266d57873cd4a7238da701fa0a1fac": [
-    [
-      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_mini_addstory.png",
-      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_colors.png",
-      "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3",
-      "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
-    ],
-    [
-      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
-      "Telegram/res/drawable-xxhdpi/msg_colors.png",
-      "Telegram/res/raw/voicechat_join.mp3",
-      "Telegram/res/raw/voip_onallowtalk.mp3"
-    ]
-  ],
-  "5c2f7c6dd111cf9f411e9c8040da3e8f0593b47188a3c868546bbd09d2507227": [
-    [
-      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_mini_addstory.png",
-      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_colors.png",
-      "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
-    ],
-    [
-      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
-      "Telegram/res/drawable-xxhdpi/msg_colors.png",
-      "Telegram/res/raw/voip_onallowtalk.mp3"
-    ]
-  ],
-  "2ec7e60c207ae7f6e4c55815cf37ba50f8d452304266ad022476af125efca771": [
-    [
-      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png",
-      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_mini_addstory.png",
-      "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3",
-      "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
-    ],
-    [
       "Telegram/res/drawable-xxhdpi/msg_colors.png",
       "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
-      "Telegram/res/raw/voicechat_join.mp3",
       "Telegram/res/raw/voip_onallowtalk.mp3"
     ]
   ],
-  "11c90673615067146edcc9841501e949d940d871cb271c67a3558deb3eb2e660": [
+  "45f783f24ec27a97dcbf5e360268b75cc4bb0d364a3ddff03856a5ab344df4b1": [
     [
       "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_colors.png",
       "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3",
@@ -319,61 +359,21 @@
       "Telegram/res/raw/voip_onallowtalk.mp3"
     ]
   ],
-  "45ba13b76330e006bee9b7540b375246078629a4b02ca3f11b240649291f554a": [
+  "d339a2e00cdc3f32f288f6715ce2cc45b1160060d02fd66deb75e86547d7dbfa": [
     [
-      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_mini_addstory.png",
-      "../../assets/stego_assets/LSB/Sequential/Telegram/images/msg_colors.png"
-    ],
-    [
-      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
-      "Telegram/res/drawable-xxhdpi/msg_colors.png"
-    ]
-  ],
-  "879c90a709515d640ebdcb8ebfdca0fd2b350997fd554a41735b1f07d2114b02": [
-    [
-      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_mini_addstory.png",
-      "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3",
       "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
     ],
     [
-      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
-      "Telegram/res/raw/voicechat_join.mp3",
       "Telegram/res/raw/voip_onallowtalk.mp3"
     ]
   ],
-  "b8a475f8d39d636a5a091c548c1849dcb64b5f79c42784666616414e15bd5d68": [
-    [
-      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png",
-      "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3"
-    ],
-    [
-      "Telegram/res/drawable-xxhdpi/msg_colors.png",
-      "Telegram/res/raw/voicechat_join.mp3"
-    ]
-  ],
-  "61b151f939f7226f5d49bb19f1cd77bbf58f3bcff1b92ed5979af68353908ba1": [
+  "951dea1a1362f3ea77778786fa562038ccddb60924882a7ecab332a146b54a0e": [
     [
       "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_mini_addstory.png",
-      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png",
-      "../../assets/stego_assets/audio/Telegram/audio/voicechat_join.mp3",
       "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
     ],
     [
       "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
-      "Telegram/res/drawable-xxhdpi/msg_colors.png",
-      "Telegram/res/raw/voicechat_join.mp3",
-      "Telegram/res/raw/voip_onallowtalk.mp3"
-    ]
-  ],
-  "34f122e0262fb477a1ce0b9d3058160f15f9da6b0e77c5e6f6036902f2124667": [
-    [
-      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_mini_addstory.png",
-      "../../assets/stego_assets/OceanLotus/Sequential/Telegram/images/msg_colors.png",
-      "../../assets/stego_assets/audio/Telegram/audio/voip_onallowtalk.mp3"
-    ],
-    [
-      "Telegram/res/drawable-xxhdpi/msg_mini_addstory.png",
-      "Telegram/res/drawable-xxhdpi/msg_colors.png",
       "Telegram/res/raw/voip_onallowtalk.mp3"
     ]
   ]

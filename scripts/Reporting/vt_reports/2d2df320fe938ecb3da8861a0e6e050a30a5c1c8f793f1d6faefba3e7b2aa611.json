@@ -1,0 +1,1721 @@
+{
+  "virustotal_scan": {
+    "data": {
+      "attributes": {
+        "androguard": {
+          "Activities": [
+            "androidx.credentials.playservices.HiddenActivity",
+            "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
+            "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
+            "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
+            "com.amazon.android.oma.hub.NotificationHubActivity",
+            "com.amazon.appunique.appwidget.DiscoverWidgetProxyNavActivity",
+            "com.amazon.customwebview.CustomWebViewActivity",
+            "com.amazon.customwebview.EnableGPSActivity",
+            "com.amazon.identity.auth.device.AuthPortalUIActivity",
+            "com.amazon.identity.auth.device.activity.ActorEnrollActivity",
+            "com.amazon.identity.auth.device.activity.ActorSignUpAndEnrollActivity",
+            "com.amazon.identity.auth.device.activity.ActorUpdatePhoneNumberActivity",
+            "com.amazon.identity.auth.device.activity.ActorUpdatePinActivity",
+            "com.amazon.identity.auth.device.activity.ActorUpdatePinPreferenceActivity",
+            "com.amazon.identity.auth.device.activity.AuthChallengeHandleActivity",
+            "com.amazon.identity.auth.device.activity.GetAuthenticatorResultsActivity",
+            "com.amazon.identity.auth.device.authorization.AuthzDialogActivity",
+            "com.amazon.identity.auth.device.workflow.WorkflowDialogActivity",
+            "com.amazon.identity.mobi.authenticator.ui.TIVApprovalWebActivity",
+            "com.amazon.identity.mobi.browsersso.ui.ATBSSOUIActivity",
+            "com.amazon.mShop.AmazonChooserActivity",
+            "com.amazon.mShop.AmazonNativeShareActivity",
+            "com.amazon.mShop.AmazonShareActivity",
+            "com.amazon.mShop.alexa.AlexaActivity",
+            "com.amazon.mShop.alexa.audio.ux.PlaybackSheetActivity",
+            "com.amazon.mShop.alexa.onboarding.PermissionRequestActivity",
+            "com.amazon.mShop.appgrade.ui.AppgradeKillSwitchActivity",
+            "com.amazon.mShop.appgrade.ui.AppgradeMASHModalActivity",
+            "com.amazon.mShop.blankdetection.DebugBlankPageActivity",
+            "com.amazon.mShop.details.ProductDetailsActivity",
+            "com.amazon.mShop.httpUrlDeepLink.DeepLinkingActivity",
+            "com.amazon.mShop.httpUrlDeepLink.DeepLinkingProxyActivity",
+            "com.amazon.mShop.httpUrlDeepLink.SecureDeepLinkingActivity",
+            "com.amazon.mShop.kuber.rendering.activity.KuberRenderingActivity",
+            "com.amazon.mShop.mash.ui.MShopMashModalActivity",
+            "com.amazon.mShop.navigation.MainActivity",
+            "com.amazon.mShop.payment.googlebilling.sdk.GoogleBillingHeadlessActivity",
+            "com.amazon.mShop.payment.upi.UPIIntentHandler",
+            "com.amazon.mShop.payments.tapandpay.SdkActivity",
+            "com.amazon.mShop.permission.v2.storage.PermissionCheckerImpl$SystemPermissionRequestActivity",
+            "com.amazon.mShop.primeupsell.PrimeUpsellMashActivity",
+            "com.amazon.mShop.publicurl.PublicURLActivity",
+            "com.amazon.mShop.push.registration.NotificationContentActivity",
+            "com.amazon.mShop.push.registration.WebNotificationsSettingsActivity",
+            "com.amazon.mShop.push.registration.educationalprompt.EducationalPromptPermissionHelper$PermissionRequestActivity",
+            "com.amazon.mShop.share.copy.ShareToClipboardActivity",
+            "com.amazon.mShop.share.ingress.SearchActivity",
+            "com.amazon.mShop.share.ingress.ShareActivity",
+            "com.amazon.mShop.share.ingress.TextMenuActivity",
+            "com.amazon.mShop.shortcut.ShortcutTrackingRedirectActivity",
+            "com.amazon.mShop.splashscreen.StartupActivity",
+            "com.amazon.mShop.sso.CentralSSOLoginActivity",
+            "com.amazon.mShop.sso.CentralSSOLogoutActivity",
+            "com.amazon.mShop.sso.DistributedSSOLoginActivity",
+            "com.amazon.mShop.sso.DistributedSSOLogoutActivity",
+            "com.amazon.mShop.sso.SSOBootstrapScreenActivity",
+            "com.amazon.mShop.sso.SSOSplashScreenActivity",
+            "com.amazon.mShop.sso.SSOSplashScreenMigrationActivity",
+            "com.amazon.mShop.startup.StartupLocalizationSelectionActivity",
+            "com.amazon.mShop.storemodes.StoreModesActivity",
+            "com.amazon.mShop.voice.assistant.VoiceActivity",
+            "com.amazon.mShop.voice.assistant.debug.DebugActivity",
+            "com.amazon.mShop.weblab.MShopChromeBetaTogglesActivity",
+            "com.amazon.mShop.wolfgang.activity.FileWriteActivity",
+            "com.amazon.mobile.floatingnativeviews.smash.ext.pictureinpicture.PictureInPictureSupportedActivity",
+            "com.amazon.mobile.mash.embeddedbrowser.EmbeddedBrowserActivity",
+            "com.amazon.mobile.smash.ext.diagnosticsplatform.device.mobile.assessment.assisted.TouchScreenAssessment",
+            "com.amazon.traffic.automation.notification.util.PushNotificationContentActivity",
+            "com.amazon.vsearch.VSearchEntryActivity",
+            "com.amazon.vsearch.galleryshare.SearchPhotoGalleryShareActivity",
+            "com.amazon.vsearch.galleryshare.StyleSnapGalleryShareActivity",
+            "com.amazonaws.mobileconnectors.cognitoauth.activities.CustomTabsManagerActivity",
+            "com.android.billingclient.api.ProxyBillingActivity",
+            "com.google.android.gms.ads.AdActivity",
+            "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+            "com.google.android.gms.common.api.GoogleApiActivity",
+            "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+            "com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity",
+            "com.google.ar.core.InstallActivity"
+          ],
+          "AndroguardVersion": "4.1.2",
+          "AndroidApplication": 1,
+          "AndroidApplicationError": false,
+          "AndroidApplicationInfo": "APK",
+          "AndroidVersionCode": "1241275610",
+          "AndroidVersionName": "28.13.6.100",
+          "Libraries": [
+            "androidx.window.extensions",
+            "androidx.window.sidecar",
+            "com.amazon.client.metrics.api",
+            "com.amazon.dcp.contracts",
+            "com.amazon.dcp.contracts.framework",
+            "com.google.android.maps",
+            "org.apache.http.legacy"
+          ],
+          "MinSdkVersion": "28",
+          "Package": "com.amazon.mShop.android.shopping",
+          "Providers": [
+            "androidx.startup.InitializationProvider",
+            "cl.json.RNShareFileProvider",
+            "com.a9.fez.share.ARFileProvider",
+            "com.amazon.mShop.marketplace.provider.MarketplaceProvider",
+            "com.amazon.mShop.sso.MShopMAPInformationProvider",
+            "com.amazon.mShop.util.AssetContentProvider",
+            "com.amazon.mShop.util.AttachmentContentProvider",
+            "com.amazon.mShop.webview.util.ConfigurableFileProvider",
+            "com.amazon.mls.config.internal.sushi.background.ProcessLifecycleTrackerInitialization",
+            "com.amazon.mobile.koko.ShareAndroidFileProvider",
+            "com.amazon.mobile.mash.util.MASHFileProvider",
+            "com.burnweb.rnsendintent.FileProvider",
+            "com.google.firebase.provider.FirebaseInitProvider",
+            "com.imagepicker.ImagePickerProvider",
+            "com.reactnativecommunity.webview.RNCWebViewFileProvider"
+          ],
+          "Receivers": [
+            "androidx.profileinstaller.ProfileInstallReceiver",
+            "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+            "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+            "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+            "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+            "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+            "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+            "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+            "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+            "com.amazon.appunique.appwidget.DiscoverActionsReceiver",
+            "com.amazon.appunique.appwidget.DiscoverWidgetBridgeReceiver",
+            "com.amazon.appunique.appwidget.DiscoverWidgetProvider",
+            "com.amazon.identity.auth.accounts.SessionUserChangedToAccountForPackageChangedAdpater",
+            "com.amazon.identity.auth.device.storage.LambortishClock$ChangeTimestampsBroadcastReceiver",
+            "com.amazon.mShop.alexa.launch.AlexaLaunchBroadcastReceiver",
+            "com.amazon.mShop.alexa.settings.AlexaSettingsBroadcastReceiver",
+            "com.amazon.mShop.goals.orchestrator.GoalsGeofenceBroadcastReceiver",
+            "com.amazon.mShop.push.registration.MShopClearNotificationReceiver",
+            "com.amazon.mShop.push.registration.SystemSettingsNotificationChangeReceiver",
+            "com.amazon.mShop.sso.SSOAccountListener",
+            "com.amazon.mshop.kubersmartintent.receivers.CustomEventReceiver",
+            "com.amazon.mshop.kubersmartintent.receivers.SystemEventReceiver",
+            "com.amazon.traffic.automation.notification.activity.ScheduleCallBackBroadcastReceiver",
+            "com.amazon.traffic.automation.notification.util.PushNotificationBroadcastReceiver",
+            "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+            "com.google.firebase.iid.FirebaseInstanceIdReceiver"
+          ],
+          "RiskIndicator": {
+            "APK": {
+              "DEX": 4
+            },
+            "PERM": {
+              "DANGEROUS": 11,
+              "GPS": 2,
+              "INSTANT": 8,
+              "INTERNET": 1,
+              "NORMAL": 21,
+              "PRIVACY": 8,
+              "PRIVILEGED": 1,
+              "SIGNATURE": 1
+            }
+          },
+          "Services": [
+            "androidx.camera.core.impl.MetadataHolderService",
+            "androidx.credentials.playservices.CredentialProviderMetadataHolder",
+            "androidx.room.MultiInstanceInvalidationService",
+            "androidx.work.impl.background.systemalarm.SystemAlarmService",
+            "androidx.work.impl.background.systemjob.SystemJobService",
+            "androidx.work.impl.foreground.SystemForegroundService",
+            "com.amazon.alexa.sdk.audio.channel.content.amp.service.AmpService",
+            "com.amazon.appunique.appwidget.DiscoverWidgetCardsProvider",
+            "com.amazon.client.metrics.nexus.EventUploadService",
+            "com.amazon.client.metrics.nexus.UploadJobService",
+            "com.amazon.identity.auth.device.authorization.AmazonAuthorizationService1stParty",
+            "com.amazon.identity.auth.device.bootstrapSSO.BootstrapSSOService",
+            "com.amazon.identity.auth.device.storage.DatabaseCleaner$DatabaseCleaningService",
+            "com.amazon.identity.auth.device.storage.DirtyDataSyncingService",
+            "com.amazon.mShop.goals.location.LocationUpdatesService",
+            "com.amazon.mShop.goals.orchestrator.GoalsIntentService",
+            "com.amazon.mShop.goals.orchestrator.GoalsJobService",
+            "com.amazon.mShop.kuber.service.PrefetchService",
+            "com.amazon.mShop.payment.googlebilling.sdk.GoogleBillingClientService",
+            "com.amazon.mShop.payments.tapandpay.SdkService",
+            "com.amazon.mShop.pushnotification.PushReceivedOrchestrator$PushReceivedJobService",
+            "com.amazon.mShop.pushnotification.PushTokenRegistrationOrchestrator$PushTokenRegistrationJobService",
+            "com.amazon.mShop.pushnotification.fcm.FCMMessagingService",
+            "com.amazon.mShop.sso.SSOBackgroundAccountService",
+            "com.amazon.mls.config.internal.sushi.uploader.BackupUploaderService",
+            "com.amazon.traffic.automation.notification.geofence.NotificationGeofenceTransition",
+            "com.amazon.whisperjoin.deviceprovisioningservice.arcus.FFSArcusSyncJobService",
+            "com.amazon.whisperjoin.deviceprovisioningservice.service.FFSBackgroundProvisioningServiceBinder",
+            "com.amazon.whisperjoin.deviceprovisioningservice.service.whitelist.FFSWhiteListJobService",
+            "com.burnweb.rnsendintent.RNSendIntentModule",
+            "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+            "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+            "com.google.android.gms.auth.api.signin.RevocationBoundService",
+            "com.google.android.play.core.assetpacks.AssetPackExtractionService",
+            "com.google.firebase.components.ComponentDiscoveryService",
+            "com.google.firebase.messaging.FirebaseMessagingService"
+          ],
+          "StringsInformation": [
+            "http://apache.org/xml/features/disallow-doctype-decl",
+            "http://apache.org/xml/features/nonvalidating/load-external-dtd",
+            "http://cipa.jp/exif/1.0/",
+            "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+            "http://iptc.org/std/Iptc4xmpExt/2008-02-29/",
+            "http://javax.xml.XMLConstants/feature/secure-processing",
+            "http://localhost",
+            "http://ns.adobe.com/DICOM/",
+            "http://ns.adobe.com/StockPhoto/1.0/",
+            "http://ns.adobe.com/TransformXMP/",
+            "http://ns.adobe.com/album/1.0/",
+            "http://ns.adobe.com/asf/1.0/",
+            "http://ns.adobe.com/bwf/bext/1.0/",
+            "http://ns.adobe.com/camera-raw-settings/1.0/",
+            "http://ns.adobe.com/creatorAtom/1.0/",
+            "http://ns.adobe.com/exif/1.0/",
+            "http://ns.adobe.com/exif/1.0/aux/",
+            "http://ns.adobe.com/iX/1.0/",
+            "http://ns.adobe.com/jp2k/1.0/",
+            "http://ns.adobe.com/jpeg/1.0/",
+            "http://ns.adobe.com/pdf/1.3/",
+            "http://ns.adobe.com/pdfx/1.3/",
+            "http://ns.adobe.com/photoshop/1.0/",
+            "http://ns.adobe.com/png/1.0/",
+            "http://ns.adobe.com/riff/info/",
+            "http://ns.adobe.com/swf/1.0/",
+            "http://ns.adobe.com/tiff/1.0/",
+            "http://ns.adobe.com/xap/1.0/",
+            "http://ns.adobe.com/xap/1.0/\u0000",
+            "http://ns.adobe.com/xap/1.0/bj/",
+            "http://ns.adobe.com/xap/1.0/g/",
+            "http://ns.adobe.com/xap/1.0/g/img/",
+            "http://ns.adobe.com/xap/1.0/mm/",
+            "http://ns.adobe.com/xap/1.0/rights/",
+            "http://ns.adobe.com/xap/1.0/sType/Dimensions#",
+            "http://ns.adobe.com/xap/1.0/sType/Font#",
+            "http://ns.adobe.com/xap/1.0/sType/Job#",
+            "http://ns.adobe.com/xap/1.0/sType/ManifestItem#",
+            "http://ns.adobe.com/xap/1.0/sType/ResourceEvent#",
+            "http://ns.adobe.com/xap/1.0/sType/ResourceRef#",
+            "http://ns.adobe.com/xap/1.0/sType/Version#",
+            "http://ns.adobe.com/xap/1.0/t/",
+            "http://ns.adobe.com/xap/1.0/t/pg/",
+            "http://ns.adobe.com/xmp/1.0/DynamicMedia/",
+            "http://ns.adobe.com/xmp/1.0/Script/",
+            "http://ns.adobe.com/xmp/Identifier/qual/1.0/",
+            "http://ns.adobe.com/xmp/note/",
+            "http://ns.adobe.com/xmp/transient/1.0/",
+            "http://ns.adobe.com/xmp/wav/1.0/",
+            "http://ns.useplus.org/ldf/xmp/1.0/",
+            "http://purl.org/dc/1.1/",
+            "http://purl.org/dc/elements/1.1/",
+            "http://schemas.android.com/apk/res/android",
+            "http://test.server.url",
+            "http://www.aiim.org/pdfa/ns/extension/",
+            "http://www.aiim.org/pdfa/ns/field#",
+            "http://www.aiim.org/pdfa/ns/id/",
+            "http://www.aiim.org/pdfa/ns/property#",
+            "http://www.aiim.org/pdfa/ns/schema#",
+            "http://www.aiim.org/pdfa/ns/type#",
+            "http://www.npes.org/pdfx/ns/id/",
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "http://www.w3.org/XML/1998/namespace",
+            "http://xerces.apache.org/xerces2-j/features.html#disallow-doctype-decl",
+            "http://xerces.apache.org/xerces2-j/features.html#external-parameter-entities",
+            "http://xml.org/sax/features/external-general-entities",
+            "http://xml.org/sax/features/external-parameter-entities",
+            "https://api.amazon.com/shop",
+            "https://d191e38moeep0w.cloudfront.net/mshop-alexa-config-mbp-v1.json",
+            "https://d191e38moeep0w.cloudfront.net/mshop-alexa-config-v1.json",
+            "https://d1s44l2n6n3ub3.cloudfront.net/ARProductPreview/IBL.zip",
+            "https://d1s44l2n6n3ub3.cloudfront.net/ARProductPreview/IBL_VTOLip_filament.zip",
+            "https://d1s44l2n6n3ub3.cloudfront.net/ARProductPreview/IBL_autoshop_filament.zip",
+            "https://d1s44l2n6n3ub3.cloudfront.net/ARProductPreview/StaticData",
+            "https://d1s44l2n6n3ub3.cloudfront.net/ARProductPreview/VTOLipsFaceRouterTable",
+            "https://d1s44l2n6n3ub3.cloudfront.net/ARProductPreview/VTOThumbnail",
+            "https://d1s44l2n6n3ub3.cloudfront.net/mars/arview/android/",
+            "https://data-ae-pre-prod.dub.corp.amazon.com",
+            "https://data-au-pre-prod.pdx.corp.amazon.com",
+            "https://data-be-pre-prod.dub.corp.amazon.com",
+            "https://data-br-pre-prod.iad.corp.amazon.com",
+            "https://data-ca-pre-prod.iad.corp.amazon.com",
+            "https://data-cl-pre-prod.iad.corp.amazon.com",
+            "https://data-cn-pre-prod.pek.corp.amazon.com",
+            "https://data-co-pre-prod.iad.corp.amazon.com",
+            "https://data-de-pre-prod.dub.corp.amazon.com",
+            "https://data-eg-pre-prod.dub.corp.amazon.com",
+            "https://data-es-pre-prod.dub.corp.amazon.com",
+            "https://data-fr-pre-prod.dub.corp.amazon.com",
+            "https://data-in-pre-prod.dub.corp.amazon.com",
+            "https://data-it-pre-prod.dub.corp.amazon.com",
+            "https://data-jp-pre-prod.pdx.corp.amazon.com",
+            "https://data-mx-pre-prod.iad.corp.amazon.com",
+            "https://data-ng-pre-prod.dub.corp.amazon.com",
+            "https://data-nl-pre-prod.dub.corp.amazon.com",
+            "https://data-pl-pre-prod.dub.corp.amazon.com",
+            "https://data-ru-pre-prod.pdx.corp.amazon.com",
+            "https://data-sa-pre-prod.dub.corp.amazon.com",
+            "https://data-se-pre-prod.dub.corp.amazon.com",
+            "https://data-sg-pre-prod.pdx.corp.amazon.com"
+          ],
+          "TargetSdkVersion": "34",
+          "VTAndroidInfo": 2.0,
+          "certificate": {
+            "Issuer": {
+              "C": "TC",
+              "CN": "webportal.com.YKLqA",
+              "DN": "C:TC, CN:webportal.com.YKLqA, L:Toronto, O:Blue Sky Ventures, ST:IL, OU:Research",
+              "L": "Toronto",
+              "O": "Blue Sky Ventures",
+              "OU": "Research",
+              "ST": "IL"
+            },
+            "Subject": {
+              "C": "TC",
+              "CN": "webportal.com.YKLqA",
+              "DN": "C:TC, CN:webportal.com.YKLqA, L:Toronto, O:Blue Sky Ventures, ST:IL, OU:Research",
+              "L": "Toronto",
+              "O": "Blue Sky Ventures",
+              "OU": "Research",
+              "ST": "IL"
+            },
+            "serialnumber": "4d4688a85ce03023",
+            "thumbprint": "0f265cbee543ed68b91188d3713037e8677435c9",
+            "validfrom": "2024-11-09 23:37:12",
+            "validto": "2052-03-27 23:37:12"
+          },
+          "intent_filters": {
+            "Activities": {
+              "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity": {
+                "category": [
+                  "android.intent.category.LAUNCHER"
+                ]
+              },
+              "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity": {
+                "category": [
+                  "android.intent.category.LAUNCHER"
+                ]
+              },
+              "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity": {
+                "category": [
+                  "android.intent.category.LAUNCHER"
+                ]
+              },
+              "com.amazon.mShop.appgrade.ui.AppgradeKillSwitchActivity": {
+                "action": [
+                  "android.intent.action.MAIN"
+                ],
+                "category": [
+                  "android.intent.category.LAUNCHER"
+                ]
+              },
+              "com.amazon.mShop.details.ProductDetailsActivity": {
+                "action": [
+                  "android.intent.action.VIEW",
+                  "com.amazon.shop.DETAIL_PAGE"
+                ],
+                "category": [
+                  "android.intent.category.DEFAULT",
+                  "android.intent.category.BROWSABLE"
+                ]
+              },
+              "com.amazon.mShop.httpUrlDeepLink.DeepLinkingActivity": {
+                "action": [
+                  "android.intent.action.VIEW"
+                ],
+                "category": [
+                  "android.intent.category.DEFAULT",
+                  "android.intent.category.BROWSABLE"
+                ]
+              },
+              "com.amazon.mShop.httpUrlDeepLink.SecureDeepLinkingActivity": {
+                "action": [
+                  "android.intent.action.VIEW"
+                ],
+                "category": [
+                  "android.intent.category.DEFAULT",
+                  "android.intent.category.BROWSABLE"
+                ]
+              },
+              "com.amazon.mShop.kuber.rendering.activity.KuberRenderingActivity": {
+                "action": [
+                  "android.intent.action.VIEW",
+                  "com.amazon.mShop.kuber.rendering.activity.PaymentRenderingService"
+                ],
+                "category": [
+                  "android.intent.category.DEFAULT",
+                  "android.intent.category.BROWSABLE"
+                ]
+              },
+              "com.amazon.mShop.payment.upi.UPIIntentHandler": {
+                "action": [
+                  "android.intent.action.VIEW"
+                ],
+                "category": [
+                  "android.intent.category.DEFAULT",
+                  "android.intent.category.BROWSABLE"
+                ]
+              },
+              "com.amazon.mShop.push.registration.WebNotificationsSettingsActivity": {
+                "action": [
+                  "android.intent.action.MAIN"
+                ],
+                "category": [
+                  "android.intent.category.NOTIFICATION_PREFERENCES"
+                ]
+              },
+              "com.amazon.mShop.share.ingress.TextMenuActivity": {
+                "action": [
+                  "android.intent.action.PROCESS_TEXT"
+                ],
+                "category": [
+                  "android.intent.category.DEFAULT"
+                ]
+              },
+              "com.amazon.mShop.shortcut.ShortcutTrackingRedirectActivity": {
+                "action": [
+                  "products",
+                  "orders",
+                  "cart",
+                  "deals"
+                ],
+                "category": [
+                  "android.intent.category.DEFAULT"
+                ]
+              }
+            },
+            "Receivers": {
+              "androidx.profileinstaller.ProfileInstallReceiver": {
+                "action": [
+                  "androidx.profileinstaller.action.INSTALL_PROFILE",
+                  "androidx.profileinstaller.action.SKIP_FILE",
+                  "androidx.profileinstaller.action.SAVE_PROFILE",
+                  "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+                ]
+              },
+              "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy": {
+                "action": [
+                  "android.intent.action.ACTION_POWER_CONNECTED",
+                  "android.intent.action.ACTION_POWER_DISCONNECTED"
+                ]
+              },
+              "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy": {
+                "action": [
+                  "android.intent.action.BATTERY_OKAY",
+                  "android.intent.action.BATTERY_LOW"
+                ]
+              },
+              "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy": {
+                "action": [
+                  "android.net.conn.CONNECTIVITY_CHANGE"
+                ]
+              },
+              "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy": {
+                "action": [
+                  "android.intent.action.DEVICE_STORAGE_LOW",
+                  "android.intent.action.DEVICE_STORAGE_OK"
+                ]
+              },
+              "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver": {
+                "action": [
+                  "androidx.work.impl.background.systemalarm.UpdateProxies"
+                ]
+              },
+              "androidx.work.impl.background.systemalarm.RescheduleReceiver": {
+                "action": [
+                  "android.intent.action.BOOT_COMPLETED",
+                  "android.intent.action.TIME_SET",
+                  "android.intent.action.TIMEZONE_CHANGED"
+                ]
+              },
+              "androidx.work.impl.diagnostics.DiagnosticsReceiver": {
+                "action": [
+                  "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+                ]
+              },
+              "com.amazon.appunique.appwidget.DiscoverActionsReceiver": {
+                "action": [
+                  "com.amazon.mshop.widget.action.REFRESH",
+                  "com.amazon.mshop.widget.action.OPEN_ITEM",
+                  "com.amazon.mshop.widget.action.ERROR_CTA",
+                  "com.amazon.mshop.widget.action.CTA",
+                  "com.amazon.mshop.widget.action.DATA_UPDATE",
+                  "com.amazon.mshop.widget.action.FORCE_UPDATE"
+                ]
+              },
+              "com.amazon.appunique.appwidget.DiscoverWidgetBridgeReceiver": {
+                "action": [
+                  "com.amazon.mshop.widget.action.FETCH_DATA",
+                  "com.amazon.mshop.widget.action.WRITE_TRANSLATIONS"
+                ]
+              },
+              "com.amazon.appunique.appwidget.DiscoverWidgetProvider": {
+                "action": [
+                  "android.appwidget.action.APPWIDGET_UPDATE"
+                ]
+              },
+              "com.amazon.identity.auth.accounts.SessionUserChangedToAccountForPackageChangedAdpater": {
+                "action": [
+                  "com.amazon.dcp.sso.action.session.users.changed"
+                ]
+              },
+              "com.amazon.identity.auth.device.storage.LambortishClock$ChangeTimestampsBroadcastReceiver": {
+                "action": [
+                  "android.intent.action.TIME_SET"
+                ]
+              },
+              "com.amazon.mShop.alexa.launch.AlexaLaunchBroadcastReceiver": {
+                "action": [
+                  "com.amazon.mShop.alexa.launch"
+                ],
+                "category": [
+                  "android.intent.category.DEFAULT"
+                ]
+              },
+              "com.amazon.mShop.alexa.settings.AlexaSettingsBroadcastReceiver": {
+                "action": [
+                  "com.amazon.mShop.alexa.settings"
+                ],
+                "category": [
+                  "android.intent.category.DEFAULT"
+                ]
+              },
+              "com.amazon.mShop.goals.orchestrator.GoalsGeofenceBroadcastReceiver": {
+                "action": [
+                  "GEOFENCE_TRIGGER_ACTION"
+                ]
+              },
+              "com.amazon.mShop.push.registration.SystemSettingsNotificationChangeReceiver": {
+                "action": [
+                  "android.app.action.APP_BLOCK_STATE_CHANGED",
+                  "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"
+                ]
+              },
+              "com.amazon.mShop.sso.SSOAccountListener": {
+                "action": [
+                  "com.amazon.dcp.sso.action.account.added",
+                  "com.amazon.dcp.sso.action.account.removed"
+                ]
+              },
+              "com.amazon.mshop.kubersmartintent.receivers.CustomEventReceiver": {
+                "action": [
+                  "amazon.intent.action.AMAZON_UPI_INSTRUMENT_REFRESH",
+                  "amazon.intent.action.DE_REGISTRATION",
+                  "amazon.intent.action.REGISTRATION",
+                  "amazon.intent.action.MSHOP_LOGIN",
+                  "amazon.intent.action.MSHOP_LOGOUT",
+                  "amazon.intent.action.MSHOP_USER_UPDATE"
+                ]
+              },
+              "com.amazon.mshop.kubersmartintent.receivers.SystemEventReceiver": {
+                "action": [
+                  "android.intent.action.MY_PACKAGE_REPLACED",
+                  "android.intent.action.SIM_STATE_CHANGED"
+                ]
+              },
+              "com.google.firebase.iid.FirebaseInstanceIdReceiver": {
+                "action": [
+                  "com.google.android.c2dm.intent.RECEIVE"
+                ]
+              }
+            },
+            "Services": {
+              "com.amazon.identity.auth.device.authorization.AmazonAuthorizationService1stParty": {
+                "action": [
+                  "com.amazon.identity.auth.device.authorization.MapAuthorizationService"
+                ]
+              },
+              "com.amazon.identity.auth.device.bootstrapSSO.BootstrapSSOService": {
+                "action": [
+                  "com.amazon.identity.action.BOOTSTRAP_SSO"
+                ]
+              },
+              "com.amazon.identity.auth.device.storage.DatabaseCleaner$DatabaseCleaningService": {
+                "action": [
+                  "com.amazon.identity.action.CLEAN_DATA"
+                ]
+              },
+              "com.amazon.identity.auth.device.storage.DirtyDataSyncingService": {
+                "action": [
+                  "com.amazon.identity.action.SYNC_DIRTY_DATA"
+                ]
+              },
+              "com.amazon.mShop.kuber.service.PrefetchService": {
+                "action": [
+                  "com.amazon.mShop.kuber.service.PREFETCH_SERVICE"
+                ],
+                "category": [
+                  "android.intent.category.DEFAULT"
+                ]
+              },
+              "com.amazon.mShop.pushnotification.fcm.FCMMessagingService": {
+                "action": [
+                  "com.google.firebase.MESSAGING_EVENT"
+                ]
+              },
+              "com.amazon.whisperjoin.deviceprovisioningservice.service.FFSBackgroundProvisioningServiceBinder": {
+                "action": [
+                  "com.amazon.whisperjoin.deviceprovisioningservice.BindService"
+                ]
+              },
+              "com.google.firebase.messaging.FirebaseMessagingService": {
+                "action": [
+                  "com.google.firebase.MESSAGING_EVENT"
+                ]
+              }
+            }
+          },
+          "main_activity": "com.amazon.mShop.home.HomeActivity",
+          "permission_details": {
+            "amazon.permission.COLLECT_METRICS": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "normal",
+              "short_description": "Unknown permission from android reference"
+            },
+            "android.permission.ACCESS_BACKGROUND_LOCATION": {
+              "full_description": "This app can access location at any time, even while the app is not in use.",
+              "permission_type": "dangerous|instant",
+              "short_description": "access location in the background"
+            },
+            "android.permission.ACCESS_COARSE_LOCATION": {
+              "full_description": "This app can get your approximate location from location services while the app is in use. Location services for your device must be turned on for the app to get location.",
+              "permission_type": "dangerous|instant",
+              "short_description": "access approximate location only in the foreground"
+            },
+            "android.permission.ACCESS_FINE_LOCATION": {
+              "full_description": "This app can get your precise location from location services while the app is in use. Location services for your device must be turned on for the app to get location. This may increase battery usage.",
+              "permission_type": "dangerous|instant",
+              "short_description": "access precise location only in the foreground"
+            },
+            "android.permission.ACCESS_NETWORK_STATE": {
+              "full_description": "Allows the app to view\n      information about network connections such as which networks exist and are\n      connected.",
+              "permission_type": "normal|instant",
+              "short_description": "view network connections"
+            },
+            "android.permission.ACCESS_WIFI_STATE": {
+              "full_description": "Allows the app to view information\n      about Wi-Fi networking, such as whether Wi-Fi is enabled and name of\n      connected Wi-Fi devices.",
+              "permission_type": "normal",
+              "short_description": "view Wi-Fi connections"
+            },
+            "android.permission.AUTHENTICATE_ACCOUNTS": {
+              "full_description": "",
+              "permission_type": "normal",
+              "short_description": ""
+            },
+            "android.permission.BLUETOOTH": {
+              "full_description": "Allows the app to view the\n      configuration of the Bluetooth on the phone, and to make and accept\n      connections with paired devices.",
+              "permission_type": "normal",
+              "short_description": "pair with Bluetooth devices"
+            },
+            "android.permission.BLUETOOTH_ADMIN": {
+              "full_description": "Allows the app to configure\n      the local Bluetooth phone, and to discover and pair with remote devices.",
+              "permission_type": "normal",
+              "short_description": "access Bluetooth settings"
+            },
+            "android.permission.BLUETOOTH_ADVERTISE": {
+              "full_description": "Allows the app to advertise to nearby Bluetooth devices",
+              "permission_type": "dangerous",
+              "short_description": "advertise to nearby Bluetooth devices"
+            },
+            "android.permission.BLUETOOTH_CONNECT": {
+              "full_description": "Allows the app to connect to paired Bluetooth devices",
+              "permission_type": "dangerous",
+              "short_description": "connect to paired Bluetooth devices"
+            },
+            "android.permission.BLUETOOTH_SCAN": {
+              "full_description": "Allows the app to discover and pair nearby Bluetooth devices",
+              "permission_type": "dangerous",
+              "short_description": "discover and pair nearby Bluetooth devices"
+            },
+            "android.permission.CAMERA": {
+              "full_description": "This app can take pictures and record videos using the camera while the app is in use.",
+              "permission_type": "dangerous|instant",
+              "short_description": "take pictures and videos"
+            },
+            "android.permission.CHANGE_WIFI_STATE": {
+              "full_description": "Allows the app to connect to and\n      disconnect from Wi-Fi access points and to make changes to device\n      configuration for Wi-Fi networks.",
+              "permission_type": "normal",
+              "short_description": "connect and disconnect from Wi-Fi"
+            },
+            "android.permission.FLASHLIGHT": {
+              "full_description": "",
+              "permission_type": "normal",
+              "short_description": ""
+            },
+            "android.permission.FOREGROUND_SERVICE": {
+              "full_description": "Allows the app to make use of foreground services.",
+              "permission_type": "normal|instant",
+              "short_description": "run foreground service"
+            },
+            "android.permission.FOREGROUND_SERVICE_LOCATION": {
+              "full_description": "Allows the app to make use of foreground services with the type location",
+              "permission_type": "normal|instant",
+              "short_description": "run foreground service with the type location"
+            },
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK": {
+              "full_description": "Allows the app to make use of foreground services with the type mediaPlayback",
+              "permission_type": "normal|instant",
+              "short_description": "run foreground service with the type mediaPlayback"
+            },
+            "android.permission.GET_ACCOUNTS": {
+              "full_description": "Allows the app to get\n      the list of accounts known by the phone.  This may include any accounts\n      created by applications you have installed.",
+              "permission_type": "dangerous",
+              "short_description": "find accounts on the device"
+            },
+            "android.permission.HIGH_SAMPLING_RATE_SENSORS": {
+              "full_description": "Allows the app to sample sensor data at a rate greater than 200 Hz",
+              "permission_type": "normal",
+              "short_description": "access sensor data at a high sampling rate"
+            },
+            "android.permission.INTERNET": {
+              "full_description": "Allows the app to create\n     network sockets and use custom network protocols. The browser and other\n     applications provide means to send data to the internet, so this\n     permission is not required to send data to the internet.",
+              "permission_type": "normal|instant",
+              "short_description": "have full network access"
+            },
+            "android.permission.MANAGE_ACCOUNTS": {
+              "full_description": "",
+              "permission_type": "normal",
+              "short_description": ""
+            },
+            "android.permission.MODIFY_AUDIO_SETTINGS": {
+              "full_description": "Allows the app to modify global audio settings such as volume and which speaker is used for output.",
+              "permission_type": "normal",
+              "short_description": "change your audio settings"
+            },
+            "android.permission.NEARBY_WIFI_DEVICES": {
+              "full_description": "Allows the app to advertise, connect, and determine the relative position of nearby Wiu2011Fi devices",
+              "permission_type": "dangerous",
+              "short_description": "interact with nearby Wiu2011Fi devices"
+            },
+            "android.permission.NFC": {
+              "full_description": "Allows the app to communicate\n      with Near Field Communication (NFC) tags, cards, and readers.",
+              "permission_type": "normal",
+              "short_description": "control Near Field Communication"
+            },
+            "android.permission.POST_NOTIFICATIONS": {
+              "full_description": "Allows the app to show notifications",
+              "permission_type": "dangerous|instant",
+              "short_description": "show notifications"
+            },
+            "android.permission.READ_BASIC_PHONE_STATE": {
+              "full_description": "Allows the app to access the basic telephony\n        features of the device.",
+              "permission_type": "normal",
+              "short_description": "read basic telephony status and identity "
+            },
+            "android.permission.READ_CONTACTS": {
+              "full_description": "Allows the app to read data about your contacts stored on your phone.\n      Apps will also have access to the accounts on your phone that have created contacts.\n      This may include accounts created by apps you have installed.\n      This permission allows apps to save your contact data, and malicious apps may share contact data without your knowledge.",
+              "permission_type": "dangerous",
+              "short_description": "read your contacts"
+            },
+            "android.permission.READ_EXTERNAL_STORAGE": {
+              "full_description": "Allows the app to read the contents of your shared storage.",
+              "permission_type": "dangerous",
+              "short_description": "read the contents of your shared storage"
+            },
+            "android.permission.READ_MEDIA_IMAGES": {
+              "full_description": "Allows the app to read image files from your shared storage.",
+              "permission_type": "dangerous",
+              "short_description": "read image files from shared storage"
+            },
+            "android.permission.READ_MEDIA_VIDEO": {
+              "full_description": "Allows the app to read video files from your shared storage.",
+              "permission_type": "dangerous",
+              "short_description": "read video files from shared storage"
+            },
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED": {
+              "full_description": "Allows the app to read image and video files that you select from your shared storage.",
+              "permission_type": "dangerous",
+              "short_description": "read user selected image and video files from shared storage"
+            },
+            "android.permission.READ_PHONE_STATE": {
+              "full_description": "Allows the app to access the phone\n      features of the device.  This permission allows the app to determine the\n      phone number and device IDs, whether a call is active, and the remote number\n      connected by a call.",
+              "permission_type": "dangerous",
+              "short_description": "read phone status and identity"
+            },
+            "android.permission.READ_PRIVILEGED_PHONE_STATE": {
+              "full_description": "",
+              "permission_type": "signature|privileged",
+              "short_description": ""
+            },
+            "android.permission.RECEIVE_BOOT_COMPLETED": {
+              "full_description": "Allows the app to\n        have itself started as soon as the system has finished booting.\n        This can make it take longer to start the phone and allow the\n        app to slow down the overall phone by always running.",
+              "permission_type": "normal",
+              "short_description": "run at startup"
+            },
+            "android.permission.RECORD_AUDIO": {
+              "full_description": "This app can record audio using the microphone while the app is in use.",
+              "permission_type": "dangerous|instant",
+              "short_description": "record audio"
+            },
+            "android.permission.REORDER_TASKS": {
+              "full_description": "Allows the app to move tasks to the\n      foreground and background.  The app may do this without your input.",
+              "permission_type": "normal",
+              "short_description": "reorder running apps"
+            },
+            "android.permission.USE_CREDENTIALS": {
+              "full_description": "",
+              "permission_type": "normal",
+              "short_description": ""
+            },
+            "android.permission.USE_FINGERPRINT": {
+              "full_description": "Allows the app to use fingerprint hardware for authentication",
+              "permission_type": "normal",
+              "short_description": "use fingerprint hardware"
+            },
+            "android.permission.VIBRATE": {
+              "full_description": "Allows the app to control the vibrator.",
+              "permission_type": "normal|instant",
+              "short_description": "control vibration"
+            },
+            "android.permission.WAKE_LOCK": {
+              "full_description": "Allows the app to prevent the phone from going to sleep.",
+              "permission_type": "normal|instant",
+              "short_description": "prevent phone from sleeping"
+            },
+            "android.permission.WRITE_EXTERNAL_STORAGE": {
+              "full_description": "Allows the app to write the contents of your shared storage.",
+              "permission_type": "dangerous",
+              "short_description": "modify or delete the contents of your shared storage"
+            },
+            "com.amazon.appmanager.preload.permission.READ_PRELOAD_DEVICE_INFO_PROVIDER": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "signature or system",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.amazon.dcp.config.permission.DYN_CONFIG_VALUES_UPDATED": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "normal",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.amazon.dcp.metrics.permission.METRICS_PERMISSION": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "normal",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.amazon.dcp.settings.permission.READ_SETTINGS": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "normal",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.amazon.dcp.sso.permission.AmazonAccountPropertyService.property.changed": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "signature or system",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.amazon.dcp.sso.permission.CUSTOMER_ATTRIBUTE_SERVICE": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "normal",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.amazon.dcp.sso.permission.MANAGE_COR_PFM": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "normal",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.amazon.dcp.sso.permission.USE_DEVICE_CREDENTIALS": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "normal",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.amazon.dcp.sso.permission.account.changed": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "signature or system",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.amazon.identity.auth.device.perm.AUTH_SDK": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "signature or system",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.amazon.identity.permission.CALL_AMAZON_DEVICE_INFORMATION_PROVIDER": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "signature or system",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.amazon.identity.permission.CAN_CALL_MAP_INFORMATION_PROVIDER": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "signature or system",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.amazon.identity.permission.GENERIC_IPC": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "normal",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.amazon.whas.API_COMMUNICATION": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "normal",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.amazon.whisperjoin.deviceprovisioningservice.ArcusUpdate.Permission": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "signature",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.amazon.whisperjoin.deviceprovisioningservice.FFSServiceAction.permission": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "signature",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.amazon.whisperjoin.deviceprovisioningservice.WhiteListPolicyUpdate.Permission": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "signature",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.android.launcher.permission.INSTALL_SHORTCUT": {
+              "full_description": "Allows an application to add\n        Homescreen shortcuts without user intervention.",
+              "permission_type": "normal",
+              "short_description": "install shortcuts"
+            },
+            "com.android.launcher.permission.READ_SETTINGS": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "normal",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.android.vending.BILLING": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "normal",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.android.vending.CHECK_LICENSE": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "normal",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.google.android.apps.photos.permission.GOOGLE_PHOTOS": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "normal",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.google.android.c2dm.permission.RECEIVE": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "normal",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "normal",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.google.android.gms.permission.AD_ID": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "normal",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.htc.launcher.permission.READ_SETTINGS": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "normal",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.htc.launcher.permission.UPDATE_SHORTCUT": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "normal",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.sec.android.provider.badge.permission.READ": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "normal",
+              "short_description": "Unknown permission from android reference"
+            },
+            "com.sec.android.provider.badge.permission.WRITE": {
+              "full_description": "Unknown permission from android reference",
+              "permission_type": "normal",
+              "short_description": "Unknown permission from android reference"
+            }
+          }
+        },
+        "available_tools": [],
+        "bundle_info": {
+          "extensions": {
+            "arsc": 1,
+            "dex": 4,
+            "png": 24,
+            "webp": 317,
+            "xml": 654
+          },
+          "file_types": {
+            "PNG": 24,
+            "XML": 654,
+            "unknown": 322
+          },
+          "highest_datetime": "2024-11-18 16:54:38",
+          "lowest_datetime": "2024-11-18 16:54:34",
+          "num_children": 6675,
+          "type": "APK",
+          "uncompressed_size": 23570444
+        },
+        "crowdsourced_yara_results": [
+          {
+            "author": "InQuest Labs",
+            "description": "This signature identifies Adobe Extensible Metadata Platform (XMP) identifiers embedded within files. Defined as a standard for mapping graphical asset relationships, XMP allows for tracking of both parent-child relationships and individual revisions. There are three categories of identifiers: original document, document, and instance. Generally, XMP data is stored in XML format, updated on save/copy, and embedded within the graphical asset. These identifiers can be used to track both malicious and benign graphics within common Microsoft and Adobe document lures.",
+            "match_date": 1732026667,
+            "rule_name": "Adobe_XMP_Identifier",
+            "ruleset_id": "0121ae37cc",
+            "ruleset_name": "Adobe_XMP_Identifier",
+            "source": "https://github.com/InQuest/yara-rules-vt"
+          }
+        ],
+        "downloadable": true,
+        "exiftool": {
+          "FileType": "ZIP",
+          "FileTypeExtension": "zip",
+          "MIMEType": "application/zip",
+          "ZipBitFlag": "0x0808",
+          "ZipCRC": "0xa75ec251",
+          "ZipCompressedSize": "559136",
+          "ZipCompression": "Deflated",
+          "ZipFileName": "classes9.dex",
+          "ZipModifyDate": "2024:11:18 16:54:34",
+          "ZipRequiredVersion": "20",
+          "ZipUncompressedSize": "1458440"
+        },
+        "filecondis": {
+          "dhash": "0000001e1e171600",
+          "raw_md5": "65c75c3e449d4f59394b4226a09ec517"
+        },
+        "first_submission_date": 1732026654,
+        "last_analysis_date": 1732026654,
+        "last_analysis_results": {
+          "ALYac": {
+            "category": "undetected",
+            "engine_name": "ALYac",
+            "engine_update": "20241119",
+            "engine_version": "2.0.0.10",
+            "method": "blacklist",
+            "result": null
+          },
+          "APEX": {
+            "category": "type-unsupported",
+            "engine_name": "APEX",
+            "engine_update": "20241119",
+            "engine_version": "6.593",
+            "method": "blacklist",
+            "result": null
+          },
+          "AVG": {
+            "category": "timeout",
+            "engine_name": "AVG",
+            "engine_update": "20241119",
+            "engine_version": "23.9.8494.0",
+            "method": "blacklist",
+            "result": null
+          },
+          "Acronis": {
+            "category": "undetected",
+            "engine_name": "Acronis",
+            "engine_update": "20240328",
+            "engine_version": "1.2.0.121",
+            "method": "blacklist",
+            "result": null
+          },
+          "AhnLab-V3": {
+            "category": "undetected",
+            "engine_name": "AhnLab-V3",
+            "engine_update": "20241119",
+            "engine_version": "3.26.2.10521",
+            "method": "blacklist",
+            "result": null
+          },
+          "Alibaba": {
+            "category": "undetected",
+            "engine_name": "Alibaba",
+            "engine_update": "20190527",
+            "engine_version": "0.3.0.5",
+            "method": "blacklist",
+            "result": null
+          },
+          "Antiy-AVL": {
+            "category": "undetected",
+            "engine_name": "Antiy-AVL",
+            "engine_update": "20241119",
+            "engine_version": "3.0",
+            "method": "blacklist",
+            "result": null
+          },
+          "Arcabit": {
+            "category": "undetected",
+            "engine_name": "Arcabit",
+            "engine_update": "20241119",
+            "engine_version": "2022.0.0.18",
+            "method": "blacklist",
+            "result": null
+          },
+          "Avast": {
+            "category": "timeout",
+            "engine_name": "Avast",
+            "engine_update": "20241119",
+            "engine_version": "23.9.8494.0",
+            "method": "blacklist",
+            "result": null
+          },
+          "Avast-Mobile": {
+            "category": "undetected",
+            "engine_name": "Avast-Mobile",
+            "engine_update": "20241119",
+            "engine_version": "241119-00",
+            "method": "blacklist",
+            "result": null
+          },
+          "Avira": {
+            "category": "undetected",
+            "engine_name": "Avira",
+            "engine_update": "20241119",
+            "engine_version": "8.3.3.20",
+            "method": "blacklist",
+            "result": null
+          },
+          "Baidu": {
+            "category": "undetected",
+            "engine_name": "Baidu",
+            "engine_update": "20190318",
+            "engine_version": "1.0.0.2",
+            "method": "blacklist",
+            "result": null
+          },
+          "BitDefender": {
+            "category": "undetected",
+            "engine_name": "BitDefender",
+            "engine_update": "20241119",
+            "engine_version": "7.2",
+            "method": "blacklist",
+            "result": null
+          },
+          "BitDefenderFalx": {
+            "category": "undetected",
+            "engine_name": "BitDefenderFalx",
+            "engine_update": "20241018",
+            "engine_version": "2.0.936",
+            "method": "blacklist",
+            "result": null
+          },
+          "Bkav": {
+            "category": "undetected",
+            "engine_name": "Bkav",
+            "engine_update": "20241119",
+            "engine_version": "2.0.0.1",
+            "method": "blacklist",
+            "result": null
+          },
+          "CAT-QuickHeal": {
+            "category": "undetected",
+            "engine_name": "CAT-QuickHeal",
+            "engine_update": "20241118",
+            "engine_version": "22.00",
+            "method": "blacklist",
+            "result": null
+          },
+          "CMC": {
+            "category": "undetected",
+            "engine_name": "CMC",
+            "engine_update": "20241118",
+            "engine_version": "2.4.2022.1",
+            "method": "blacklist",
+            "result": null
+          },
+          "CTX": {
+            "category": "undetected",
+            "engine_name": "CTX",
+            "engine_update": "20241119",
+            "engine_version": "2024.8.29.1",
+            "method": "blacklist",
+            "result": null
+          },
+          "ClamAV": {
+            "category": "undetected",
+            "engine_name": "ClamAV",
+            "engine_update": "20241119",
+            "engine_version": "1.4.1.0",
+            "method": "blacklist",
+            "result": null
+          },
+          "CrowdStrike": {
+            "category": "undetected",
+            "engine_name": "CrowdStrike",
+            "engine_update": "20231026",
+            "engine_version": "1.0",
+            "method": "blacklist",
+            "result": null
+          },
+          "Cylance": {
+            "category": "type-unsupported",
+            "engine_name": "Cylance",
+            "engine_update": "20241114",
+            "engine_version": "3.0.0.0",
+            "method": "blacklist",
+            "result": null
+          },
+          "Cynet": {
+            "category": "type-unsupported",
+            "engine_name": "Cynet",
+            "engine_update": "20241119",
+            "engine_version": "4.0.1.1",
+            "method": "blacklist",
+            "result": null
+          },
+          "DeepInstinct": {
+            "category": "type-unsupported",
+            "engine_name": "DeepInstinct",
+            "engine_update": "20241105",
+            "engine_version": "5.0.0.8",
+            "method": "blacklist",
+            "result": null
+          },
+          "DrWeb": {
+            "category": "undetected",
+            "engine_name": "DrWeb",
+            "engine_update": "20241119",
+            "engine_version": "7.0.65.5230",
+            "method": "blacklist",
+            "result": null
+          },
+          "ESET-NOD32": {
+            "category": "undetected",
+            "engine_name": "ESET-NOD32",
+            "engine_update": "20241119",
+            "engine_version": "30246",
+            "method": "blacklist",
+            "result": null
+          },
+          "Elastic": {
+            "category": "undetected",
+            "engine_name": "Elastic",
+            "engine_update": "20241118",
+            "engine_version": "4.0.174",
+            "method": "blacklist",
+            "result": null
+          },
+          "Emsisoft": {
+            "category": "undetected",
+            "engine_name": "Emsisoft",
+            "engine_update": "20241119",
+            "engine_version": "2024.1.0.53752",
+            "method": "blacklist",
+            "result": null
+          },
+          "F-Secure": {
+            "category": "undetected",
+            "engine_name": "F-Secure",
+            "engine_update": "20241119",
+            "engine_version": "18.10.1547.307",
+            "method": "blacklist",
+            "result": null
+          },
+          "FireEye": {
+            "category": "undetected",
+            "engine_name": "FireEye",
+            "engine_update": "20241119",
+            "engine_version": "35.47.0.0",
+            "method": "blacklist",
+            "result": null
+          },
+          "Fortinet": {
+            "category": "undetected",
+            "engine_name": "Fortinet",
+            "engine_update": "20241119",
+            "engine_version": "None",
+            "method": "blacklist",
+            "result": null
+          },
+          "GData": {
+            "category": "undetected",
+            "engine_name": "GData",
+            "engine_update": "20241119",
+            "engine_version": "A:25.39302B:27.38235",
+            "method": "blacklist",
+            "result": null
+          },
+          "Google": {
+            "category": "undetected",
+            "engine_name": "Google",
+            "engine_update": "20241119",
+            "engine_version": "1732019439",
+            "method": "blacklist",
+            "result": null
+          },
+          "Gridinsoft": {
+            "category": "undetected",
+            "engine_name": "Gridinsoft",
+            "engine_update": "20241119",
+            "engine_version": "1.0.196.174",
+            "method": "blacklist",
+            "result": null
+          },
+          "Ikarus": {
+            "category": "undetected",
+            "engine_name": "Ikarus",
+            "engine_update": "20241119",
+            "engine_version": "6.3.23.0",
+            "method": "blacklist",
+            "result": null
+          },
+          "Jiangmin": {
+            "category": "undetected",
+            "engine_name": "Jiangmin",
+            "engine_update": "20241118",
+            "engine_version": "16.0.100",
+            "method": "blacklist",
+            "result": null
+          },
+          "K7AntiVirus": {
+            "category": "undetected",
+            "engine_name": "K7AntiVirus",
+            "engine_update": "20241119",
+            "engine_version": "12.201.53911",
+            "method": "blacklist",
+            "result": null
+          },
+          "K7GW": {
+            "category": "undetected",
+            "engine_name": "K7GW",
+            "engine_update": "20241119",
+            "engine_version": "12.201.53912",
+            "method": "blacklist",
+            "result": null
+          },
+          "Kaspersky": {
+            "category": "undetected",
+            "engine_name": "Kaspersky",
+            "engine_update": "20241119",
+            "engine_version": "22.0.1.28",
+            "method": "blacklist",
+            "result": null
+          },
+          "Kingsoft": {
+            "category": "undetected",
+            "engine_name": "Kingsoft",
+            "engine_update": "20241115",
+            "engine_version": "None",
+            "method": "blacklist",
+            "result": null
+          },
+          "Lionic": {
+            "category": "undetected",
+            "engine_name": "Lionic",
+            "engine_update": "20241119",
+            "engine_version": "8.16",
+            "method": "blacklist",
+            "result": null
+          },
+          "Malwarebytes": {
+            "category": "undetected",
+            "engine_name": "Malwarebytes",
+            "engine_update": "20241119",
+            "engine_version": "4.5.5.54",
+            "method": "blacklist",
+            "result": null
+          },
+          "MaxSecure": {
+            "category": "undetected",
+            "engine_name": "MaxSecure",
+            "engine_update": "20241119",
+            "engine_version": "1.0.0.1",
+            "method": "blacklist",
+            "result": null
+          },
+          "McAfee": {
+            "category": "timeout",
+            "engine_name": "McAfee",
+            "engine_update": "20241119",
+            "engine_version": "6.0.6.653",
+            "method": "blacklist",
+            "result": null
+          },
+          "McAfeeD": {
+            "category": "type-unsupported",
+            "engine_name": "McAfeeD",
+            "engine_update": "20241119",
+            "engine_version": "1.2.0.7977",
+            "method": "blacklist",
+            "result": null
+          },
+          "MicroWorld-eScan": {
+            "category": "undetected",
+            "engine_name": "MicroWorld-eScan",
+            "engine_update": "20241119",
+            "engine_version": "14.0.409.0",
+            "method": "blacklist",
+            "result": null
+          },
+          "Microsoft": {
+            "category": "undetected",
+            "engine_name": "Microsoft",
+            "engine_update": "20241119",
+            "engine_version": "1.1.24090.11",
+            "method": "blacklist",
+            "result": null
+          },
+          "NANO-Antivirus": {
+            "category": "undetected",
+            "engine_name": "NANO-Antivirus",
+            "engine_update": "20241119",
+            "engine_version": "1.0.146.25796",
+            "method": "blacklist",
+            "result": null
+          },
+          "Paloalto": {
+            "category": "type-unsupported",
+            "engine_name": "Paloalto",
+            "engine_update": "20241119",
+            "engine_version": "0.9.0.1003",
+            "method": "blacklist",
+            "result": null
+          },
+          "Panda": {
+            "category": "undetected",
+            "engine_name": "Panda",
+            "engine_update": "20241119",
+            "engine_version": "4.6.4.2",
+            "method": "blacklist",
+            "result": null
+          },
+          "Rising": {
+            "category": "undetected",
+            "engine_name": "Rising",
+            "engine_update": "20241119",
+            "engine_version": "25.0.0.28",
+            "method": "blacklist",
+            "result": null
+          },
+          "SUPERAntiSpyware": {
+            "category": "undetected",
+            "engine_name": "SUPERAntiSpyware",
+            "engine_update": "20241118",
+            "engine_version": "5.6.0.1032",
+            "method": "blacklist",
+            "result": null
+          },
+          "Sangfor": {
+            "category": "timeout",
+            "engine_name": "Sangfor",
+            "engine_update": "20241119",
+            "engine_version": "2.25.10.0",
+            "method": "blacklist",
+            "result": null
+          },
+          "SentinelOne": {
+            "category": "type-unsupported",
+            "engine_name": "SentinelOne",
+            "engine_update": "20240417",
+            "engine_version": "24.2.1.1",
+            "method": "blacklist",
+            "result": null
+          },
+          "Skyhigh": {
+            "category": "undetected",
+            "engine_name": "Skyhigh",
+            "engine_update": "20241118",
+            "engine_version": "v2021.2.0+4045",
+            "method": "blacklist",
+            "result": null
+          },
+          "Sophos": {
+            "category": "undetected",
+            "engine_name": "Sophos",
+            "engine_update": "20241119",
+            "engine_version": "2.5.5.0",
+            "method": "blacklist",
+            "result": null
+          },
+          "Symantec": {
+            "category": "undetected",
+            "engine_name": "Symantec",
+            "engine_update": "20241119",
+            "engine_version": "1.22.0.0",
+            "method": "blacklist",
+            "result": null
+          },
+          "SymantecMobileInsight": {
+            "category": "undetected",
+            "engine_name": "SymantecMobileInsight",
+            "engine_update": "20241111",
+            "engine_version": "2.0",
+            "method": "blacklist",
+            "result": null
+          },
+          "TACHYON": {
+            "category": "undetected",
+            "engine_name": "TACHYON",
+            "engine_update": "20241119",
+            "engine_version": "2024-11-19.02",
+            "method": "blacklist",
+            "result": null
+          },
+          "Tencent": {
+            "category": "undetected",
+            "engine_name": "Tencent",
+            "engine_update": "20241119",
+            "engine_version": "1.0.0.1",
+            "method": "blacklist",
+            "result": null
+          },
+          "Trapmine": {
+            "category": "type-unsupported",
+            "engine_name": "Trapmine",
+            "engine_update": "20241107",
+            "engine_version": "4.0.16.250",
+            "method": "blacklist",
+            "result": null
+          },
+          "TrendMicro": {
+            "category": "undetected",
+            "engine_name": "TrendMicro",
+            "engine_update": "20241119",
+            "engine_version": "11.0.0.1006",
+            "method": "blacklist",
+            "result": null
+          },
+          "TrendMicro-HouseCall": {
+            "category": "undetected",
+            "engine_name": "TrendMicro-HouseCall",
+            "engine_update": "20241119",
+            "engine_version": "10.0.0.1040",
+            "method": "blacklist",
+            "result": null
+          },
+          "Trustlook": {
+            "category": "undetected",
+            "engine_name": "Trustlook",
+            "engine_update": "20241119",
+            "engine_version": "1.0",
+            "method": "blacklist",
+            "result": null
+          },
+          "VBA32": {
+            "category": "undetected",
+            "engine_name": "VBA32",
+            "engine_update": "20241119",
+            "engine_version": "5.0.0",
+            "method": "blacklist",
+            "result": null
+          },
+          "VIPRE": {
+            "category": "undetected",
+            "engine_name": "VIPRE",
+            "engine_update": "20241119",
+            "engine_version": "6.0.0.35",
+            "method": "blacklist",
+            "result": null
+          },
+          "Varist": {
+            "category": "undetected",
+            "engine_name": "Varist",
+            "engine_update": "20241119",
+            "engine_version": "6.6.1.3",
+            "method": "blacklist",
+            "result": null
+          },
+          "ViRobot": {
+            "category": "undetected",
+            "engine_name": "ViRobot",
+            "engine_update": "20241119",
+            "engine_version": "2014.3.20.0",
+            "method": "blacklist",
+            "result": null
+          },
+          "VirIT": {
+            "category": "undetected",
+            "engine_name": "VirIT",
+            "engine_update": "20241119",
+            "engine_version": "9.5.833",
+            "method": "blacklist",
+            "result": null
+          },
+          "Webroot": {
+            "category": "undetected",
+            "engine_name": "Webroot",
+            "engine_update": "20240910",
+            "engine_version": "1.9.0.8",
+            "method": "blacklist",
+            "result": null
+          },
+          "Xcitium": {
+            "category": "undetected",
+            "engine_name": "Xcitium",
+            "engine_update": "20241118",
+            "engine_version": "37230",
+            "method": "blacklist",
+            "result": null
+          },
+          "Yandex": {
+            "category": "undetected",
+            "engine_name": "Yandex",
+            "engine_update": "20241119",
+            "engine_version": "5.5.2.24",
+            "method": "blacklist",
+            "result": null
+          },
+          "Zillya": {
+            "category": "undetected",
+            "engine_name": "Zillya",
+            "engine_update": "20241118",
+            "engine_version": "2.0.0.5240",
+            "method": "blacklist",
+            "result": null
+          },
+          "ZoneAlarm": {
+            "category": "undetected",
+            "engine_name": "ZoneAlarm",
+            "engine_update": "20241008",
+            "engine_version": "1.0",
+            "method": "blacklist",
+            "result": null
+          },
+          "Zoner": {
+            "category": "undetected",
+            "engine_name": "Zoner",
+            "engine_update": "20241119",
+            "engine_version": "2.2.2.0",
+            "method": "blacklist",
+            "result": null
+          },
+          "alibabacloud": {
+            "category": "type-unsupported",
+            "engine_name": "alibabacloud",
+            "engine_update": "20241030",
+            "engine_version": "2.2.0",
+            "method": "blacklist",
+            "result": null
+          },
+          "huorong": {
+            "category": "undetected",
+            "engine_name": "huorong",
+            "engine_update": "20241119",
+            "engine_version": "79361fd:79361fd:73f6112:73f6112",
+            "method": "blacklist",
+            "result": null
+          },
+          "tehtris": {
+            "category": "undetected",
+            "engine_name": "tehtris",
+            "engine_update": "20241119",
+            "engine_version": "v0.1.4",
+            "method": "blacklist",
+            "result": null
+          }
+        },
+        "last_analysis_stats": {
+          "confirmed-timeout": 0,
+          "failure": 0,
+          "harmless": 0,
+          "malicious": 0,
+          "suspicious": 0,
+          "timeout": 4,
+          "type-unsupported": 9,
+          "undetected": 64
+        },
+        "last_modification_date": 1732026792,
+        "last_submission_date": 1732026654,
+        "magic": "Zip archive data, at least v2.0 to extract, compression method=deflate",
+        "md5": "904e189c0840ee2ed2f60698a10a7155",
+        "meaningful_name": "/mnt/Stegomalware/APK_Stego/apk/apk_stego/2d2df320fe938ecb3da8861a0e6e050a30a5c1c8f793f1d6faefba3e7b2aa611.apk",
+        "names": [
+          "/mnt/Stegomalware/APK_Stego/apk/apk_stego/2d2df320fe938ecb3da8861a0e6e050a30a5c1c8f793f1d6faefba3e7b2aa611.apk"
+        ],
+        "permhash": "17a3fb9e755ebc063cc80bccafdaa70afec6b9a48108053b04d4fd5f1fb41541",
+        "reputation": 0,
+        "sha1": "9370050afc4dca226d3e96da121455160ad89e8f",
+        "sha256": "2d2df320fe938ecb3da8861a0e6e050a30a5c1c8f793f1d6faefba3e7b2aa611",
+        "size": 67056614,
+        "ssdeep": "1572864:sCSGwndzpYwArekB62LgWlTAHbpKzkXrqKLZIl:s315gzB7gOYbW8Goyl",
+        "tags": [
+          "apk",
+          "android"
+        ],
+        "threat_severity": {
+          "last_analysis_date": "1732026791",
+          "level_description": "No severity score data",
+          "threat_severity_data": {},
+          "threat_severity_level": "SEVERITY_NONE",
+          "version": 5
+        },
+        "times_submitted": 1,
+        "tlsh": "T16AE7228BE75AFDA6D4F293319675026760450D605B43EBD3780EB2381BB3EF09A09DD8",
+        "total_votes": {
+          "harmless": 0,
+          "malicious": 0
+        },
+        "trid": [
+          {
+            "file_type": "Android Package",
+            "probability": 43.5
+          },
+          {
+            "file_type": "Java Archive",
+            "probability": 21.7
+          },
+          {
+            "file_type": "Sweet Home 3D design (generic)",
+            "probability": 16.9
+          },
+          {
+            "file_type": "Mozilla Archive Format (gen)",
+            "probability": 11.2
+          },
+          {
+            "file_type": "ZIP compressed archive",
+            "probability": 6.4
+          }
+        ],
+        "type_description": "Android",
+        "type_extension": "apk",
+        "type_tag": "android",
+        "type_tags": [
+          "executable",
+          "mobile",
+          "android",
+          "apk"
+        ],
+        "unique_sources": 1,
+        "vhash": "e3b58f1b6167ccd49b335b29d644e164"
+      },
+      "id": "2d2df320fe938ecb3da8861a0e6e050a30a5c1c8f793f1d6faefba3e7b2aa611",
+      "links": {
+        "self": "https://www.virustotal.com/api/v3/files/2d2df320fe938ecb3da8861a0e6e050a30a5c1c8f793f1d6faefba3e7b2aa611"
+      },
+      "type": "file"
+    }
+  }
+}

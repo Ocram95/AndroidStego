@@ -1,4 +1,4 @@
-# AndroidStego: statistics extractor
+# Statistics extractor
 
 This directory contains the scripts to create an assets dataset from a known set of applications.
 

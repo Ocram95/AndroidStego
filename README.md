@@ -19,5 +19,5 @@ This project contains the following folders:
     The payload hidden in the images is part of the [Necro Trojan](https://securelist.com/necro-trojan-is-back-on-google-play/113881/) and malicious URLs hidden in the audio files are collected from [URLhase](https://urlhaus.abuse.ch/) repository. 
 - scripts: it contains all the scripts used to generate and test this dataset:
     1. decode_images.py, encode_images.py and encode_audio.py to generate the dataset of stego resources;
-    2. statistics_extractor/, directory that contains the code used to extract statistics from assets of applications (info_extractor.py) and select only certain assets (assets_extractor.py)
+    2. statistics_extractor/, directory that contains the code used to extract statistics from resources of applications (info_extractor.py) and select only certain resources (resources_extractor.py)
 - data.xlsx: it contains a summary of the dataset.

@@ -1,6 +1,6 @@
 # Statistics extractor
 
-This directory contains the scripts to create an assets dataset from a known set of applications.
+This directory contains the scripts to create an resources dataset from a known set of applications.
 
 1. info_extractor.py [-h] [--decode] [--statistics] [--input_apks INPUT_APKS] to extract info from a known set of application. 
         
@@ -15,4 +15,4 @@ This directory contains the scripts to create an assets dataset from a known set
         --input_apks INPUT_APKS 
                               Path to input apks. Default: /mnt/Stegomalware/APK_Stego/
     
-2. assets_extractor.py to select assets with specific features
+2. resource_extractor.py to select resources with specific features

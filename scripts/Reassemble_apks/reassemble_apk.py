@@ -162,10 +162,6 @@ def main():
     done_apks = [done.replace('.json', '') for done in os.listdir('./data_rebuilt')]
     # loop over all the apps to rebuild
     for app in os.listdir(os.path.join(decoded_path, 'decoded_original')):
-        # if app in done_apks:
-        #    continue
-        if app not in ['amazon-shopping', 'Telegram', 'bulletecho', 'candyCrush', 'Eurospin', 'flixbus', 'duolingo']:
-            continue
         logger.info(f"Starting with {app} ...")
         # find the assets modified in the assets directory
         try:
@@ -192,7 +188,7 @@ def main():
 
         # set the keys for the signing keys
         keystore_password = "obfuscation_password"
-        keystore_path = os.path.join(os.path.dirname(__file__), "resources", f"{app}.jks")
+        keystore_path = os.path.join(os.path.dirname(__file__), "keys", f"{app}.jks")
         key_password = "obfuscation_password"
         
         data_rebuilt = os.path.join(os.path.dirname(__file__), "data_rebuilt", f"{app}.json")

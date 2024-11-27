@@ -1,13 +1,13 @@
 ## Reassemble APK
 
-The directory contains the scripts to reassemble the application with the modified assets.
+The directory contains the scripts to reassemble the application with the modified resources.
 
 Execute the script with 
 
 ```
 python reassemble_apk.py [-h] [--decoded_path DECODED_PATH] [--output_path OUTPUT_PATH]
 
-Reassemble the apk with the stegoassets. Requirements: apktool, apksigner, zipalign and budledecompile
+Reassemble the apk with the stegoresources. Requirements: apktool, apksigner, zipalign and budledecompile
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -25,4 +25,4 @@ and the output_path points to a directory organized as follows:
     - apk_orginal/, where the original apks are stored.
     - apk_stego/, where the modified apks will be stored.
 
-The directory `data_rebuilt` contains the json with the hashes of new rebuilt applications, and the combinations of modified assets and the path where to copy the asset.
+The directory `data_rebuilt` contains the json with the hashes of new rebuilt applications, and the combinations of modified resources and the path where to copy the resources.

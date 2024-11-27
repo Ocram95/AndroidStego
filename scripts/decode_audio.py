@@ -5,7 +5,7 @@ import re
 audio_mp3 = []
 audio_wav = []
 
-main_folder = '../assets/stego_assets/audio/'
+main_folder = '../resources/stego_resources/audio/'
 for dirpath, dirnames, filenames in os.walk(main_folder):
 	for filename in filenames:
 		if filename.endswith(".mp3"):

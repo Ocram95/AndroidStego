@@ -215,7 +215,7 @@ secret_in_bits = read_secret(secret)
 secret_in_chunks = [secret_in_bits[i:i+1] for i in range(0, len(secret_in_bits), 1)]
 
 
-images = get_images('../assets/stego_assets/LSB/Sequential/')
+images = get_images('../resources/stego_resources/LSB/Sequential/')
 for image in images:
 	img = Image.open(image)
 	mode = img.mode
@@ -238,7 +238,7 @@ for image in images:
 		output, len_palette = decode_LSB_palette(img)
 		secret_correctly_encoded_palette(secret_in_chunks, output, len_palette)
 
-images = get_images('../assets/stego_assets/OceanLotus/Sequential/')
+images = get_images('../resources/stego_resources/OceanLotus/Sequential/')
 for image in images:
 	img = Image.open(image)
 	mode = img.mode
@@ -254,7 +254,7 @@ for image in images:
 
 secret_split = split_secret(secret)
 
-images = get_images('../assets/stego_assets/LSB/Squares/')
+images = get_images('../resources/stego_resources/LSB/Squares/')
 for image in images:
 	img = Image.open(image)
 	mode = img.mode
@@ -273,7 +273,7 @@ for image in images:
 
 
 
-images = get_images('../assets/stego_assets/OceanLotus/Squares/')
+images = get_images('../resources/stego_resources/OceanLotus/Squares/')
 for image in images:
 	img = Image.open(image)
 	mode = img.mode

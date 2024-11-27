@@ -312,7 +312,7 @@ def rebuild_image(original_width, original_height, output_path, mode):
 
 images = []
 
-main_folder = '../assets'
+main_folder = '../resources'
 for dirpath, dirnames, filenames in os.walk(main_folder):
 	for filename in filenames:
 		if filename.endswith(".png"):
@@ -337,13 +337,13 @@ for image in images[:]:
 		new_pixels_list = encode_LSB_RGBA(r,g,b,a, secret_in_chunks, original_width, original_height)
 		pixels_list_array = np.array(new_pixels_list, dtype=np.uint8)
 		output_image = Image.fromarray(pixels_list_array)
-		output_image.save(image.replace("assets", "LSB/Sequential", 1))
+		output_image.save(image.replace("../resources", "LSB/Sequential", 1))
 		
 		print("SEQUENTIAL, OCEANLOTUS: " + image)
 		new_pixels_list = encode_LSB_RGBA(r,g,b,a, split_list, original_width, original_height)
 		pixels_list_array = np.array(new_pixels_list, dtype=np.uint8)
 		output_image = Image.fromarray(pixels_list_array)
-		output_image.save(image.replace("assets", "OceanLotus/Sequential",1))
+		output_image.save(image.replace("../resources", "OceanLotus/Sequential",1))
 
 	elif mode == "LA":
 		l, a = parse_LA_image(image)
@@ -351,34 +351,34 @@ for image in images[:]:
 		new_pixels_list = encode_LSB_LA(l,a, secret_in_chunks, original_width, original_height)
 		pixels_list_array = np.array(new_pixels_list, dtype=np.uint8)
 		output_image = Image.fromarray(pixels_list_array)
-		output_image.save(image.replace("assets", "LSB/Sequential",1))
+		output_image.save(image.replace("../resources", "LSB/Sequential",1))
 
 		l, a = parse_LA_image(image)
 		print("OCEANLOTUS, LSB: " + image)
 		new_pixels_list = encode_LSB_LA(l,a, secret_in_chunks, original_width, original_height)
 		pixels_list_array = np.array(new_pixels_list, dtype=np.uint8)
 		output_image = Image.fromarray(pixels_list_array)
-		output_image.save(image.replace("assets", "LSB/Sequential",1))
+		output_image.save(image.replace("../resources", "LSB/Sequential",1))
 
 	elif mode == '1':
 		print("SEQUENTIAL, LSB: " + image)
 		new_pixels = encode_LSB_mode1(img, secret_in_chunks)
 		new_image = Image.new(mode, (original_width, original_height))
 		new_image.putdata(new_pixels)
-		new_image.save(image.replace("assets", "LSB/Sequential",1))
+		new_image.save(image.replace("../resources", "LSB/Sequential",1))
 
 	elif mode == "P":
 		print("SEQUENTIAL, LSB: " + image)
 		new_palette = encode_LSB_palette(img, secret_in_chunks)
 		new_image = img
 		new_image.putpalette(new_palette)
-		new_image.save(image.replace("assets", "LSB/Sequential",1))
+		new_image.save(image.replace("../resources", "LSB/Sequential",1))
 
 		print("SEQUENTIAL, OCEANLOTUS: " + image)
 		new_palette = encode_OCEAN_palette(img, secret_in_bits)
 		new_image = img
 		new_image.putpalette(new_palette)
-		new_image.save(image.replace("assets", "OceanLotus/Sequential",1))
+		new_image.save(image.replace("../resources", "OceanLotus/Sequential",1))
 
 
 secret_split = split_secret(secret)
@@ -403,7 +403,7 @@ for image in images[:]:
 			pixels_list_array = np.array(new_pixels_list, dtype=np.uint8)
 			output_image = Image.fromarray(pixels_list_array)
 			output_image.save("tmp_part_vertical_" + image_tmp)
-		rebuild_image(original_width, original_height, image.replace("assets", "LSB/Squares",1), mode)
+		rebuild_image(original_width, original_height, image.replace("../resources", "LSB/Squares",1), mode)
 		command = "rm part_* tmp_*"
 		process = subprocess.Popen(command, shell=True)
 		process.wait()
@@ -422,7 +422,7 @@ for image in images[:]:
 			pixels_list_array = np.array(new_pixels_list, dtype=np.uint8)
 			output_image = Image.fromarray(pixels_list_array)
 			output_image.save("tmp_part_vertical_" + image_tmp)
-		rebuild_image(original_width, original_height, image.replace("assets", "OceanLotus/Squares",1), mode)
+		rebuild_image(original_width, original_height, image.replace("../resources", "OceanLotus/Squares",1), mode)
 		command = "rm part_* tmp_*"
 		process = subprocess.Popen(command, shell=True)
 		process.wait()
@@ -441,7 +441,7 @@ for image in images[:]:
 			new_image = Image.new(mode, (tmp_width, tmp_height))
 			new_image.putdata(new_pixels)
 			new_image.save("tmp_part_vertical_" + list_image_parts[x])
-		rebuild_image(original_width, original_height, image.replace("assets", "LSB/Squares",1), mode)
+		rebuild_image(original_width, original_height, image.replace("../resources", "LSB/Squares",1), mode)
 		command = "rm part_* tmp_*"
 		process = subprocess.Popen(command, shell=True)
 		process.wait()
@@ -471,7 +471,7 @@ for image in images[:]:
 	# 		pixels_list_array = np.array(new_pixels_list, dtype=np.uint8)
 	# 		output_image = Image.fromarray(pixels_list_array)
 	# 		output_image.save("tmp_part_vertical_" + image_tmp)
-	# 	#rebuild_image(original_width, original_height, image.replace("assets", "assets_stego_empty"), mode)
+	# 	#rebuild_image(original_width, original_height, image.replace("../resources", "assets_stego_empty"), mode)
 	# 	rebuild_image(original_width, original_height, "test_LSB_squares_LA.png", mode)
 	# 	break
 

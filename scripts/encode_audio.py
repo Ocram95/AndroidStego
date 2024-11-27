@@ -4,7 +4,7 @@ import subprocess
 audio_mp3 = []
 audio_wav = []
 
-main_folder = '../assets'
+main_folder = '../resources'
 for dirpath, dirnames, filenames in os.walk(main_folder):
 	for filename in filenames:
 		if filename.endswith(".mp3"):
@@ -21,7 +21,7 @@ for audio in audio_mp3[:]:
 	command = "./hideme " + audio + " \"" + secret + "\""
 	process = subprocess.Popen(command, shell=True)
 	process.wait()
-	command = "mv output.mp3 " + audio.replace("assets", "assets_stego_empty")
+	command = "mv output.mp3 " + audio.replace("../resources", "assets_stego_empty")
 	process = subprocess.Popen(command, shell=True)
 	process.wait()
 
@@ -30,6 +30,6 @@ for audio in audio_wav[:]:
 	command = "./hideme " + audio + " \"" + secret + "\""
 	process = subprocess.Popen(command, shell=True)
 	process.wait()
-	command = "mv output.wav " + audio.replace("assets", "assets_stego_empty")
+	command = "mv output.wav " + audio.replace("../resources", "assets_stego_empty")
 	process = subprocess.Popen(command, shell=True)
 	process.wait()

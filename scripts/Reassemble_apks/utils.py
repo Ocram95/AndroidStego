@@ -42,7 +42,7 @@ def find_file_path(statistics_path: str, app: str, asset_name:str, type:str)->st
     Parameters
     ----------
     statistics_path : str
-        path of the statistics files where to find the assets path
+        path of the statistics files where to find the resources path
     app : str
         app where there is the asset name
     asset_name : str
@@ -73,9 +73,9 @@ def get_file_hash(file_path: str, hash_function, block_size=65536) -> str:
 def sha256sum(file_path: str) -> str:
     return get_file_hash(file_path, sha256())
 
-def find_modified_assets(app: str, type: str) -> tuple:
+def find_modified_resources(app: str, type: str) -> tuple:
     """
-    Find the modified assets in the directory
+    Find the modified resources in the directory
 
     Parameters
     ----------
@@ -87,22 +87,22 @@ def find_modified_assets(app: str, type: str) -> tuple:
     Returns
     -------
     tuple
-        if type is OceanLotus or LSB a tuple containing squares and sequential assets
-        if type is audio a list containing the assets modified
+        if type is OceanLotus or LSB a tuple containing squares and sequential resources
+        if type is audio a list containing the resources modified
     """
-    assets = list()
+    resources = list()
     seq = list()
     sq = list()
     
     if type == 'audio':
-        paths = glob.glob(os.path.join('..', '..', 'assets', 'stego_assets', type, app, '*'))
+        paths = glob.glob(os.path.join('..', '..', 'resources', 'stego_resources', type, app, '*'))
     else:
-        paths = glob.glob(os.path.join('..', '..', 'assets', 'stego_assets', type, '*', app, '*'))
+        paths = glob.glob(os.path.join('..', '..', 'resources', 'stego_resources', type, '*', app, '*'))
         
     for p in paths:
         if type == 'audio':
-            assets += [os.path.join(p, a) for a in os.listdir(p)]
-            return assets
+            resources += [os.path.join(p, a) for a in os.listdir(p)]
+            return resources
         elif type == 'LSB' or type == 'OceanLotus':
             if 'Sequential' in p:
                 seq += [os.path.join(p, i) for i in os.listdir(p)]

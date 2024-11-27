@@ -1,7 +1,7 @@
 {
   "2d2df320fe938ecb3da8861a0e6e050a30a5c1c8f793f1d6faefba3e7b2aa611": [
     [
-      "../../assets/stego_assets/audio/amazon-shopping/audio/mshop_alexa_earcon_endpointing.mp3"
+      "../../resources/stego_resources/audio/amazon-shopping/audio/mshop_alexa_earcon_endpointing.mp3"
     ],
     [
       "amazon-shopping/res/raw/mshop_alexa_earcon_endpointing.mp3"
@@ -9,8 +9,8 @@
   ],
   "6571ec784e947d60e714c8d7d93471b3b394eb3b7855ff245fc695b185151648": [
     [
-      "../../assets/stego_assets/audio/amazon-shopping/audio/mshop_alexa_earcon_listening.mp3",
-      "../../assets/stego_assets/audio/amazon-shopping/audio/mshop_alexa_earcon_endpointing.mp3"
+      "../../resources/stego_resources/audio/amazon-shopping/audio/mshop_alexa_earcon_listening.mp3",
+      "../../resources/stego_resources/audio/amazon-shopping/audio/mshop_alexa_earcon_endpointing.mp3"
     ],
     [
       "amazon-shopping/res/raw/mshop_alexa_earcon_listening.mp3",
@@ -19,7 +19,7 @@
   ],
   "4ff2b413c7b96e0245b315b6387473c7719329f36d680624897c592ddc94390c": [
     [
-      "../../assets/stego_assets/audio/amazon-shopping/audio/mshop_alexa_earcon_listening.mp3"
+      "../../resources/stego_resources/audio/amazon-shopping/audio/mshop_alexa_earcon_listening.mp3"
     ],
     [
       "amazon-shopping/res/raw/mshop_alexa_earcon_listening.mp3"

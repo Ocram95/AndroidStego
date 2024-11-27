@@ -1,10 +1,10 @@
 {
   "b604cd5f1319ac8c8cc86851cef4212dc1a35ee76b42111ddf3973c7e22f6e32": [
     [
-      "../../assets/stego_assets/LSB/Sequential/duolingo/images/ic_notification.png",
-      "../../assets/stego_assets/audio/duolingo/audio/piano_e3.mp3",
-      "../../assets/stego_assets/audio/duolingo/audio/adventures_background_music.mp3",
-      "../../assets/stego_assets/audio/duolingo/audio/piano_e3.wav"
+      "../../resources/stego_resources/LSB/Sequential/duolingo/images/ic_notification.png",
+      "../../resources/stego_resources/audio/duolingo/audio/piano_e3.mp3",
+      "../../resources/stego_resources/audio/duolingo/audio/adventures_background_music.mp3",
+      "../../resources/stego_resources/audio/duolingo/audio/piano_e3.wav"
     ],
     [
       "duolingo/res/drawable-xxhdpi/ic_notification.png",
@@ -14,8 +14,8 @@
   ],
   "0afd410d91f9d917645967c2a104cb210c59299d430bb1e5b5d113a370b7dceb": [
     [
-      "../../assets/stego_assets/LSB/Sequential/duolingo/images/ic_notification.png",
-      "../../assets/stego_assets/audio/duolingo/audio/piano_e3.wav"
+      "../../resources/stego_resources/LSB/Sequential/duolingo/images/ic_notification.png",
+      "../../resources/stego_resources/audio/duolingo/audio/piano_e3.wav"
     ],
     [
       "duolingo/res/drawable-xxhdpi/ic_notification.png"
@@ -23,8 +23,8 @@
   ],
   "25098ee8bf2c004de8c8f8be8b080e7a6254bf18676de0c28e643b878e7b57a9": [
     [
-      "../../assets/stego_assets/audio/duolingo/audio/piano_e3.mp3",
-      "../../assets/stego_assets/audio/duolingo/audio/adventures_background_music.mp3"
+      "../../resources/stego_resources/audio/duolingo/audio/piano_e3.mp3",
+      "../../resources/stego_resources/audio/duolingo/audio/adventures_background_music.mp3"
     ],
     [
       "duolingo/res/raw/piano_e3.mp3",
@@ -33,7 +33,7 @@
   ],
   "3ffd3022e47e6a48e1e579db0b2ebef7aaeafb6d9c68d8f3cfa08e85a4b5ed14": [
     [
-      "../../assets/stego_assets/LSB/Sequential/duolingo/images/ic_notification.png"
+      "../../resources/stego_resources/LSB/Sequential/duolingo/images/ic_notification.png"
     ],
     [
       "duolingo/res/drawable-xxhdpi/ic_notification.png"
@@ -41,9 +41,9 @@
   ],
   "7788bda1eab3f0a1cb7577835308b1bbd76f02c366f4fef02ad3475ebe14d3b7": [
     [
-      "../../assets/stego_assets/LSB/Sequential/duolingo/images/ic_notification.png",
-      "../../assets/stego_assets/audio/duolingo/audio/piano_e3.mp3",
-      "../../assets/stego_assets/audio/duolingo/audio/adventures_background_music.mp3"
+      "../../resources/stego_resources/LSB/Sequential/duolingo/images/ic_notification.png",
+      "../../resources/stego_resources/audio/duolingo/audio/piano_e3.mp3",
+      "../../resources/stego_resources/audio/duolingo/audio/adventures_background_music.mp3"
     ],
     [
       "duolingo/res/drawable-xxhdpi/ic_notification.png",
@@ -53,7 +53,7 @@
   ],
   "f3a9b2e2f4fbecab854c745dcc4dce0d4f71b831af429cd73e69ff560b7314e3": [
     [
-      "../../assets/stego_assets/audio/duolingo/audio/adventures_background_music.mp3"
+      "../../resources/stego_resources/audio/duolingo/audio/adventures_background_music.mp3"
     ],
     [
       "duolingo/res/raw/adventures_background_music.mp3"
@@ -61,8 +61,8 @@
   ],
   "35796d05843ebba0c88d101101ee380fd42bedf82e56036854451a9286281660": [
     [
-      "../../assets/stego_assets/audio/duolingo/audio/piano_e3.mp3",
-      "../../assets/stego_assets/audio/duolingo/audio/piano_e3.wav"
+      "../../resources/stego_resources/audio/duolingo/audio/piano_e3.mp3",
+      "../../resources/stego_resources/audio/duolingo/audio/piano_e3.wav"
     ],
     [
       "duolingo/res/raw/piano_e3.mp3"
@@ -70,9 +70,9 @@
   ],
   "6f4572e1e2b5597b99831a27a4ca4c324abf904b59c9409bd33739e0d2ad7a0d": [
     [
-      "../../assets/stego_assets/audio/duolingo/audio/piano_e3.mp3",
-      "../../assets/stego_assets/audio/duolingo/audio/adventures_background_music.mp3",
-      "../../assets/stego_assets/audio/duolingo/audio/piano_e3.wav"
+      "../../resources/stego_resources/audio/duolingo/audio/piano_e3.mp3",
+      "../../resources/stego_resources/audio/duolingo/audio/adventures_background_music.mp3",
+      "../../resources/stego_resources/audio/duolingo/audio/piano_e3.wav"
     ],
     [
       "duolingo/res/raw/piano_e3.mp3",
@@ -81,7 +81,7 @@
   ],
   "1f98141c7b0cc9754a1ab1871b42aa6c5a32a76a7ab57ce49a405c9711130d30": [
     [
-      "../../assets/stego_assets/audio/duolingo/audio/piano_e3.mp3"
+      "../../resources/stego_resources/audio/duolingo/audio/piano_e3.mp3"
     ],
     [
       "duolingo/res/raw/piano_e3.mp3"
@@ -89,9 +89,9 @@
   ],
   "50216bed52a338638a2a17b874c0b4880df99ac9c7edde5c4cbe7cf026d50ac7": [
     [
-      "../../assets/stego_assets/LSB/Sequential/duolingo/images/ic_notification.png",
-      "../../assets/stego_assets/audio/duolingo/audio/adventures_background_music.mp3",
-      "../../assets/stego_assets/audio/duolingo/audio/piano_e3.wav"
+      "../../resources/stego_resources/LSB/Sequential/duolingo/images/ic_notification.png",
+      "../../resources/stego_resources/audio/duolingo/audio/adventures_background_music.mp3",
+      "../../resources/stego_resources/audio/duolingo/audio/piano_e3.wav"
     ],
     [
       "duolingo/res/drawable-xxhdpi/ic_notification.png",
@@ -100,9 +100,9 @@
   ],
   "a6f3913327061c70a6cfcb602962bf75d901574801803478cd515020024d2a62": [
     [
-      "../../assets/stego_assets/LSB/Sequential/duolingo/images/ic_notification.png",
-      "../../assets/stego_assets/audio/duolingo/audio/piano_e3.mp3",
-      "../../assets/stego_assets/audio/duolingo/audio/piano_e3.wav"
+      "../../resources/stego_resources/LSB/Sequential/duolingo/images/ic_notification.png",
+      "../../resources/stego_resources/audio/duolingo/audio/piano_e3.mp3",
+      "../../resources/stego_resources/audio/duolingo/audio/piano_e3.wav"
     ],
     [
       "duolingo/res/drawable-xxhdpi/ic_notification.png",
@@ -111,14 +111,14 @@
   ],
   "09292e8de1790db5878ec0dfe230652b884506d4f8273015934eb3d7e2efa2aa": [
     [
-      "../../assets/stego_assets/audio/duolingo/audio/piano_e3.wav"
+      "../../resources/stego_resources/audio/duolingo/audio/piano_e3.wav"
     ],
     []
   ],
   "54824445b29b912b3316b97f6a83fe1ce65d01e251658cd2c26e211ec208540c": [
     [
-      "../../assets/stego_assets/audio/duolingo/audio/adventures_background_music.mp3",
-      "../../assets/stego_assets/audio/duolingo/audio/piano_e3.wav"
+      "../../resources/stego_resources/audio/duolingo/audio/adventures_background_music.mp3",
+      "../../resources/stego_resources/audio/duolingo/audio/piano_e3.wav"
     ],
     [
       "duolingo/res/raw/adventures_background_music.mp3"
@@ -126,8 +126,8 @@
   ],
   "eb513996f3be74f8e879da513967f5f538248a9e1106e6186a34e19aeeda84d6": [
     [
-      "../../assets/stego_assets/LSB/Sequential/duolingo/images/ic_notification.png",
-      "../../assets/stego_assets/audio/duolingo/audio/adventures_background_music.mp3"
+      "../../resources/stego_resources/LSB/Sequential/duolingo/images/ic_notification.png",
+      "../../resources/stego_resources/audio/duolingo/audio/adventures_background_music.mp3"
     ],
     [
       "duolingo/res/drawable-xxhdpi/ic_notification.png",
@@ -136,8 +136,8 @@
   ],
   "9baff3f4cc0c3cd6a8f6d7eaa34ac7c5d835df675ac72d97cc0044b435c213b7": [
     [
-      "../../assets/stego_assets/LSB/Sequential/duolingo/images/ic_notification.png",
-      "../../assets/stego_assets/audio/duolingo/audio/piano_e3.mp3"
+      "../../resources/stego_resources/LSB/Sequential/duolingo/images/ic_notification.png",
+      "../../resources/stego_resources/audio/duolingo/audio/piano_e3.mp3"
     ],
     [
       "duolingo/res/drawable-xxhdpi/ic_notification.png",

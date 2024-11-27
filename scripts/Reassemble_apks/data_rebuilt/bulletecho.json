@@ -1,7 +1,7 @@
 {
   "62adfeec73bbd56b7368ed622a19a3958bddfd9c923f139b93d9086dc6b2f5e2": [
     [
-      "../../assets/stego_assets/LSB/Sequential/bulletecho/images/exo_icon_shuffle_off.png"
+      "../../resources/stego_resources/LSB/Sequential/bulletecho/images/exo_icon_shuffle_off.png"
     ],
     [
       "bulletecho/res/drawable-mdpi/exo_icon_shuffle_off.png"
@@ -9,8 +9,8 @@
   ],
   "fe0a0f250c3c2ece71caeeb347c4af218d04455e9412c1e1840522b1a7c9b52a": [
     [
-      "../../assets/stego_assets/LSB/Sequential/bulletecho/images/abc_ic_commit_search_api_mtrl_alpha.png",
-      "../../assets/stego_assets/LSB/Sequential/bulletecho/images/exo_icon_shuffle_off.png"
+      "../../resources/stego_resources/LSB/Sequential/bulletecho/images/abc_ic_commit_search_api_mtrl_alpha.png",
+      "../../resources/stego_resources/LSB/Sequential/bulletecho/images/exo_icon_shuffle_off.png"
     ],
     [
       "bulletecho/res/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png",
@@ -19,7 +19,7 @@
   ],
   "9c1de03d069ae1eb3f1cf02d6f00f40786b1edcc2deba78adeffbbcd0371e379": [
     [
-      "../../assets/stego_assets/LSB/Sequential/bulletecho/images/abc_ic_commit_search_api_mtrl_alpha.png"
+      "../../resources/stego_resources/LSB/Sequential/bulletecho/images/abc_ic_commit_search_api_mtrl_alpha.png"
     ],
     [
       "bulletecho/res/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png"

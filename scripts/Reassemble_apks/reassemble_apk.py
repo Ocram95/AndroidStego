@@ -4,7 +4,7 @@ import os
 import json
 import subprocess
 import glob
-from utils import find_file_path, find_modified_assets, check_external_tool_dependencies, combine, sha256sum, eliminate_dupilcates, generate_keypair
+from utils import find_file_path, find_modified_resources, check_external_tool_dependencies, combine, sha256sum, eliminate_dupilcates, generate_keypair
 from utils import read_data
 from shutil import copy2, copytree, rmtree
 from tool import Apktool, ApkSigner, Zipalign
@@ -98,9 +98,9 @@ def copy_and_reassemble(combination: tuple, statistics_path: str, app: str, outp
     Parameters
     ----------
     combination : tuple
-        combination of assets to copy inside the directory
+        combination of resources to copy inside the directory
     statistics_path : str
-        path of the statistics where to find the path where to copy the new assets
+        path of the statistics where to find the path where to copy the new resources
     app : str
         name of the application to modify
     output_path : str
@@ -119,31 +119,31 @@ def copy_and_reassemble(combination: tuple, statistics_path: str, app: str, outp
     Returns
     -------
     Optional[tule]
-        hash of the new app, combination and path of the assets
+        hash of the new app, combination and path of the resources
     """
     dst_path = os.path.join(decoded_path, 'decoded_copy')
     src_path = os.path.join(decoded_path, 'decoded_original')
-    assets = list()
+    resources = list()
     if os.path.exists(os.path.join(dst_path, app)):
         rmtree(os.path.join(dst_path, app))
     copytree(os.path.join(src_path, app), os.path.join(dst_path, app))
     logger.info(f"Copied dir decoded ...")
     logger.info(f"Working with the combination {combination} ...")
     for c in combination:
-        typology, asset_name = c.rsplit(os.path.sep, 2)[-2:]
+        typology, resource_name = c.rsplit(os.path.sep, 2)[-2:]
         # find the file path to change
-        asset_path = find_file_path(statistics_path, app, asset_name, typology)
-        if asset_path is not None:
-            assets.append(asset_path)
-            copy2(c, os.path.join(dst_path, asset_path))
+        resource_path = find_file_path(statistics_path, app, resource_name, typology)
+        if resource_path is not None:
+            resources.append(resource_path)
+            copy2(c, os.path.join(dst_path, resource_path))
         
-            logger.info(f"Copied assets {c} in {asset_path} ...")
+            logger.info(f"Copied resources {c} in {resource_path} ...")
 
     hash = rebuild(os.path.join(dst_path, app), output_path, keystore_path, keystore_password, 
                    alias, key_password)
     rmtree(os.path.join(dst_path, app))
     if hash is not None:
-        return hash, [combination, tuple(assets)]
+        return hash, [combination, tuple(resources)]
     else:
         return None
 
@@ -162,18 +162,22 @@ def main():
     done_apks = [done.replace('.json', '') for done in os.listdir('./data_rebuilt')]
     # loop over all the apps to rebuild
     for app in os.listdir(os.path.join(decoded_path, 'decoded_original')):
+        # if app in done_apks:
+        #    continue
+        if app not in ['amazon-shopping', 'Telegram', 'bulletecho', 'candyCrush', 'Eurospin', 'flixbus', 'duolingo']:
+            continue
         logger.info(f"Starting with {app} ...")
-        # find the assets modified in the assets directory
+        # find the resources modified in the resources directory
         try:
-            oc_seq, oc_sq = find_modified_assets(app, 'OceanLotus')
+            oc_seq, oc_sq = find_modified_resources(app, 'OceanLotus')
         except TypeError as e:
             print(e)
         try:
-            lsb_seq, lsb_sq = find_modified_assets(app, 'LSB')
+            lsb_seq, lsb_sq = find_modified_resources(app, 'LSB')
         except TypeError as e:
             print(e)
         try:
-            audio = find_modified_assets(app, 'audio')
+            audio = find_modified_resources(app, 'audio')
         except TypeError as e:
             print(e)
         

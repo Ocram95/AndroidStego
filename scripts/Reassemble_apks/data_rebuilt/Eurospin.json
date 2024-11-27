@@ -1,25 +1,25 @@
 {
   "943593a372be73f0ff0d8ed3cae760e08b33774bf970a1aded70b5b64fe05eee": [
     [
-      "../../assets/stego_assets/LSB/Sequential/Eurospin/images/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+      "../../resources/stego_resources/LSB/Sequential/Eurospin/images/node_modules_reactnavigation_drawer_src_views_resources_toggledrawericon.png"
     ],
     [
-      "Eurospin/res/drawable-xxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+      "Eurospin/res/drawable-xxhdpi/node_modules_reactnavigation_drawer_src_views_resources_toggledrawericon.png"
     ]
   ],
   "fb506f950d2137f25edd5c62f1f9bc65a2df3be4b1449db539bd69d39a5b29fd": [
     [
-      "../../assets/stego_assets/LSB/Sequential/Eurospin/images/abc_btn_check_to_on_mtrl_000.png",
-      "../../assets/stego_assets/LSB/Sequential/Eurospin/images/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+      "../../resources/stego_resources/LSB/Sequential/Eurospin/images/abc_btn_check_to_on_mtrl_000.png",
+      "../../resources/stego_resources/LSB/Sequential/Eurospin/images/node_modules_reactnavigation_drawer_src_views_resources_toggledrawericon.png"
     ],
     [
       "Eurospin/res/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png",
-      "Eurospin/res/drawable-xxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+      "Eurospin/res/drawable-xxhdpi/node_modules_reactnavigation_drawer_src_views_resources_toggledrawericon.png"
     ]
   ],
   "47e5854b30c07bb4dbe38b67843a737830aec4b86e420746e0ff96daebfc9c43": [
     [
-      "../../assets/stego_assets/LSB/Sequential/Eurospin/images/abc_btn_check_to_on_mtrl_000.png"
+      "../../resources/stego_resources/LSB/Sequential/Eurospin/images/abc_btn_check_to_on_mtrl_000.png"
     ],
     [
       "Eurospin/res/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png"

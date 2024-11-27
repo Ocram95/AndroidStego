@@ -1,7 +1,7 @@
 {
   "9c6947d607676d9088366f6a37152e4f65a03a1e619b6fb3aac5897efb041f7d": [
     [
-      "../../assets/stego_assets/LSB/Sequential/candyCrush/images/applovin_ic_mediation_line.png"
+      "../../resources/stego_resources/LSB/Sequential/candyCrush/images/applovin_ic_mediation_line.png"
     ],
     [
       "candyCrush/res/drawable-ldpi/applovin_ic_mediation_line.png"
@@ -9,8 +9,8 @@
   ],
   "eef5afbf0c17692fe4440a6f04e0a74ac3947fcd5a7a42d7a222db1236fb792e": [
     [
-      "../../assets/stego_assets/LSB/Sequential/candyCrush/images/applovin_ic_mediation_line.png",
-      "../../assets/stego_assets/LSB/Sequential/candyCrush/images/exo_icon_circular_play.png"
+      "../../resources/stego_resources/LSB/Sequential/candyCrush/images/applovin_ic_mediation_line.png",
+      "../../resources/stego_resources/LSB/Sequential/candyCrush/images/exo_icon_circular_play.png"
     ],
     [
       "candyCrush/res/drawable-ldpi/applovin_ic_mediation_line.png",
@@ -19,7 +19,7 @@
   ],
   "13308904050007b302e0f121a4dee26e9c5bfcc6296da6301f9eff11cd86a32f": [
     [
-      "../../assets/stego_assets/LSB/Sequential/candyCrush/images/exo_icon_circular_play.png"
+      "../../resources/stego_resources/LSB/Sequential/candyCrush/images/exo_icon_circular_play.png"
     ],
     [
       "candyCrush/res/drawable-ldpi/exo_icon_circular_play.png"
@@ -27,8 +27,8 @@
   ],
   "8efaab7e52c6c7bae6e928d3874bb1e38fa1c2de198f74f0fe71e8939be38f46": [
     [
-      "../../assets/stego_assets/OceanLotus/Sequential/candyCrush/images/applovin_ic_mediation_line.png",
-      "../../assets/stego_assets/LSB/Sequential/candyCrush/images/exo_icon_circular_play.png"
+      "../../resources/stego_resources/OceanLotus/Sequential/candyCrush/images/applovin_ic_mediation_line.png",
+      "../../resources/stego_resources/LSB/Sequential/candyCrush/images/exo_icon_circular_play.png"
     ],
     [
       "candyCrush/res/drawable-ldpi/applovin_ic_mediation_line.png",
@@ -37,7 +37,7 @@
   ],
   "53a9e2eb5a9865dedb231d91a921cd4bc3f484363be7d12f9b4a52c921a61143": [
     [
-      "../../assets/stego_assets/OceanLotus/Sequential/candyCrush/images/applovin_ic_mediation_line.png"
+      "../../resources/stego_resources/OceanLotus/Sequential/candyCrush/images/applovin_ic_mediation_line.png"
     ],
     [
       "candyCrush/res/drawable-ldpi/applovin_ic_mediation_line.png"
